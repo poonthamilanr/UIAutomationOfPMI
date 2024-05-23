@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {E7514973-7A0D-4D2D-ADF2-22DAF3A0374F}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Audit/Datasources/AuditSubmitButton/AuditSubmitButton/__Standard Values
+parent: {8ECF88C6-7C5D-4613-8E1D-1E7D23D3DF02}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8ECF88C6-7C5D-4613-8E1D-1E7D23D3DF02}
+templatekey: AuditSubmitButton
+created: 20210907T225450Z
+
+----version----
+language: en
+version: 1
+revision: e1d6917e-89e7-4a46-8eef-7708ca8d078e
+
+----field----
+field: {580E776C-6513-4E9B-A162-A4A608B457CE}
+name: NavLink
+key: navlink
+content-length: 105
+
+<link text="&lt; Back to myPMI" linktype="external" url="https://my.{CURRENTENV}/" anchor="" target="" />
+----field----
+field: {C3038609-D3B3-4138-AFF1-BCB28E11BEE6}
+name: SubmitInfo
+key: submitinfo
+content-length: 74
+
+*All required documents must be provided before you can submit your audit.
+----field----
+field: {CF53231C-CE3B-4E54-9119-E9397CFD887C}
+name: Title
+key: title
+content-length: 12
+
+Submit Audit
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210907T225450Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e1d6917e-89e7-4a46-8eef-7708ca8d078e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210907T225652Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

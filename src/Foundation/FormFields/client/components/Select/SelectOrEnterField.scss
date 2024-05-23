@@ -1,0 +1,33 @@
+@import "assets/styles/mixins";
+
+.select-or-enter-field {
+  .input-group_in-focus {
+    box-shadow: 0 0 6px 0 rgba(5, 191, 224, 0.8);
+  }
+
+  .input-group-prepend + .form-control {
+    flex: 1 1 auto;
+    padding-right: 30px;
+    width: 1%;
+
+    input {
+      background: inherit;
+      border: none;
+      outline: none;
+
+      @include size(100%);
+    }
+  }
+
+  &__cancel {
+    cursor: pointer;
+    transform: translateY(-50%);
+    color: $color-gray-500;
+    @include position-absolute($top: 50%, $right: 10px);
+  }
+}
+.dsm .p-disabled {
+  color: gray !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}

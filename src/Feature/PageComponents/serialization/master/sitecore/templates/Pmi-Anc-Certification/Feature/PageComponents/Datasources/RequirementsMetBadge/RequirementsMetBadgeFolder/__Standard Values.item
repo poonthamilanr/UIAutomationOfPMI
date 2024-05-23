@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {242F08F1-6F16-4B6E-8E12-0F4C8A641B1C}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/PageComponents/Datasources/RequirementsMetBadge/RequirementsMetBadgeFolder/__Standard Values
+parent: {49BCC6B8-AAAA-40DC-AFB3-72F0C86856D3}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {49BCC6B8-AAAA-40DC-AFB3-72F0C86856D3}
+templatekey: RequirementsMetBadgeFolder
+created: 20200203T114949Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{49BCC6B8-AAAA-40DC-AFB3-72F0C86856D3}|{CC47EC5F-72E1-43E4-B184-05E81173F72B}
+----version----
+language: en
+version: 1
+revision: 16b4ba09-fa0e-4de0-a458-4a35cf92066e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200203T114949Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+16b4ba09-fa0e-4de0-a458-4a35cf92066e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200203T115010Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

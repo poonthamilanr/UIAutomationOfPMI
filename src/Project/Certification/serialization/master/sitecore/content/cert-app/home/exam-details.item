@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {EA3FCC59-8639-4C3D-8549-5340A778F35B}
+database: master
+path: /sitecore/content/cert-app/home/exam-details
+parent: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+name: exam-details
+master: {00000000-0000-0000-0000-000000000000}
+template: {45F526AA-7666-4491-AA53-60400897EC34}
+templatekey: ExamDetailsPage
+created: 20191125T184050Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4104
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FFEC75DC-2C13-4C2F-BD54-C130BF9B7935}"><rls><ruleset><rule uid="{41102906-359E-4766-B4D8-D5C61EE61651}" s:name="Is Eligible To Pay workflow type"><actions><action uid="380E228F6F98457C82939290969D236C" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{6589F486-1FAC-411A-820B-AA305D315D13}" /></actions><conditions><condition uid="A35A295F18DE4FE9A7C2915DC08AAE93" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="workflowType" s:operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}" s:QueryStringValue="ETP" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="0F9C95F6D62E406F9EA4E82019D145A6" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{5E1F1388-8909-4F9F-961C-0F9CFA61F766}"><p:d /></r><r uid="{2C8F59B0-9963-41FD-A7C3-AFA9285ABF1E}" s:ds="{6FE7D934-C830-4DE0-A802-244BDE8F2D9F}"><rls><ruleset><rule uid="{58E9B4EC-1B43-4520-8A6C-59A93FEDF159}" s:name="DA"><conditions><or uid="5B2BEBBC137942B692941C7AC0A60D27"><condition uid="F1118D9D83E2437EAF2422655905C942" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="DASM" /><condition uid="4AFCF97870304330B5193BA91B0737BA" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="DASSM" /></or></conditions><actions><action uid="FAC2CB5CD1B04097B1281C55D6BA34FF" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{82C857B5-B996-4BC0-9392-22810545FE20}" /></actions></rule><rule uid="{12541383-A9BE-46F3-9DF8-A2AA89581A44}" s:name="Micro Credentials"><conditions><condition uid="33173676A2F24BA49CE9B7638E78764D" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="workflowType" s:QueryStringValue="AH_MC" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" /></conditions><actions><action uid="7B676CBC42FD417A8F1F0504A406F706" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{54015772-CA22-4162-9F68-5FBA8D6576DE}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="93F22ED6994E4DE78E00ABB57410FA56" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{502A57B5-7915-4E56-9C7C-C76401F742FC}" s:ds="{98F4AA8A-B12C-4443-A774-4AE75A52AC05}" /><r uid="{DEDA139D-75F5-430E-BC26-DDDFEE1BD06B}" s:ds="{A9ADE763-82CF-421E-8E22-7170CCFE76EF}" /><r uid="{85CB8CB5-624E-4500-AF3D-31341FDF89C7}" s:ds="{40453C42-ACEF-419F-9863-DDF4CEFFC836}"><rls><ruleset><rule uid="{AED85182-C438-4134-BA3B-7193EA2B6435}" s:name="Micro Credentials WorkFlow"><actions><action uid="DF6200970AA645F8BEA10F823EE5AA12" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions><conditions><condition uid="C8EECEB6013D488B90E4A229A03EB60E" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="AH_MC" s:QueryStringName="workflowType" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="0830E787049B42A484325DE8B2C5204F" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{0009534F-9DDE-4A61-800A-55FEC0D776DA}" s:ds="{BC927068-7F07-4B6C-A55A-FE30946631AE}" s:par="" /><r uid="{7B2457DF-DEAA-4A7E-8DE7-E020457DC121}" s:ds="{5929D56E-0EA0-413D-A7D5-E8310C082720}" s:par="" /><r uid="{1E808871-D21E-4C7B-B629-5410817853A6}" s:ds="{FDDB7CB1-ACF0-4644-97E7-EFA385B6205D}" s:par="" /><r uid="{378C8E97-36A4-4AA7-B40B-7AE2186D3C4C}" p:after="r[@uid='{1E808871-D21E-4C7B-B629-5410817853A6}']" /><r uid="{A4FD34CB-5E20-4741-B8C5-8FA996E071E5}" s:ds="{AD35EF19-46EB-4484-AD07-DF0607AF98C5}" s:par="" /><r uid="{0432E202-03E1-43DE-9D4F-537E1078BE8F}" s:ds="{AE07C8E2-CF58-4929-AB99-B405C6942BEC}" s:par="" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: e707b6ff-5701-43da-850d-c6b3c06af014
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 12
+
+Exam Details
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Exam Details
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191125T184050Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e707b6ff-5701-43da-850d-c6b3c06af014
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211123T183920Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

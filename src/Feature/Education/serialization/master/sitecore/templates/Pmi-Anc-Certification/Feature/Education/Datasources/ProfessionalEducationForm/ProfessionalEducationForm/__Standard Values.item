@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {3E84C5CA-584A-4763-9143-A7453DCA6A5F}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Education/Datasources/ProfessionalEducationForm/ProfessionalEducationForm/__Standard Values
+parent: {660E92B5-CC5C-4853-A067-276190A23946}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {660E92B5-CC5C-4853-A067-276190A23946}
+templatekey: ProfessionalEducationForm
+created: 20200420T132142Z
+
+----version----
+language: en
+version: 1
+revision: e71d0884-1fb9-475f-92eb-a1a1382a600b
+
+----field----
+field: {0EF1EC09-4ACC-4D3D-AA9C-328B22081A9A}
+name: EditModeCourseTitle
+key: editmodecoursetitle
+content-length: 12
+
+Course Title
+----field----
+field: {CFB1A52A-1D33-4AEA-9A55-3EF199CF9275}
+name: EditModeProviderName
+key: editmodeprovidername
+content-length: 13
+
+Provider Name
+----field----
+field: {3C19CC75-BAFA-46B2-AC59-0C860AF1DCBE}
+name: EditModeCourseDates
+key: editmodecoursedates
+content-length: 12
+
+Course Dates
+----field----
+field: {DC3624BB-0AE6-4BAC-BE3A-1D3514215122}
+name: EditModeQualifyingHours
+key: editmodequalifyinghours
+content-length: 16
+
+Qualifying Hours
+----field----
+field: {6D73A342-7575-40FF-AB8A-3F5F8EA3A7A8}
+name: ViewModeProviderName
+key: viewmodeprovidername
+content-length: 13
+
+Provider Name
+----field----
+field: {38906856-2864-40F0-8E6C-EF5E2178BE31}
+name: ViewModeCourseDates
+key: viewmodecoursedates
+content-length: 12
+
+Course Dates
+----field----
+field: {FFFBD8A8-E1D7-465F-ABB3-3262F880767A}
+name: ViewModeHours
+key: viewmodehours
+content-length: 5
+
+Hours
+----field----
+field: {7D396DA6-3796-427E-B190-EF40683F719B}
+name: CourseTitleIsRequired
+key: coursetitleisrequired
+content-length: 24
+
+Course title is required
+----field----
+field: {48A87CC3-1E46-4073-BB97-7FC31BEE76B9}
+name: ProviderNameIsRequired
+key: providernameisrequired
+content-length: 25
+
+Provider name is required
+----field----
+field: {D94BC145-054A-4F3B-9652-BAD392092E1A}
+name: QualifyingHoursIsRequired
+key: qualifyinghoursisrequired
+content-length: 28
+
+Qualifying hours is required
+----field----
+field: {152AA647-A62B-40CA-8D41-C2F182AD8A68}
+name: QualifyingHoursPositiveNumber
+key: qualifyinghourspositivenumber
+content-length: 42
+
+Qualifying hours must be a positive number
+----field----
+field: {4220B9E6-A0AD-4DAA-8203-963576CBC97A}
+name: CourseStartDateIsRequired
+key: coursestartdateisrequired
+content-length: 29
+
+Course start date is required
+----field----
+field: {6D65BB99-8566-4E90-BAD2-229FF0BA7A2F}
+name: CourseEndDateIsRequired
+key: courseenddateisrequired
+content-length: 27
+
+Course end date is required
+----field----
+field: {2B4A6C68-D14C-463D-AF7B-58DF695DC94A}
+name: EndDateMustBeLaterThanTheStartDate
+key: enddatemustbelaterthanthestartdate
+content-length: 42
+
+End Date must be later than the Start Date
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T132142Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e71d0884-1fb9-475f-92eb-a1a1382a600b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200423T123005Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

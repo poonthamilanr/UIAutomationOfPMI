@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {D09E16E2-6064-4ACD-85DB-A5578F53ADF3}
+database: master
+path: /sitecore/content/cert-app/home/candidate-details/Components/AgreementsForms
+parent: {9D96B857-0092-4ED3-8E80-5F34E478FDB9}
+name: AgreementsForms
+master: {00000000-0000-0000-0000-000000000000}
+template: {977A6D12-8204-44AB-B00E-95AA997FF4EC}
+templatekey: AgreementsFormsFolder
+created: 20201015T000007Z
+
+----version----
+language: en
+version: 1
+revision: e78c8d91-a5e5-42e8-a69d-1c18f9ada253
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Agreements Forms
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200428T084705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e78c8d91-a5e5-42e8-a69d-1c18f9ada253
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200428T084713Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

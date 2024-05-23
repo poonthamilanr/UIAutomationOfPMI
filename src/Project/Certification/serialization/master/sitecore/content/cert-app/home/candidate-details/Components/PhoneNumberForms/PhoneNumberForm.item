@@ -1,0 +1,192 @@
+----item----
+version: 1
+id: {E61A0267-A815-4E2D-BBCD-A441B0212F58}
+database: master
+path: /sitecore/content/cert-app/home/candidate-details/Components/PhoneNumberForms/PhoneNumberForm
+parent: {06E1801E-73C0-44CA-86FD-0F33610B412D}
+name: PhoneNumberForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {EF2ED58A-9DA0-4F4C-AC9C-9F7119E1219F}
+templatekey: PhoneNumberForm
+created: 20201015T000008Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 1957b77b-8dc8-4717-ae10-6d1c0354c669
+
+----field----
+field: {61B4F394-66BB-481A-8690-421B3D2BEB2A}
+name: EditModeTitle
+key: editmodetitle
+content-length: 12
+
+Phone Number
+----field----
+field: {A5A78B1F-A6C8-489D-9B4C-954BCA129FE8}
+name: EditModeTitleDescription
+key: editmodetitledescription
+content-length: 147
+
+<p classname="help-text">Enter your primary phone number. Providing a mobile number will allow you to opt-in to notifications via text message.</p>
+----field----
+field: {758A0A1E-5959-44CA-924D-F23FAF6FF572}
+name: EditModePhone
+key: editmodephone
+content-length: 5
+
+Phone
+----field----
+field: {3902C3F5-7C71-4EC4-B43E-684E63F832A9}
+name: EditModeExtensionOptional
+key: editmodeextensionoptional
+content-length: 18
+
+Extension Optional
+----field----
+field: {F54B3868-261D-4FE6-AB62-56069D5C3D85}
+name: ViewModeTitle
+key: viewmodetitle
+content-length: 12
+
+Phone Number
+----field----
+field: {FBD4E554-D2C6-4BB8-937A-B3B2419EB08C}
+name: PhoneNumberTypeCell
+key: phonenumbertypecell
+content-length: 6
+
+Mobile
+----field----
+field: {B0D08B3C-F221-47E3-AA31-933115F9CB38}
+name: PhoneNumberTypeHome
+key: phonenumbertypehome
+content-length: 4
+
+Home
+----field----
+field: {99847A05-5369-476B-B503-1FE76C6D3B88}
+name: PhoneNumberTypeWork
+key: phonenumbertypework
+content-length: 4
+
+Work
+----field----
+field: {07419F66-1BDB-4031-A626-67A049376D0E}
+name: CountryCodeIsRequired
+key: countrycodeisrequired
+content-length: 24
+
+Country Code is required
+----field----
+field: {B6BB25E7-6106-47B3-8B88-E7A6ECC602C6}
+name: EnterValueForPhoneNumber
+key: entervalueforphonenumber
+content-length: 30
+
+Enter a value for Phone Number
+----field----
+field: {2CADD692-D9F7-48A7-AE9A-0A4EA8F13269}
+name: PhoneNumber15Characters
+key: phonenumber15characters
+content-length: 39
+
+Phone number can be up to 15 characters
+----field----
+field: {16B77CD4-E5FC-48FF-859E-44C255D9645F}
+name: PhoneNumberTypeMobilePhone
+key: phonenumbertypemobilephone
+content-length: 12
+
+Mobile Phone
+----field----
+field: {E7D4ECC3-D251-49E3-A592-E1688CBED565}
+name: PhoneNumberTypeHomePhone
+key: phonenumbertypehomephone
+content-length: 10
+
+Home Phone
+----field----
+field: {54AB77F0-A8CB-4471-9C6E-821B8FEA7D2B}
+name: PhoneNumberTypeWorkPhone
+key: phonenumbertypeworkphone
+content-length: 10
+
+Work Phone
+----field----
+field: {CCB624FE-3C1A-4A43-9545-4937319043DC}
+name: PhoneNumberTypePhone
+key: phonenumbertypephone
+content-length: 5
+
+Phone
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Phone Number Form
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200416T125323Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1957b77b-8dc8-4717-ae10-6d1c0354c669
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T144507Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

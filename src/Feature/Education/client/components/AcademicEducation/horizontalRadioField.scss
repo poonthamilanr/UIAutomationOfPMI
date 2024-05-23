@@ -1,0 +1,17 @@
+@import "assets/styles/variables";
+
+.horizontal-radio {
+  margin-top: 25px;
+
+  .p-radiobutton {
+    float: left;
+  }
+
+  &__content {
+    padding-left: 35px;
+
+    @include media-breakpoint-down(sm) {
+      padding-left: 30px;
+    }
+  }
+}

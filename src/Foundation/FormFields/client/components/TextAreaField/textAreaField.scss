@@ -1,0 +1,33 @@
+@import "assets/styles/variables";
+
+.textarea-field {
+  &__row {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__label-width {
+    width: 85%!important;
+  }
+
+  &__word-count {
+    color: $color-gray-500;
+    font-family: $font-helvetica-neue;
+    font-size: 12px;
+    margin-bottom: 0;
+    text-align: right; 
+
+    @at-root .textarea-field__row & {
+      margin-bottom: 0;
+    }
+
+    &__invalid-count {
+      color: $color-red-500-base;
+    }
+
+    &__valid-count {
+      color: $color-green-500-base;
+    }
+  }
+}

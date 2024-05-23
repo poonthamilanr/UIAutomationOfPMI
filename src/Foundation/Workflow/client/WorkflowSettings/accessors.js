@@ -1,0 +1,1 @@
+export const getWorkflowSteps = state => state.workflowSteps;

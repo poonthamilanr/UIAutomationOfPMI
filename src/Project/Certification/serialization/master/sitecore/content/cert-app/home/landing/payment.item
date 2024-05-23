@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {C287A469-CC0F-443F-9696-0B2DB5AE93FA}
+database: master
+path: /sitecore/content/cert-app/home/landing/payment
+parent: {1684FF7D-A659-47D7-9E7A-8A09B49B1A43}
+name: payment
+master: {00000000-0000-0000-0000-000000000000}
+template: {0EB0B4F4-6861-4E87-AA8B-F2ACDD5845ED}
+templatekey: LandingPage
+created: 20200129T172601Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3131
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{5B134BE7-FD68-49A6-8F2A-5C4115F42D4C}" s:ds="{DBA46681-8760-45C6-820A-8AE4D0DD8CDF}" s:par=""><rls><ruleset><rule uid="{39ADDDF8-6DE1-4338-B008-CD688233CF69}" s:name="China Registration"><conditions><condition uid="56D7FFC339D240038E83A319F79E0FE8" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="isChVendor" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="true" /></conditions><actions><action uid="2748547B3BF94F64B982F2919B02D31F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{F6F56192-317D-4CA6-BC24-FEFB217A387E}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="7C41540BB9AB42D4A900C531D1439422" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{9FEAD0FB-3F58-4E32-9738-C1A0BD1DE63D}"><p:d /></r><r uid="{AA37F341-9241-4CC4-9BC8-EBE90CC92BCD}" p:after="r[@uid='{E65A8785-249C-4241-BBD7-79BC77FAC54E}']" s:ds="{C95B6B5F-8C3C-4F3B-BA85-BDF9688EF7C8}" s:id="{7284BA87-2B31-4011-91A6-CB482018D754}" s:par="" s:ph="/cert-app-main/cert-app-main-content-{DD423B9F-F657-4FDA-AD45-2E6971561888}-0/cert-app-information-component-{5B134BE7-FD68-49A6-8F2A-5C4115F42D4C}-0"><rls><ruleset><rule uid="{288CB09D-C244-434A-A979-6D8B2D50AA44}" s:name="China Registration"><actions><action uid="5E88F9D968D1455EA11792EDDCBA9774" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions><conditions><condition uid="56487EF3E7DD46D49B4D00FFD4F5A2C8" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="isChVendor" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="true" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="CA1680880C67412FB7ABF757A1095449" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{EAD1A9B8-004D-4E98-8C5F-67802A9C5BA8}" p:after="*[1=2]" s:ds="" s:id="{3B33F966-B5CC-47CE-BD02-C4328BCE9BBB}" s:par="" s:ph="/cert-app-main/cert-app-main-content-{DD423B9F-F657-4FDA-AD45-2E6971561888}-0/cert-app-information-component-{5B134BE7-FD68-49A6-8F2A-5C4115F42D4C}-0"><rls><ruleset><rule uid="{79A46D1C-3E29-4C23-BB8B-C51A0EC1656B}" s:name="China"><conditions><condition uid="32E84DADA3414C6289ACC1A4B70A7BA1" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="isChVendor" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="true" /></conditions><actions><action uid="CA6A1CB7E2BF4570814D06EB42D519F7" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B755375E-2F9B-40F5-A6C9-8B8AE0F9B769}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="0F4515B8C1AB4425B879C5BF1A88AFE4" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="2F2FC56150514676841DAE44D6616E53" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule></ruleset></rls></r></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 5746d7cb-c5d2-4daa-90c7-2d37aeb8fe3e
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 21
+
+Submitted for Payment
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+Payment
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042328Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5746d7cb-c5d2-4daa-90c7-2d37aeb8fe3e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200611T173221Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {9EBF42E4-726F-4964-90E1-F1DC4CCA8DE3}
+database: master
+path: /sitecore/system/Workflows/Pmi-Anc-CertificationWorkflow/Pending/Approve/ValidationAction
+parent: {228D96F6-1355-42AD-B7C5-88294F768D5D}
+name: ValidationAction
+master: {00000000-0000-0000-0000-000000000000}
+template: {419F8FFB-2713-4CEC-86A7-7585A727FE25}
+templatekey: Validation Action
+created: 20200317T125948Z
+
+----field----
+field: {322164DC-27AC-404E-B7DC-B74C13CDBA1E}
+name: Type
+key: type
+content-length: 59
+
+Sitecore.Workflows.Simple.ValidatorsAction, Sitecore.Kernel
+----field----
+field: {95FD25AA-742D-41D2-8D04-6406BBA8C60D}
+name: Max Result
+key: max result
+content-length: 7
+
+Warning
+----field----
+field: {281AB75C-DB54-4471-9675-C01FB380FB62}
+name: Error
+key: error
+content-length: 50
+
+You cannot approve an item with validation errors.
+----field----
+field: {202F2A2C-6274-467F-A9C8-3EC4585A3060}
+name: Critical Error
+key: critical error
+content-length: 50
+
+You cannot approve an item with validation errors.
+----field----
+field: {A50D7933-F230-4434-9538-29C802F0CE23}
+name: Fatal Error
+key: fatal error
+content-length: 50
+
+You cannot approve an item with validation errors.
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 16da14b3-9ee1-432c-ae2a-5baceeebfea6
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Validation Action
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20071113T202154Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+16da14b3-9ee1-432c-ae2a-5baceeebfea6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200317T130931Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

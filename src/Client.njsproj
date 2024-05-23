@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68cc0dd9-357c-4bb9-8e3f-5b64ff12a4b4}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ProjectFiles</ProjectView>
+    <StartupFile />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <UseIISExpress>true</UseIISExpress>
+    <Name>Client</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <ItemGroup>
+    <Content Include="sitecore\**\*.*" />
+    <Content Include="config\**\*.*" />
+    <Content Include="scripts\**\*.*" />
+    <Content Include="server\**\*.*" />
+    <Content Include="scripts\**\*.*" />
+    <Content Include="Project\*\client\**\*.*" />
+    <Content Include="Foundation\*\client\**\*.*" />
+    <Content Include="Feature\*\client\**\*.*" />
+    <Content Include="_backup.filter">
+      <Publish>True</Publish>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
+    <Folder Include="config\jest\" />
+    <Folder Include="Feature\" />
+    <Folder Include="Feature\AppStart\" />
+    <Folder Include="Feature\AppStart\client\" />
+    <Folder Include="Feature\AppStart\client\components\" />
+    <Folder Include="Feature\AppStart\client\components\ApplicationStartDummy\" />
+    <Folder Include="Feature\AppStart\client\components\ApplicationStart\" />
+    <Folder Include="Feature\AppStart\client\components\AuditStart\" />
+    <Folder Include="Feature\AppStart\client\components\EditSummariesStart\" />
+    <Folder Include="Feature\AppStart\client\components\EligibleToPayStart\" />
+    <Folder Include="Feature\AppStart\client\components\ExamStart\" />
+    <Folder Include="Feature\AppStart\client\components\LandingPageRedirect\" />
+    <Folder Include="Feature\AppStart\client\components\RenewStart\" />
+    <Folder Include="Feature\Audit\" />
+    <Folder Include="Feature\Audit\client\" />
+    <Folder Include="Feature\Audit\client\components\" />
+    <Folder Include="Feature\Audit\client\components\AcademicEducationAudit\" />
+    <Folder Include="Feature\Audit\client\components\ApplicationAudit\" />
+    <Folder Include="Feature\Audit\client\components\AuditBanner\" />
+    <Folder Include="Feature\Audit\client\components\AuditSubmitButton\" />
+    <Folder Include="Feature\Audit\client\components\EducationUploadAudit\" />
+    <Folder Include="Feature\Audit\client\components\ExperienceAudit\" />
+    <Folder Include="Feature\Audit\client\components\FileDropZone\" />
+    <Folder Include="Feature\Audit\client\components\ProfessionalEducationAudit\" />
+    <Folder Include="Feature\Audit\client\components\SectionAccordion\" />
+    <Folder Include="Feature\Education\" />
+    <Folder Include="Feature\Education\client\" />
+    <Folder Include="Feature\Education\client\components\" />
+    <Folder Include="Feature\Education\client\components\AcademicEducationIndicator\" />
+    <Folder Include="Feature\Education\client\components\AcademicEducationSummary\" />
+    <Folder Include="Feature\Education\client\components\AcademicEducationViewHeading\" />
+    <Folder Include="Feature\Education\client\components\AcademicEducationView\" />
+    <Folder Include="Feature\Education\client\components\AcademicEducation\" />
+    <Folder Include="Feature\Education\client\components\ApplicationAudit\" />
+    <Folder Include="Feature\Education\client\components\EducationContinueButton\" />
+    <Folder Include="Feature\Education\client\components\EducationSubmitButton\" />
+    <Folder Include="Feature\Education\client\components\Education\" />
+    <Folder Include="Feature\Education\client\components\GAC\" />
+    <Folder Include="Feature\Education\client\components\ProfessionalEducationSummary\" />
+    <Folder Include="Feature\Education\client\components\ProfessionalEducationView\" />
+    <Folder Include="Feature\Education\client\components\ProfessionalEducation\" />
+    <Folder Include="Feature\Education\client\components\RequirementsContainer\" />
+    <Folder Include="Feature\Email\" />
+    <Folder Include="Feature\Email\client\" />
+    <Folder Include="Feature\Email\client\components\" />
+    <Folder Include="Feature\Email\client\components\Email\" />
+    <Folder Include="Feature\ExamDetails\" />
+    <Folder Include="Feature\ExamDetails\client\" />
+    <Folder Include="Feature\ExamDetails\client\components\" />
+    <Folder Include="Feature\ExamDetails\client\components\Address\" />
+    <Folder Include="Feature\ExamDetails\client\components\Agreements\" />
+    <Folder Include="Feature\ExamDetails\client\components\Email\" />
+    <Folder Include="Feature\ExamDetails\client\components\Email\__tests__\" />
+    <Folder Include="Feature\ExamDetails\client\components\Email\__tests__\__snapshots__\" />
+    <Folder Include="Feature\ExamDetails\client\components\ExamAccommodation\" />
+    <Folder Include="Feature\ExamDetails\client\components\ExamDetailsSubmitButton\" />
+    <Folder Include="Feature\ExamDetails\client\components\ExamDetails\" />
+    <Folder Include="Feature\ExamDetails\client\components\ExamLocation\" />
+    <Folder Include="Feature\ExamDetails\client\components\NameOnCertificate\" />
+    <Folder Include="Feature\ExamDetails\client\components\Name\" />
+    <Folder Include="Feature\ExamDetails\client\components\Phone\" />
+    <Folder Include="Feature\ExperienceSummaries\" />
+    <Folder Include="Feature\ExperienceSummaries\client\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\EditExperienceSummariesQA\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\EditExperienceSummariesSubmitButton\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\EditExperienceSummariesSummary\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\EditExperienceSummaries\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\ExperienceSummariesContinueButton\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\ExperienceSummariesQA\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\ExperienceSummariesSummary\" />
+    <Folder Include="Feature\ExperienceSummaries\client\components\ExperienceSummaries\" />
+    <Folder Include="Feature\Experience\" />
+    <Folder Include="Feature\Experience\client\" />
+    <Folder Include="Feature\Experience\client\components\" />
+    <Folder Include="Feature\Experience\client\components\Agile\" />
+    <Folder Include="Feature\Experience\client\components\BusinessAnalysis\" />
+    <Folder Include="Feature\Experience\client\components\ExperienceContinueButton\" />
+    <Folder Include="Feature\Experience\client\components\ExperienceDownload\" />
+    <Folder Include="Feature\Experience\client\components\ExperiencePdf\" />
+    <Folder Include="Feature\Experience\client\components\ExperienceSummary\" />
+    <Folder Include="Feature\Experience\client\components\ExperienceView\" />
+    <Folder Include="Feature\Experience\client\components\ExperienceWorktypePdf\" />
+    <Folder Include="Feature\Experience\client\components\Experience\" />
+    <Folder Include="Feature\Experience\client\components\Portfolio\" />
+    <Folder Include="Feature\Experience\client\components\Program\" />
+    <Folder Include="Feature\Experience\client\components\Program\SubProjects\" />
+    <Folder Include="Feature\Experience\client\components\ProjectExperienceSummary\" />
+    <Folder Include="Feature\Experience\client\components\ProjectExperience\" />
+    <Folder Include="Feature\Experience\client\components\Project\" />
+    <Folder Include="Feature\Landing\" />
+    <Folder Include="Feature\Landing\client\" />
+    <Folder Include="Feature\Landing\client\components\" />
+    <Folder Include="Feature\Landing\client\components\ApplicationAudit\" />
+    <Folder Include="Feature\Landing\client\components\AuditInformation\" />
+    <Folder Include="Feature\Landing\client\components\PaynowButton\" />
+    <Folder Include="Feature\PageComponents\" />
+    <Folder Include="Feature\PageComponents\client\" />
+    <Folder Include="Feature\PageComponents\client\components\" />
+    <Folder Include="Feature\PageComponents\client\components\AdobeAnalytics\" />
+    <Folder Include="Feature\PageComponents\client\components\Analytics\" />
+    <Folder Include="Feature\PageComponents\client\components\Breadcrumbs\" />
+    <Folder Include="Feature\PageComponents\client\components\Button\" />
+    <Folder Include="Feature\PageComponents\client\components\ContinueButton\" />
+    <Folder Include="Feature\PageComponents\client\components\FixedScrolling\" />
+    <Folder Include="Feature\PageComponents\client\components\Heading\" />
+    <Folder Include="Feature\PageComponents\client\components\HtmlContent\" />
+    <Folder Include="Feature\PageComponents\client\components\InformationColumnView\" />
+    <Folder Include="Feature\PageComponents\client\components\Information\" />
+    <Folder Include="Feature\PageComponents\client\components\MobileAwareComponent\" />
+    <Folder Include="Feature\PageComponents\client\components\PageHeading\" />
+    <Folder Include="Feature\PageComponents\client\components\ProgressBar\" />
+    <Folder Include="Feature\PageComponents\client\components\Redirect\" />
+    <Folder Include="Feature\PageComponents\client\components\RequirementsMetBadge\" />
+    <Folder Include="Feature\PageComponents\client\components\SubmitButton\" />
+    <Folder Include="Foundation\" />
+    <Folder Include="Foundation\AdobeAnalytics\" />
+    <Folder Include="Foundation\AdobeAnalytics\client\" />
+    <Folder Include="Foundation\Analytics\" />
+    <Folder Include="Foundation\Analytics\client\" />
+    <Folder Include="Foundation\Analytics\client\AdobeAnalytics\" />
+    <Folder Include="Foundation\Analytics\client\components\" />
+    <Folder Include="Foundation\Analytics\client\components\AdobeAnalytics\" />
+    <Folder Include="Foundation\Analytics\client\components\AdobeAnalytics\helpers\" />
+    <Folder Include="Foundation\Application\" />
+    <Folder Include="Foundation\Application\client\" />
+    <Folder Include="Foundation\Application\client\AcademicEducation\" />
+    <Folder Include="Foundation\Application\client\Address\" />
+    <Folder Include="Foundation\Application\client\ApplicationFlow\" />
+    <Folder Include="Foundation\Application\client\Application\" />
+    <Folder Include="Foundation\Application\client\AuditDocument\" />
+    <Folder Include="Foundation\Application\client\ExamLocation\" />
+    <Folder Include="Foundation\Application\client\Exam\" />
+    <Folder Include="Foundation\Application\client\ExperienceSummaries\" />
+    <Folder Include="Foundation\Application\client\Experience\" />
+    <Folder Include="Foundation\Application\client\GraphQL\" />
+    <Folder Include="Foundation\Application\client\GraphQL\GlobalSettings\" />
+    <Folder Include="Foundation\Application\client\GraphQL\ListsSettings\" />
+    <Folder Include="Foundation\Application\client\GraphQL\WorkflowSettings\" />
+    <Folder Include="Foundation\Application\client\NameOnCertificate\" />
+    <Folder Include="Foundation\Application\client\Name\" />
+    <Folder Include="Foundation\Application\client\PaymentInfo\" />
+    <Folder Include="Foundation\Application\client\Payment\" />
+    <Folder Include="Foundation\Application\client\ProfessionalEducation\" />
+    <Folder Include="Foundation\AppRequirements\" />
+    <Folder Include="Foundation\AppRequirements\client\" />
+    <Folder Include="Foundation\AppStart\" />
+    <Folder Include="Foundation\AppStart\client\" />
+    <Folder Include="Foundation\CertificationApiCore\" />
+    <Folder Include="Foundation\CertificationApiCore\client\" />
+    <Folder Include="Foundation\CertificationWorkflow\" />
+    <Folder Include="Foundation\CertificationWorkflow\client\" />
+    <Folder Include="Foundation\Config\" />
+    <Folder Include="Foundation\Config\client\" />
+    <Folder Include="Foundation\Config\client\GeneralSettings\" />
+    <Folder Include="Foundation\EntryPoint\" />
+    <Folder Include="Foundation\EntryPoint\client\" />
+    <Folder Include="Foundation\FormFields\" />
+    <Folder Include="Foundation\FormFields\client\" />
+    <Folder Include="Foundation\FormFields\client\components\" />
+    <Folder Include="Foundation\FormFields\client\components\AgileMethodologySelect\" />
+    <Folder Include="Foundation\FormFields\client\components\Checkbox\" />
+    <Folder Include="Foundation\FormFields\client\components\Checkbox\__tests__\" />
+    <Folder Include="Foundation\FormFields\client\components\Checkbox\__tests__\__snapshots__\" />
+    <Folder Include="Foundation\FormFields\client\components\ContinueButton\" />
+    <Folder Include="Foundation\FormFields\client\components\FieldGroup\" />
+    <Folder Include="Foundation\FormFields\client\components\InitPageLoader\" />
+    <Folder Include="Foundation\FormFields\client\components\LinkTrackButton\" />
+    <Folder Include="Foundation\FormFields\client\components\PageLoader\" />
+    <Folder Include="Foundation\FormFields\client\components\Period\" />
+    <Folder Include="Foundation\FormFields\client\components\Radio\" />
+    <Folder Include="Foundation\FormFields\client\components\SaveButton\" />
+    <Folder Include="Foundation\FormFields\client\components\Select\" />
+    <Folder Include="Foundation\FormFields\client\components\TextAreaField\" />
+    <Folder Include="Foundation\Icon\" />
+    <Folder Include="Foundation\Icon\client\" />
+    <Folder Include="Foundation\Infrastructure\" />
+    <Folder Include="Foundation\Infrastructure\client\" />
+    <Folder Include="Foundation\Infrastructure\client\api\" />
+    <Folder Include="Foundation\Infrastructure\client\api\GraphQL\" />
+    <Folder Include="Foundation\Infrastructure\client\api\JssData\" />
+    <Folder Include="Foundation\Infrastructure\client\HealthCheck\" />
+    <Folder Include="Foundation\Infrastructure\client\SitecoreContext\" />
+    <Folder Include="Foundation\Log\" />
+    <Folder Include="Foundation\Log\client\" />
+    <Folder Include="Foundation\Log\client\Exception\" />
+    <Folder Include="Foundation\Navigation\" />
+    <Folder Include="Foundation\Navigation\client\" />
+    <Folder Include="Foundation\Navigation\client\Navigation\" />
+    <Folder Include="Foundation\Page\" />
+    <Folder Include="Foundation\Page\client\" />
+    <Folder Include="Foundation\Profile\" />
+    <Folder Include="Foundation\Profile\client\" />
+    <Folder Include="Foundation\Profile\client\AcademicEducation\" />
+    <Folder Include="Foundation\Profile\client\Address\" />
+    <Folder Include="Foundation\Profile\client\Email\" />
+    <Folder Include="Foundation\Profile\client\ExamLocation\" />
+    <Folder Include="Foundation\Profile\client\Image\" />
+    <Folder Include="Foundation\Profile\client\Metadata\" />
+    <Folder Include="Foundation\Profile\client\Metadata\accreditedUniversities\" />
+    <Folder Include="Foundation\Profile\client\Metadata\countries\" />
+    <Folder Include="Foundation\Profile\client\Metadata\courses\" />
+    <Folder Include="Foundation\Profile\client\Metadata\providers\" />
+    <Folder Include="Foundation\Profile\client\Name\" />
+    <Folder Include="Foundation\Profile\client\Phone\" />
+    <Folder Include="Foundation\Profile\client\Profile\" />
+    <Folder Include="Foundation\Infrastructure\" />
+    <Folder Include="Foundation\Security\" />
+    <Folder Include="Foundation\Security\client\" />
+    <Folder Include="Foundation\SitecoreSettings\" />
+    <Folder Include="Foundation\SitecoreSettings\client\" />
+    <Folder Include="Foundation\SitecoreSettings\client\GlobalSettings\" />
+    <Folder Include="Foundation\SitecoreSettings\client\ListsSettings\" />
+    <Folder Include="Foundation\SitecoreSettings\client\NavigationsSettings\" />
+    <Folder Include="Foundation\SitecoreSettings\client\RequirementsSettings\" />
+    <Folder Include="Foundation\SitecoreUtils\" />
+    <Folder Include="Foundation\SitecoreUtils\client\" />
+    <Folder Include="Foundation\Workflow\" />
+    <Folder Include="Foundation\Workflow\client\" />
+    <Folder Include="Foundation\Workflow\client\components\" />
+    <Folder Include="Foundation\Workflow\client\components\BackMyPmi\" />
+    <Folder Include="Foundation\Workflow\client\components\CloseApplication\" />
+    <Folder Include="Foundation\Workflow\client\components\ContinueButton\" />
+    <Folder Include="Foundation\Workflow\client\WorkflowSettings\" />
+    <Folder Include="Project\" />
+    <Folder Include="Project\Certification\" />
+    <Folder Include="Project\Certification\client\" />
+    <Folder Include="Project\Certification\client\api\" />
+    <Folder Include="Project\Certification\client\api\entities\" />
+    <Folder Include="Project\Certification\client\api\entities\address\" />
+    <Folder Include="Project\Certification\client\api\entities\contact-info\" />
+    <Folder Include="Project\Certification\client\api\entities\email\" />
+    <Folder Include="Project\Certification\client\api\entities\phone\" />
+    <Folder Include="Project\Certification\client\api\entities\profile\" />
+    <Folder Include="Project\Certification\client\api\form-options\" />
+    <Folder Include="Project\Certification\client\api\form-options\country\" />
+    <Folder Include="Project\Certification\client\assets\" />
+    <Folder Include="Project\Certification\client\assets\icons\" />
+    <Folder Include="Project\Certification\client\assets\styles\" />
+    <Folder Include="Project\Certification\client\components\" />
+    <Folder Include="Project\Certification\client\components\Footer\" />
+    <Folder Include="Project\Certification\client\components\Header\" />
+    <Folder Include="Project\Certification\client\components\Layouts\" />
+    <Folder Include="Project\Certification\client\components\OneColumnCenter\" />
+    <Folder Include="Project\Certification\client\components\OneColumn\" />
+    <Folder Include="Project\Certification\client\components\PageMetadata\" />
+    <Folder Include="Project\Certification\client\components\ThreeColumns\" />
+    <Folder Include="Project\Certification\client\components\TwoColumns-8-4\" />
+    <Folder Include="Project\Certification\client\components\TwoColumns-9-3\" />
+    <Folder Include="Project\Certification\client\config\" />
+    <Folder Include="Project\Certification\client\public\" />
+    <Folder Include="Project\Certification\client\store\" />
+    <Folder Include="scripts\" />
+    <Folder Include="server\" />
+    <Folder Include="server\node-proxy\" />
+    <Folder Include="server\node-proxy\dist\" />
+    <Folder Include="sitecore\" />
+    <Folder Include="sitecore\config\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3154/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>True</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

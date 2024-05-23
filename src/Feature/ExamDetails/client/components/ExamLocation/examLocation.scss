@@ -1,0 +1,35 @@
+.exam-location {
+  > .form-group:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    @at-root .dsm & {
+      margin-bottom: 4px;
+    }
+  }
+
+  &__accommodation-radio {
+    .radio-wrapper {
+      display: block;
+    }
+    .form-group {
+      margin-bottom: 4px !important;
+    }
+  }
+
+  &__accommodation-disclaimer {
+    padding-left: 28px;
+    line-height: normal;
+    font-size: 85%;
+    font-style: italic;
+  }
+
+  .edit-mode__help-text {
+    margin-top: 4px;
+  }
+
+  & + & {
+    margin-top: 10px;
+  }
+}

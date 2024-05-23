@@ -1,0 +1,18 @@
+.dsm {
+  .radio-wrapper {
+    display: inline-flex;
+    align-items: end;
+    margin-right: 20px;
+  }
+  
+  .p-radiobutton {
+    padding: 3px 20px 0 0;
+  }
+
+  .p-radio-box-selected {
+    border: 1px solid #ababab;
+  }
+  .p-radio-box {
+    padding:5px 5px !important;
+  }
+}

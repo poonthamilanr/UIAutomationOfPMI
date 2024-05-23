@@ -1,0 +1,96 @@
+----item----
+version: 1
+id: {98F4AA8A-B12C-4443-A774-4AE75A52AC05}
+database: master
+path: /sitecore/content/cert-app/home/exam-details/Components/ExamAccommodationForms/ExamAccommodation
+parent: {32FE9352-C55E-4B53-8F02-5AB574D9B128}
+name: ExamAccommodation
+master: {00000000-0000-0000-0000-000000000000}
+template: {2EA28C7D-CC7E-4537-A1A9-099972429424}
+templatekey: ExamAccommodation
+created: 20211116T013957Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 7c31e21c-2be4-4ca1-9967-d22e7abe1721
+
+----field----
+field: {FE1F2F73-FBD4-4E19-BB24-E201C1D3912E}
+name: ExamAccommodationsDescription
+key: examaccommodationsdescription
+content-length: 487
+
+<p>Arrangements are provided to individuals who demonstrate a documented need. Accommodations are individualized and considered on a case-by-case basis. Exam accommodations may also be known as "special arrangements" or "reasonable adjustments."</p>
+
+<p class="mt-2"><a href="https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/process/accomodations/request-guidelines.pdf?v=8b9ff791-fa00-4cee-a0e8-b0a1d7afb9fb" target="_blank">View Exam Accommodation Guidelines</a></p>
+----field----
+field: {5B0F1E25-E9E9-4DDA-BE21-F105C70AEEDE}
+name: ExamAccommodationsDisclaimer
+key: examaccommodationsdisclaimer
+content-length: 86
+
+I understand that I must submit documentation for approval prior to scheduling my exam
+----field----
+field: {252F49AD-B8A7-44D6-A53D-A4D294DF7E44}
+name: EditModeExamAccommodationsRadioLabelNo
+key: editmodeexamaccommodationsradiolabelno
+content-length: 36
+
+I will NOT need special arrangements
+----field----
+field: {939399D6-0B1A-49F4-A76E-63E097300F2F}
+name: EditModeExamAccommodationsRadioLabelYes
+key: editmodeexamaccommodationsradiolabelyes
+content-length: 32
+
+I will need special arrangements
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Exam Accommodation
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211116T013957Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c31e21c-2be4-4ca1-9967-d22e7abe1721
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220311T234618Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

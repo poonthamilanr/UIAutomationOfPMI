@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {FEEF9340-64BF-45DD-9CF6-6443A6C6E476}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Foundation/SitecoreSettings/Settings/WorktypeFolder/__Standard Values
+parent: {87F8EA1B-390C-41E2-AE34-4106BE5482B1}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {87F8EA1B-390C-41E2-AE34-4106BE5482B1}
+templatekey: WorktypeFolder
+created: 20200204T130631Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{D534F2EB-12E9-4360-BE19-89B44E7B7B0A}|{87F8EA1B-390C-41E2-AE34-4106BE5482B1}
+----version----
+language: en
+version: 1
+revision: 31b29f70-2d17-4334-814e-0aad5132eec2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200204T130631Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31b29f70-2d17-4334-814e-0aad5132eec2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200204T130707Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

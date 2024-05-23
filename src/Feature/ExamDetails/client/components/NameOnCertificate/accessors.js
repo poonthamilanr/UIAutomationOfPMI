@@ -1,0 +1,1 @@
+export const getIsOpen = state => state.pages.examDetails && state.pages.examDetails.forms.nameOnCertificate.isOpen;

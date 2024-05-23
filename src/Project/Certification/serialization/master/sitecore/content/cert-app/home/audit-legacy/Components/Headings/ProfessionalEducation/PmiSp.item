@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {D27F7734-DE25-4FEC-BE70-E2D622A2D1FB}
+database: master
+path: /sitecore/content/cert-app/home/audit-legacy/Components/Headings/ProfessionalEducation/PmiSp
+parent: {7E80AE5D-DFF6-41DC-B52B-5ECFE1EF7C33}
+name: PmiSp
+master: {00000000-0000-0000-0000-000000000000}
+template: {6A233514-A736-4A99-8107-5E27DE132B9A}
+templatekey: Heading
+created: 20200515T091748Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 9d5f9874-6a18-4ce6-b553-196339526844
+
+----field----
+field: {9D83D3D3-FD9A-4E5C-95E4-1E2F5F0A7273}
+name: Title
+key: title
+content-length: 22
+
+Professional Education
+----field----
+field: {8F849064-64FE-4BB0-96B4-D62AE336DB88}
+name: Description
+key: description
+content-length: 277
+
+A certificate, transcript, or letter of attendance from the company, Registered Education Provider (R.E.P), school, or institute that provided the training is acceptable. The courses submitted must have learning objectives that are directly related to the PMI-SP certification.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+PMI-SP
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200309T202938Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9d5f9874-6a18-4ce6-b553-196339526844
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200323T173326Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {F4B3CD69-DA2E-4666-8390-09040CDC672C}
+database: master
+path: /sitecore/content/cert-app/Settings/RequirementTypes
+parent: {3ED76078-A8B9-4E7C-BE8F-2794864A4220}
+name: RequirementTypes
+master: {00000000-0000-0000-0000-000000000000}
+template: {0B2FB212-CDB2-4684-B421-7D2A03DC190D}
+templatekey: RequirementFolder
+created: 20200312T162904Z
+
+----version----
+language: en
+version: 1
+revision: bbfcb2b4-8dec-4129-bd62-b248f6ab65ec
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Requirement Types
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200312T162904Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbfcb2b4-8dec-4129-bd62-b248f6ab65ec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200316T082329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

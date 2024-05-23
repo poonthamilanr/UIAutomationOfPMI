@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestProfile xmlns="http://www.specflow.org/schemas/plus/TestProfile/1.5">
+  <Settings name="Functional.Tests"
+		projectName="Certification"
+		projectId="{ee45be9d-05c6-40b0-bfe2-99ce90c4c5ed}" />
+  <Execution testThreadCount="1" testSchedulingMode="Sequential" stopAfterFailures="-1" retryFor="None"  />
+  <TestAssemblyPaths>
+    <TestAssemblyPath>Pmi.Certification.Functional.Tests.dll</TestAssemblyPath>
+  </TestAssemblyPaths>
+  <Report>
+    <Template name="CustomReportTemplate.cshtml" outputName="Cert_TestResult.html"
+              existingFileHandlingStrategy="IncrementFilename" />
+  </Report>
+</TestProfile>

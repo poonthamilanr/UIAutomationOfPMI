@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {7FD74EE4-1699-44A3-9E67-B3B28FAD6833}
+database: master
+path: /sitecore/layout/Placeholder Settings/Pmi-Anc-Certification/Project/Certification/Pages/Application/EditExperienceSummaries/cert-app-main-content
+parent: {DE629BF6-C2C9-4F3E-93D7-A9005B2B3471}
+name: cert-app-main-content
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20200324T155204Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 194
+
+{245F052C-284A-456B-80F0-4241E89D1B0D}|{91A8D2B7-12FE-4BDF-982F-10854807EC9D}|{06D72760-764D-45B5-80B4-A4CA2EAB2DB6}|{02A69184-72A9-45F1-84E5-5A6A4041CB92}|{E00B8589-2DAB-4641-95B6-12AE8FD3E2DA}
+----version----
+language: en
+version: 1
+revision: f2e4b832-4be2-49e0-ac73-a564a95ee0c3
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Main Content
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200302T120556Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f2e4b832-4be2-49e0-ac73-a564a95ee0c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200324T155423Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

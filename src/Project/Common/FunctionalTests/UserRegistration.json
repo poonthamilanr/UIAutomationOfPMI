@@ -1,0 +1,21 @@
+﻿{
+  "personId": 0,
+  "email": "##Email##",
+  "username": "##UserName##",
+  "firstName": "CertFName",
+  "lastName": "CertLName",
+  "companyName": "PMI",
+  "jobTitle": "Other",
+  "jobTitleOther": "13",
+  "isELC": true,
+  "password": "##Password##",
+  "receiveElectronicNotifications": true,
+  "securityQuestionId": 0,
+  "securityQuestion": "What is your Mother’s Maiden Name?",
+  "securityAnswer": "None123",
+  "countryId": 227,
+  "country": "##Country##",
+  "clientId": "string"
+}
+     
+     

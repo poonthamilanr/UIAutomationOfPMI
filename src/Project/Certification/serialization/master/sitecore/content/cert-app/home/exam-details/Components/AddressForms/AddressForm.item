@@ -1,0 +1,234 @@
+----item----
+version: 1
+id: {BC927068-7F07-4B6C-A55A-FE30946631AE}
+database: master
+path: /sitecore/content/cert-app/home/exam-details/Components/AddressForms/AddressForm
+parent: {FD965C03-F99B-46A4-8040-D8D73378DCED}
+name: AddressForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {78EE89AB-32D8-4CFA-8CDC-DBCB29E73CAA}
+templatekey: AddressForm
+created: 20200416T093525Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: ef9a5212-a06d-467c-a478-f06ab0662dbe
+
+----field----
+field: {8C36FC7F-C598-4A9D-AC7E-FC5F43A8B78E}
+name: EditModeTitle
+key: editmodetitle
+content-length: 7
+
+Address
+----field----
+field: {D02A6875-7A36-455E-A749-B448072DAB60}
+name: EditModeTitleDescription
+key: editmodetitledescription
+content-length: 83
+
+<p classname="help-text">Enter an address where you have a permanent residence.</p>
+----field----
+field: {2EE8B993-FDF2-46A7-AACF-1FE9A2D9EF68}
+name: EditModeCountry
+key: editmodecountry
+content-length: 7
+
+Country
+----field----
+field: {96C9DFA7-AB16-4722-BA10-3AA84EF47A7A}
+name: EditModeAddress
+key: editmodeaddress
+content-length: 7
+
+Address
+----field----
+field: {16DB326D-11BB-4A49-82F4-3C9C8CF616A6}
+name: EditModeAddressOptional
+key: editmodeaddressoptional
+content-length: 18
+
+Address (optional)
+----field----
+field: {BACD8189-4225-4479-8633-89690763C6C8}
+name: EditModeCityDistrict
+key: editmodecitydistrict
+content-length: 15
+
+City / District
+----field----
+field: {44CC9A61-F6DF-43AF-91FC-1327E3343F0F}
+name: EditModeStateProvince
+key: editmodestateprovince
+content-length: 16
+
+State / Province
+----field----
+field: {02EF78D8-A988-4223-ABD8-F79237CEEEEE}
+name: EditModeZipPostalCode
+key: editmodezippostalcode
+content-length: 17
+
+Zip / Postal Code
+----field----
+field: {27443931-3B4C-47FE-B4B4-2E7812991594}
+name: EditModeAttention
+key: editmodeattention
+content-length: 9
+
+Attention
+----field----
+field: {A03775DE-1ECE-4C6E-87C2-381E9E84D871}
+name: EditModeOrganization
+key: editmodeorganization
+content-length: 12
+
+Organization
+----field----
+field: {B7E6E665-4FE2-4ABF-9FBB-4FF3AD071F8F}
+name: AddressTypeHomeAddress
+key: addresstypehomeaddress
+content-length: 12
+
+Home Address
+----field----
+field: {78D69C97-CC30-4478-86E7-E81AD3E6510D}
+name: AddressTypeWorkAddress
+key: addresstypeworkaddress
+content-length: 12
+
+Work Address
+----field----
+field: {D71396A3-AA51-4B11-BCC1-BE2870DBEE28}
+name: AddressTypeAddress
+key: addresstypeaddress
+content-length: 7
+
+Address
+----field----
+field: {ACA15935-9547-4A9F-A657-45F62AF91AE3}
+name: ViewModeTitle
+key: viewmodetitle
+content-length: 7
+
+Address
+----field----
+field: {D0FD56CC-67A7-4C88-8B0C-5ACF629F343B}
+name: CountryIsRequired
+key: countryisrequired
+content-length: 19
+
+Country is required
+----field----
+field: {EFFEA1C3-1FE2-498E-B6C6-2A5B1714DBDA}
+name: AddressIsRequired
+key: addressisrequired
+content-length: 19
+
+Address is required
+----field----
+field: {10BA5116-3E87-456D-8A08-1F03D4B71998}
+name: CityDistrictIsRequired
+key: citydistrictisrequired
+content-length: 27
+
+City / District is required
+----field----
+field: {FE3FCD31-1233-4887-8C62-CC6C281D26CD}
+name: StateProvinceIsRequired
+key: stateprovinceisrequired
+content-length: 28
+
+State / Province is required
+----field----
+field: {1C7264D8-A783-40FF-B7E2-A4331AF6F7E0}
+name: ZipPostalCodeIsRequired
+key: zippostalcodeisrequired
+content-length: 29
+
+Zip / Postal Code is required
+----field----
+field: {4F1B19E9-A073-4F75-816F-0BB9D425AE39}
+name: AttentionIsRequired
+key: attentionisrequired
+content-length: 21
+
+Attention is required
+----field----
+field: {33B543FB-16FA-4CC1-8D88-144BD4BD233A}
+name: OrganizationNameIsRequired
+key: organizationnameisrequired
+content-length: 24
+
+Organization is required
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Address Form
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200416T093525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ef9a5212-a06d-467c-a478-f06ab0662dbe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T132437Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

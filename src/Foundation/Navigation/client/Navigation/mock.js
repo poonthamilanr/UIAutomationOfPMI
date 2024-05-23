@@ -1,0 +1,1 @@
+export default {"accountMenuItems":[{"type":"Logout","url":"https://idp.int.pmi.org/account/logout?clientid=sitecore_72458ceccf6a4bd8a2b66c657292360c&returnUrl=https://www.pmi.org/"}]}

@@ -1,0 +1,89 @@
+----item----
+version: 1
+id: {65778B12-29B5-4434-B4FD-4338313944D1}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/ExamDetails/Datasources/ExamAccommodationForm/ExamAccommodation/__Standard Values
+parent: {2EA28C7D-CC7E-4537-A1A9-099972429424}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {2EA28C7D-CC7E-4537-A1A9-099972429424}
+templatekey: ExamAccommodation
+created: 20191210T101331Z
+
+----version----
+language: en
+version: 1
+revision: 8d14b1ec-fcd1-4ef8-81d1-7098c859e6d0
+
+----field----
+field: {FE1F2F73-FBD4-4E19-BB24-E201C1D3912E}
+name: ExamAccommodationsDescription
+key: examaccommodationsdescription
+content-length: 426
+
+<p>If you require exam accommodations related to a disability in order to take the examination, you must provide information about your disability as well as copy of your doctor's note describing your condition in detail prior to scheduling your exam.</p>
+View the <a target="_blank" rel="noopener noreferrer" href="https://www.pmi.org/certifications/process/accommodations">
+Exam Accommodations page</a> for more information.
+----field----
+field: {6FC8777C-5D1F-4A8C-8E11-AD7A99AD32B2}
+name: EditModeExamAccommodationsTitle
+key: editmodeexamaccommodationstitle
+content-length: 19
+
+Exam Accommodations
+----field----
+field: {9D146F1F-6E4C-461C-8D92-8F4E4A19B42E}
+name: EditModeRequestExamAccommodations
+key: editmoderequestexamaccommodations
+content-length: 43
+
+Do you wish to request exam accommodations?
+----field----
+field: {27C29652-EBE1-404B-9A53-903420B3925A}
+name: ExamAccommodationsIsRequired
+key: examaccommodationsisrequired
+content-length: 39
+
+Exam Accommodations is a required field
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191210T101331Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8d14b1ec-fcd1-4ef8-81d1-7098c859e6d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211115T235052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

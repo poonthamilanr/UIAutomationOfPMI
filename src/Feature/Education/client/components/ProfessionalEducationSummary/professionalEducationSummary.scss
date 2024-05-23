@@ -1,0 +1,61 @@
+@import "assets/styles/mixins";
+
+.summary {
+  &__course-line,
+  &__total { 
+    font-family: $font-helvetica-neue; 
+
+    @include flex-position($x: space-between);
+  }
+
+  &__course-line {       
+    font-size: 14px;
+
+    &.not_qualified {
+      color: $color-red-500-base;
+    }
+
+    + .summary__course-line {
+      border-top: $border-gray;
+      margin-top: 7px;
+      padding-top: 7px;
+    }
+
+    + .summary__total {
+      border-top: $border-gray;
+      margin-top: 7px;
+      padding-top: 7px;
+
+      @include media-breakpoint-down(md) { // less then 768px
+        font-size: 15px;
+      }
+    }
+  }
+
+  &__hours {
+    white-space: nowrap;
+    margin-left: 8px;
+  }
+
+  &__total {
+    font-size: 20px;
+  }
+
+  &_complete {
+    .summary__hours {
+      color: $color-green-500-base;
+
+      @include flex-position($y: center);
+    }
+
+    .btn-icon {
+      margin-right: 8px;
+
+      @include size(22px);
+
+      path {
+        fill: $color-green-500-base;
+      } 
+    }
+  }
+}

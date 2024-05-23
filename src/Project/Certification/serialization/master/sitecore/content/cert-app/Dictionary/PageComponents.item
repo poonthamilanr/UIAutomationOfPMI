@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {4B5468C4-40BC-421A-A8D6-89D391EBED22}
+database: master
+path: /sitecore/content/cert-app/Dictionary/PageComponents
+parent: {CEE871E2-7CF2-5367-A147-298EDFDC2745}
+name: PageComponents
+master: {00000000-0000-0000-0000-000000000000}
+template: {267D9AC7-5D85-4E9D-AF89-99AB296CC218}
+templatekey: Dictionary folder
+created: 20191129T115347Z
+
+----version----
+language: en
+version: 1
+revision: c0029dbd-b3e1-4a70-99f5-bc2ae35e31d1
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Page Components
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191129T115347Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c0029dbd-b3e1-4a70-99f5-bc2ae35e31d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200113T114728Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

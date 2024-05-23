@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+database: master
+path: /sitecore/content/cert-app/home
+parent: {00F19EA3-0E3C-50A7-95E7-CE470094D8DD}
+name: home
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FB40795-47AC-4E0B-B03E-E035E154666A}
+templatekey: HomePage
+created: 20191125T183910Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 262
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{5FDBF55F-4A1E-43B7-845D-66E444502095}" s:ds="{D1C17157-399F-46B3-8D85-475736D3A5C5}" s:id="{3CB3478F-54EE-4A0C-9FC6-39BFD95F76C3}" s:par="" s:ph="cert-app-main" /></d></r>
+----version----
+language: en
+version: 1
+revision: 6e59ecb8-895d-45ec-82eb-c251f2d97908
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Home
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191125T183910Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6e59ecb8-895d-45ec-82eb-c251f2d97908
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200424T185828Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,23 @@
+@import "mixins";
+
+%position-absolute-center-x {
+  transform: translateX(-50%);
+  @include position-absolute($left: 50%);
+}
+
+%position-absolute-center-y {
+  transform: translateY(-50%);
+  @include position-absolute($top: 50%);
+}
+
+%position-absolute-center {
+  transform: translate(-50%, -50%);
+  @include position-absolute($top: 50%, $left: 50%);
+}
+
+%description-gray-text {
+  color: $color-gray-500;
+  font-family: $font-helvetica-neue;
+  font-size: 14px;
+  margin-top: -8px;
+}

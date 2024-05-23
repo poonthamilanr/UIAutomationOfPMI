@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {BB0BA2F7-B1C9-4180-A8AE-A96324746777}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/Pages/IdentityRedirectPage/__Standard Values
+parent: {4F6383ED-4782-4435-85AA-733C5FB59543}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4F6383ED-4782-4435-85AA-733C5FB59543}
+templatekey: IdentityRedirectPage
+created: 20200127T145856Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+office/32x32/sort_up_down2.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 251
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{736FACF1-2F29-4720-A990-9DCF1F894322}"><r id="{1326DF52-7593-45E1-8D99-A813ED9D3C89}" ph="main" uid="{0C0E8F8E-D6B1-4D03-901A-CB7FBBC68965}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4619b1f8-e8c8-4c4e-8b5d-19f5eddcc584
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: PageTitle
+key: pagetitle
+content-length: 14
+
+Internal Login
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200127T145856Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4619b1f8-e8c8-4c4e-8b5d-19f5eddcc584
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200128T083525Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {AF9A07D3-D671-4E11-A08E-5C736C5A4E4E}
+database: master
+path: /sitecore/content/cert-app/home/landing/exam-accommodations/Components/SubmitButtons
+parent: {42664974-0C89-4912-8653-8E0FC8C36BF9}
+name: SubmitButtons
+master: {00000000-0000-0000-0000-000000000000}
+template: {71C373B5-1F1E-4B74-A9FE-E4615774D9C3}
+templatekey: SubmitButtonsFolder
+created: 20200129T173202Z
+
+----version----
+language: en
+version: 1
+revision: 07aa77d3-b33a-409e-905b-be3c5918a4c3
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Submit Buttons
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042621Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+07aa77d3-b33a-409e-905b-be3c5918a4c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200129T133039Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

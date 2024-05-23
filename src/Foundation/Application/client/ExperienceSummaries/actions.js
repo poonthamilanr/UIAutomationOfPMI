@@ -1,0 +1,31 @@
+import { createAction } from "redux-actions";
+
+export const FETCH_OPEN_EXPERIENCE_SUMMARIES_REQUEST = "FETCH_OPEN_EXPERIENCE_SUMMARIES_REQUEST";
+export const FETCH_OPEN_EXPERIENCE_SUMMARIES_SUCCESS = "FETCH_OPEN_EXPERIENCE_SUMMARIES_SUCCESS";
+export const FETCH_OPEN_EXPERIENCE_SUMMARIES_FAILURE = "FETCH_OPEN_EXPERIENCE_SUMMARIES_FAILURE";
+
+export const SAVE_EXPERIENCE_SUMMARIES_ANSWER_REQUEST = "SAVE_EXPERIENCE_SUMMARIES_ANSWER_REQUEST";
+export const SAVE_EXPERIENCE_SUMMARIES_ANSWER_SUCCESS = "SAVE_EXPERIENCE_SUMMARIES_ANSWER_SUCCESS";
+export const SAVE_EXPERIENCE_SUMMARIES_ANSWER_FAILURE = "SAVE_EXPERIENCE_SUMMARIES_ANSWER_FAILURE";
+export const SAVE_EXPERIENCE_SUMMARIES_ANSWER_WITH_APP_REQUIREMENTS_REQUEST = "SAVE_EXPERIENCE_SUMMARIES_ANSWER_WITH_APP_REQUIREMENTS_REQUEST";
+
+export const SUBMIT_EXPERIENCE_SUMMARIES_REQUEST = "SUBMIT_EXPERIENCE_SUMMARIES_REQUEST";
+export const SUBMIT_EXPERIENCE_SUMMARIES_SUCCESS = "SUBMIT_EXPERIENCE_SUMMARIES_SUCCESS";
+export const SUBMIT_EXPERIENCE_SUMMARIES_FAILURE = "SUBMIT_EXPERIENCE_SUMMARIES_FAILURE";
+
+export const SET_EXPERIENCE_SUMMARIES_API_URL = "SET_EXPERIENCE_SUMMARIES_API_URL";
+
+export const fetchOpenExperienceSummariesRequest = createAction(FETCH_OPEN_EXPERIENCE_SUMMARIES_REQUEST, data => data);
+export const fetchOpenExperienceSummariesSuccess = createAction(FETCH_OPEN_EXPERIENCE_SUMMARIES_SUCCESS, data => data);
+export const fetchOpenExperienceSummariesFailure = createAction(FETCH_OPEN_EXPERIENCE_SUMMARIES_FAILURE, data => data);
+
+export const saveExperienceSummariesAnswer = createAction(SAVE_EXPERIENCE_SUMMARIES_ANSWER_REQUEST, data => data);
+export const saveExperienceSummariesAnswerSuccess = createAction(SAVE_EXPERIENCE_SUMMARIES_ANSWER_SUCCESS, data => data);
+export const saveExperienceSummariesAnswerFailure = createAction(SAVE_EXPERIENCE_SUMMARIES_ANSWER_FAILURE, data => data);
+export const saveExperienceSummariesAnswerWithAppRequirements = createAction(SAVE_EXPERIENCE_SUMMARIES_ANSWER_WITH_APP_REQUIREMENTS_REQUEST, data => data);
+
+export const submitExperienceSummaries = createAction(SUBMIT_EXPERIENCE_SUMMARIES_REQUEST, data => data);
+export const submitExperienceSummariesSuccess = createAction(SUBMIT_EXPERIENCE_SUMMARIES_SUCCESS, data => data);
+export const submitExperienceSummariesFailure = createAction(SUBMIT_EXPERIENCE_SUMMARIES_FAILURE);
+
+export const setExperienceSummariesApiUrl = createAction(SET_EXPERIENCE_SUMMARIES_API_URL, data => data);

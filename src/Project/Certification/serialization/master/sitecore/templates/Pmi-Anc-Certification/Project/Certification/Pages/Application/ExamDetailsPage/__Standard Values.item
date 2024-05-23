@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {C1EED366-CA44-4885-80FA-54F57B9620A0}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/Pages/Application/ExamDetailsPage/__Standard Values
+parent: {45F526AA-7666-4491-AA53-60400897EC34}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {45F526AA-7666-4491-AA53-60400897EC34}
+templatekey: ExamDetailsPage
+created: 20191125T182816Z
+
+----field----
+field: {06400B0D-C3F0-4C97-97BF-B483CFF13B4D}
+name: WorkflowPage
+key: workflowpage
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5069
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{48AC63D9-77B1-5E1D-B2B6-1820DD243F51}"><p uid="{15D53C35-695A-461E-B6AF-613AE6C1D7F5}" key="cert-app-main" md="{ADE9B623-65D5-4756-A923-EFDEEDD16847}" /><p uid="{8431FBDC-7D66-475A-A72B-971448EEA4C3}" key="cert-app-exam-details" md="{5C47DE53-FD70-49B7-87A3-E002C8B0D27C}" /><p uid="{C48B5206-55CB-40BA-A3AE-97A6034C5B72}" key="cert-app-main-content" md="{C2F47731-B83B-44AC-AABB-331718755BA9}" /><p uid="{652CDAE7-A015-4FBA-8E56-E5671409EC28}" key="cert-app-header" md="{94696EA4-0F25-479A-9D77-27D743C20D46}" /><p uid="{4DEF2D79-96FC-4555-8F7D-296A223249FD}" key="cert-app-footer" md="{606B54A9-6F1C-4E74-B700-B910DBC4946A}" /><r id="{AF84D50C-E372-4A7F-AFD6-E209B7863CAC}" ph="cert-app-bottom" uid="{9FDC7EF0-EBDD-465A-9903-823F5D8798FD}" /><r id="{413FF868-11D8-4547-AA7C-80EAA24FE86A}" ph="cert-app-header" uid="{8EB7B41F-1F19-457F-AC79-7631BD2E6800}" /><r id="{E2275478-D63D-46F2-B193-C97896E2065E}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{29FCE839-D7FE-4C76-A72D-84B0F77190BE}-0" uid="{FFEC75DC-2C13-4C2F-BD54-C130BF9B7935}" /><r id="{91A8D2B7-12FE-4BDF-982F-10854807EC9D}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{378C8E97-36A4-4AA7-B40B-7AE2186D3C4C}-0" uid="{D0A58A7E-E21E-40BA-B9CE-F18C02A619AF}" /><r id="{91A8D2B7-12FE-4BDF-982F-10854807EC9D}" uid="{5E1F1388-8909-4F9F-961C-0F9CFA61F766}" /><r id="{3355A201-0D0F-4371-84DC-D2B7445CF1A1}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0" uid="{378C8E97-36A4-4AA7-B40B-7AE2186D3C4C}" /><r ds="" id="{5FD43C8E-D3DC-4EB7-9D2C-BAF280C89FE0}" par="" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{F24B1530-3046-46FF-A8C7-B556790D8B33}-0" uid="{2C8F59B0-9963-41FD-A7C3-AFA9285ABF1E}" /><r ds="" id="{34BCA2ED-BEA0-4F31-9754-4A68E3C0C540}" par="" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{3D5B994B-D7DE-4C26-8958-ECF7DFE3B772}-0" uid="{502A57B5-7915-4E56-9C7C-C76401F742FC}" /><r ds="" id="{245F052C-284A-456B-80F0-4241E89D1B0D}" par="" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{4900AD30-839B-46A9-90A8-B1CF210A6358}-0" uid="{DEDA139D-75F5-430E-BC26-DDDFEE1BD06B}" /><r ds="" id="{D8F52F08-0689-4931-A5E8-C98D241C9668}" par="" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{4900AD30-839B-46A9-90A8-B1CF210A6358}-0" uid="{85CB8CB5-624E-4500-AF3D-31341FDF89C7}" /><r id="{3AEF66C8-6E62-4B8E-9958-F896FF1DE93F}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{629D101A-1464-4D44-A262-F9371EE70B60}-0" uid="{0009534F-9DDE-4A61-800A-55FEC0D776DA}" /><r id="{F12187D8-42D4-43AA-8A2B-E3E2DB8E462E}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{629D101A-1464-4D44-A262-F9371EE70B60}-0" uid="{7B2457DF-DEAA-4A7E-8DE7-E020457DC121}" /><r id="{9BF8233B-8995-471A-AC94-FA3DE751ABC5}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{629D101A-1464-4D44-A262-F9371EE70B60}-0" uid="{1E808871-D21E-4C7B-B629-5410817853A6}" /><r id="{2BE76621-B0B1-4BF6-8833-64A07BB5A1C1}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{629D101A-1464-4D44-A262-F9371EE70B60}-0" uid="{A4FD34CB-5E20-4741-B8C5-8FA996E071E5}" /><r id="{78E2E56D-0159-4AD1-8836-9825A7743CD8}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{629D101A-1464-4D44-A262-F9371EE70B60}-0" uid="{0432E202-03E1-43DE-9D4F-537E1078BE8F}" /><r ds="" id="{4791CB66-CBB8-49B7-BFD7-47E73760E9B6}" par="" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0" uid="{4900AD30-839B-46A9-90A8-B1CF210A6358}" /><r id="{4791CB66-CBB8-49B7-BFD7-47E73760E9B6}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0" uid="{629D101A-1464-4D44-A262-F9371EE70B60}" /><r id="{4791CB66-CBB8-49B7-BFD7-47E73760E9B6}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0" uid="{3D5B994B-D7DE-4C26-8958-ECF7DFE3B772}" /><r id="{4791CB66-CBB8-49B7-BFD7-47E73760E9B6}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0" uid="{F24B1530-3046-46FF-A8C7-B556790D8B33}" /><r id="{3355A201-0D0F-4371-84DC-D2B7445CF1A1}" ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0" uid="{29FCE839-D7FE-4C76-A72D-84B0F77190BE}" /><r id="{7EF63380-0145-4E34-A49D-3B731443D423}" ph="cert-app-main" uid="{B0977317-9CDC-4800-8715-D2EC6C95991E}" /><r ds="" id="{EE474F33-4373-4264-8C8B-D9A1428C873A}" par="" ph="cert-app-footer" uid="{C3EE7AC8-42D2-4B58-A0C1-92B248287E49}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 5fa22f9b-7fc5-42ae-b9d1-70f571a540bc
+
+----field----
+field: {C6AC55CF-E6C5-4FA0-8676-8A2D784F950E}
+name: ShowInBreadcrumbs
+key: showinbreadcrumbs
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191125T182816Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5fa22f9b-7fc5-42ae-b9d1-70f571a540bc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211123T183129Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

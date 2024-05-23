@@ -1,0 +1,54 @@
+@import "assets/styles/placeholders";
+
+.heading {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &:empty {
+    display: none;
+  }
+  
+  @at-root .col-md-8 & {
+    @include media-breakpoint-up(lg) { // more then 992px
+      h2 {
+        font-size: 32px;
+      }  
+    }
+  }
+
+  @at-root .dsm & h2 {
+    margin-bottom: 0;
+
+    @include media-breakpoint-up(lg) { // more then 992px
+      line-height: 32px;
+    }
+  }
+
+  @include media-breakpoint-only(md) { // 768px - 991px
+    @at-root .col-md-4 & h2 {
+      font-size: 20px;
+    }
+  }
+
+  &__description {
+    margin: {
+      bottom: 30px;
+      top: 20px;
+    }
+    
+    @extend %description-gray-text;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    @at-root .dsm & a {
+      color: $color-violet-500-base;
+
+      &:hover, &:focus {
+        color: $color-violet-500-base;
+      }
+    }
+  }
+}                                     

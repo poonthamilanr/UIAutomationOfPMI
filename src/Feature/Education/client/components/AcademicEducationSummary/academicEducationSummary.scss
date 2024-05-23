@@ -1,0 +1,21 @@
+@import "assets/styles/mixins";
+
+.academic-education-summary {
+    font-family: $font-helvetica-neue;
+    font-size: 20px;
+    text-align: right;
+
+    &_complete {
+        color:  $color-green-500-base;
+
+        .btn-icon {
+            @include size(22px);
+            display: inline-flex;
+            position: relative;
+            top: 4px;            
+            path {
+                fill: $color-green-500-base;
+            }
+        }
+    }
+}

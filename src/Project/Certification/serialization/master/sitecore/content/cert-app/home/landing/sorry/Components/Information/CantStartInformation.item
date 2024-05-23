@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {B2778B42-AF73-488A-A83E-7913BE0478B5}
+database: master
+path: /sitecore/content/cert-app/home/landing/sorry/Components/Information/CantStartInformation
+parent: {0D7F33DB-053C-4AB8-BC33-1BB7176A1C58}
+name: CantStartInformation
+master: {00000000-0000-0000-0000-000000000000}
+template: {CF76FE8C-628B-4930-832A-962EBC1C7B0D}
+templatekey: Information
+created: 20200420T212501Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: a91837b4-86c3-4fcc-a34f-4fe4222951f7
+
+----field----
+field: {CBE22EB4-63B2-4304-8F60-E0EA88033079}
+name: Title
+key: title
+content-length: 54
+
+You cannot start an application for this certification
+----field----
+field: {1A4566E4-A835-4411-A80F-DA741CAE5A25}
+name: Description
+key: description
+content-length: 385
+
+<p>Possible reasons that are preventing you from proceeding are:</p>
+<ul>
+<li>You already have an active certification. </li>
+<li>You have a certification that is retired.</li>
+<li>You failed your exam 3 times and are in your 1-year waiting period.</li>
+<li>You failed audit and cannot apply at this time.</li>
+<li>You have an address listed that is in an embargoed country.</li>
+</ul>
+----field----
+field: {21DEDAFB-DCEA-4353-ABD7-402AE116C68A}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{029F43CB-8620-4C7A-BC9C-71E2295F9B7C}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 22
+
+Cant Start Information
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042754Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a91837b4-86c3-4fcc-a34f-4fe4222951f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T224313Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

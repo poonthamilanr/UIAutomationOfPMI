@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {DBBC4FAC-3763-41F0-9EBF-74D67A88A633}
+database: master
+path: /sitecore/content/cert-app/Settings/WorkflowTypes/DAC
+parent: {E8A18600-8B47-463D-A12E-D6A9D6C8141F}
+name: DAC
+master: {00000000-0000-0000-0000-000000000000}
+template: {01C344A2-6F7E-4A3E-B238-B39CD0815F1B}
+templatekey: WorkflowType
+created: 20211109T195226Z
+
+----version----
+language: en
+version: 1
+revision: 6695d71a-96a2-4804-b0d9-307806a83568
+
+----field----
+field: {7700F430-7709-4B69-8211-8E49F5EDFC33}
+name: Steps
+key: steps
+content-length: 116
+
+{68CBCBAB-660F-4A65-8AAC-784CE599C8BB}|{54BAA7E8-B040-454D-901C-BE621B2608F7}|{EA3FCC59-8639-4C3D-8549-5340A778F35B}
+----field----
+field: {30D9E927-5CC6-49E7-9821-B1389E08DBA8}
+name: ApiKey
+key: apikey
+content-length: 3
+
+DAC
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200206T111711Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6695d71a-96a2-4804-b0d9-307806a83568
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211110T152601Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

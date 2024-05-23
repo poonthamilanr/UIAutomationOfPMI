@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {57AAF6FF-BEE7-4D95-BF74-FC08FFAE939A}
+database: master
+path: /sitecore/content/cert-app/home/experience/pfmp/Components/ExperienceForms/BusinessExperienceForm
+parent: {2A555FB6-B354-4D28-9275-D6CF4EE4C7C1}
+name: BusinessExperienceForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {BC743FE5-B39C-4035-A231-5C2A6261BC9C}
+templatekey: ExperienceForm
+created: 20200213T124113Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: d537ffc4-9587-447c-a295-82b24cd9b099
+
+----field----
+field: {F624DCD6-4075-4A33-88D7-08B83339BBBE}
+name: EditModeTitle
+key: editmodetitle
+content-length: 25
+
+Business Experience Title
+----field----
+field: {DE1A4F6D-A1A1-4510-AED3-23CEB7A3F010}
+name: EditModeDates
+key: editmodedates
+content-length: 5
+
+Dates
+----field----
+field: {AC3BA90A-29A2-4D0B-B9D3-9A0759BE18FA}
+name: DescriptionHelpText
+key: descriptionhelptext
+content-length: 227
+
+Provide a high-level description that summarizes your experience and includes the project objective, outcome, your role on the project, and your responsibilities and deliverables. A typical response is between 200 to 500 words.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+Business Experience Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200213T124113Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d537ffc4-9587-447c-a295-82b24cd9b099
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200329T212715Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

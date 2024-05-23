@@ -1,0 +1,10 @@
+@import "assets/styles/mixins";
+
+.fixed-scrolling {
+  position: sticky;
+  top: 10px;
+
+  @include media-breakpoint-down(sm) {
+    position: static;
+  }
+}

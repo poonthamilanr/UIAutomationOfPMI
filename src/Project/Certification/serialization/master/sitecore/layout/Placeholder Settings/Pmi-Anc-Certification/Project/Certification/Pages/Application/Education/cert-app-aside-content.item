@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {CD9FD201-35C7-455A-8213-92A81C54D8EC}
+database: master
+path: /sitecore/layout/Placeholder Settings/Pmi-Anc-Certification/Project/Certification/Pages/Application/Education/cert-app-aside-content
+parent: {F288DBF3-BA4A-46C5-9B4A-45079DB0D1FD}
+name: cert-app-aside-content
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20191127T004124Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 0
+
+
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 155
+
+{8604494A-D523-4B21-840B-C7E55DFCB175}|{D822D589-E777-4302-8076-52D772E0A473}|{245F052C-284A-456B-80F0-4241E89D1B0D}|{984C9643-1979-43AC-98C5-8F9D6E99ED45}
+----version----
+language: en
+version: 1
+revision: 5caf57da-437b-4eed-bdc1-91e1d5d33d50
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Aside Content
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191127T004124Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5caf57da-437b-4eed-bdc1-91e1d5d33d50
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200303T155844Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {F125A782-4E46-4DC8-A70B-AB5F60409758}
+database: master
+path: /sitecore/content/cert-app/Settings/Navigation/FooterNavigationMenu/FooterLinks/Privacy
+parent: {7F97C702-43DB-40E3-B791-CF199F0FD2B5}
+name: Privacy
+master: {00000000-0000-0000-0000-000000000000}
+template: {0AF708EB-5AF0-49B4-8AC7-EFB515C114F2}
+templatekey: NavigationMenuItem
+created: 20200403T130504Z
+
+----version----
+language: en
+version: 1
+revision: 7ddd97fb-e68f-4802-bdee-14056b6b72f8
+
+----field----
+field: {21A24567-BB90-4EA4-995F-C1C3B12FD059}
+name: Link
+key: link
+content-length: 103
+
+<link text="Privacy" linktype="external" url="https://www.pmi.org/privacy" anchor="" target="_blank" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200403T130504Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ddd97fb-e68f-4802-bdee-14056b6b72f8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200403T143756Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

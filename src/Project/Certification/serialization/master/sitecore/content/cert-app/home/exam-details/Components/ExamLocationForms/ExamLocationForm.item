@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {40453C42-ACEF-419F-9863-DDF4CEFFC836}
+database: master
+path: /sitecore/content/cert-app/home/exam-details/Components/ExamLocationForms/ExamLocationForm
+parent: {77AF5C10-56A4-47A8-876C-1E07E6FDB97E}
+name: ExamLocationForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {FE26EA15-3698-4C8F-9175-CF8E321062C4}
+templatekey: ExamLocationForm
+created: 20200416T144522Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: fa019c9d-5f5a-4e6e-bc31-012380207f06
+
+----field----
+field: {7E831D0D-B7A1-4A04-B9BB-531FCDCE8248}
+name: EditModeWhereExamQuestion
+key: editmodewhereexamquestion
+content-length: 38
+
+Where do you intend to take this exam?
+----field----
+field: {10DD9CCA-7C15-4ABE-94C9-6C30AFE87F7F}
+name: EditModeExamLocation
+key: editmodeexamlocation
+content-length: 13
+
+Exam Location
+----field----
+field: {EA09FA9E-9AE1-453E-BC54-37D05106B7E8}
+name: CountryIsRequired
+key: countryisrequired
+content-length: 19
+
+Country is required
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Exam Location Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200416T144522Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa019c9d-5f5a-4e6e-bc31-012380207f06
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200925T122054Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

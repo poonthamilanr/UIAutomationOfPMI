@@ -1,0 +1,138 @@
+@import "placeholders";
+
+.form-action-row {
+  padding-top: 10px;
+  text-align: right;
+
+  @include flex-position($x: flex-end);
+
+  .btn {
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+
+  @include media-breakpoint-up(md) { // more then 768px
+    margin-top: $space-between-rows;
+  }
+
+  @include media-breakpoint-down(sm) { // less then 767px
+    margin-top: 30px;
+  }
+}
+
+.form-inline-group-base {
+  @include flex-position($y: flex-end);
+
+  .form-group {
+    &:first-child {
+      .form-control {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+    }
+
+    &:last-child {
+      .form-control {
+        border-bottom-left-radius: 0;
+        border-left: none;
+        border-top-left-radius: 0;
+      }
+    }
+  }
+}
+
+.k-maskedtextbox.form-control {
+  .k-textbox {
+    background-color: $form-controls-bg;
+    border: none;
+    height: 100%;
+
+    &:focus {
+      box-shadow: $drop-shadow;
+    }
+  }
+}
+
+.dsm .form-group--error {
+  position: relative;
+
+  .form-control,
+  .form-control:focus {
+    border: $border-red;
+  }
+
+  .form-item__error-message {
+    color: $color-red-500-base;
+    font-family: $font-helvetica-neue;
+    font-size: 12px;
+
+    @include position-absolute($top: calc(100% - 2px));
+  }
+}
+
+.form-label {
+  + .text-link-base {
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+}
+
+.form-group--disabled{
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.input-group-text {
+  background-color: $color-gray-300;
+  border: $border-gray;
+  color: $color-gray-800;
+  font-family: $font-helvetica-neue;
+  font-size: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-radio-inline-row {
+  .radio-form-field {
+    margin: {
+      left: -5px;
+      right: -5px;
+    }
+  }
+  
+  .radio-wrapper {
+    margin-right: 0;
+    padding: 0 5px;
+  }
+
+  @include media-breakpoint-up(sm) { // more then 576px
+    .radio-form-field {
+      @include flex-position($y: flex-start);
+    }
+
+    .radio-wrapper {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+
+.text-value-bold {
+  font: {
+    family: $font-helvetica-neue;
+    size: 15px;
+    weight: bold;
+  }
+  line-height: 20px;
+
+  &_gray {
+    color: $color-gray-500;
+  }
+
+  @at-root .dsm & {
+    margin-bottom: 10px;
+  }
+}

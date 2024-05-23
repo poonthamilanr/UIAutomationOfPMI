@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailView should render correctly with email 1`] = `
+<EmailViewBase
+  email="some@email.com"
+/>
+`;
+
+exports[`EmailView should render correctly without email 1`] = `
+<EmailViewBase
+  email=""
+/>
+`;

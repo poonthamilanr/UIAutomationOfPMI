@@ -1,0 +1,35 @@
+@import 'assets/styles/mixins';
+
+.auditBanner {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  &__audit-header {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  &__icon-style {
+    margin-right: 8px;
+  }
+  &__backnav-link,
+  &__backnav-link:hover {
+    color: #4f17a8 !important;
+    font-weight: bold;
+  }
+  &__left-panel {
+    line-height: 2em;
+  }
+  &__highlight {
+    color: #0080a8;
+    font-weight: bold;
+  }
+  &__infoPanel {
+    margin: 16px 0px 10px 0px;
+    font-weight: bold;
+  }
+  &__infoPanel img {
+    height: 105px;
+  }
+  &__progressBar {
+    margin: auto;
+  }
+}

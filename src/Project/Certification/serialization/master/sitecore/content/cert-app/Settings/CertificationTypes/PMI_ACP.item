@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {22DCAEC9-9DC3-49DF-9430-BBEBE7D94F7A}
+database: master
+path: /sitecore/content/cert-app/Settings/CertificationTypes/PMI_ACP
+parent: {05A3C74A-15B3-40D5-94D3-00E24E29679B}
+name: PMI_ACP
+master: {00000000-0000-0000-0000-000000000000}
+template: {218671B4-87E8-4752-BF00-2E1562D855A5}
+templatekey: CertificationType
+created: 20191212T152138Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+6
+----version----
+language: en
+version: 1
+revision: f4e50f28-ff49-449f-801c-0f7c0cb9f0fb
+
+----field----
+field: {30D9E927-5CC6-49E7-9821-B1389E08DBA8}
+name: ApiKey
+key: apikey
+content-length: 7
+
+PMI_ACP
+----field----
+field: {825308F2-E5AE-4D8E-8D53-C5AF4D9B1A31}
+name: TermsAndAgreementsLink
+key: termsandagreementslink
+content-length: 143
+
+<link linktype="external" url="http://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/agile-certified-practitioner-handbook.pdf" />
+----field----
+field: {70D58246-8BE1-4C4D-A556-EB4F2CED9174}
+name: ShortTitle
+key: shorttitle
+content-length: 8
+
+PMI-ACP®
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 43
+
+PMI Agile Certified Practitioner (PMI-ACP)®
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191212T152138Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4e50f28-ff49-449f-801c-0f7c0cb9f0fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200120T121603Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

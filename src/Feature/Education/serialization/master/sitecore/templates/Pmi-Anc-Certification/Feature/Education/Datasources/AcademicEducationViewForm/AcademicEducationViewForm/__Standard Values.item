@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {0E122CC7-1A96-4423-9092-ADAAEBB64743}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Education/Datasources/AcademicEducationViewForm/AcademicEducationViewForm/__Standard Values
+parent: {8E7C5AB3-7259-4CE9-AAB8-9D726F74F123}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8E7C5AB3-7259-4CE9-AAB8-9D726F74F123}
+templatekey: AcademicEducationViewForm
+created: 20200421T184138Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+office/32x32/edit_template.png
+----version----
+language: en
+version: 1
+revision: cb4511d8-a60f-4f71-b7b9-2b043be284cf
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200421T184138Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb4511d8-a60f-4f71-b7b9-2b043be284cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200427T151356Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

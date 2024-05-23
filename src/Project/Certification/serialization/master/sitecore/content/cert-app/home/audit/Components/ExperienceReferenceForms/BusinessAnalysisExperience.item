@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {2A2F0CB8-0D5C-454D-B7FC-50177DBEB1F5}
+database: master
+path: /sitecore/content/cert-app/home/audit/Components/ExperienceReferenceForms/BusinessAnalysisExperience
+parent: {A91DC7A0-D934-4308-B9CC-718596D6719B}
+name: BusinessAnalysisExperience
+master: {00000000-0000-0000-0000-000000000000}
+template: {3541F25C-DF10-4365-A4BA-9D879903170D}
+templatekey: ExperienceReferenceForm
+created: 20210826T173149Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: d3060895-7596-41e3-866e-695e3b04789e
+
+----field----
+field: {16DCFC1A-0A81-4DFF-B6A5-FC4C98C5AAF9}
+name: Worktype
+key: worktype
+content-length: 38
+
+{AC564F19-1C12-444B-8F56-42EF0F4A6AD1}
+----field----
+field: {F773B0BC-E23B-4B03-BB0F-2779B27322FF}
+name: Heading
+key: heading
+content-length: 39
+
+Business Analysis Experience References
+----field----
+field: {6C0CF86F-87F3-4295-9C79-A4D35976A9A8}
+name: Description
+key: description
+content-length: 111
+
+Provide name and email address for a reference that can validate your professional experience for each project.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+Business Analysis Experience
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210818T200840Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3060895-7596-41e3-866e-695e3b04789e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210826T172809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

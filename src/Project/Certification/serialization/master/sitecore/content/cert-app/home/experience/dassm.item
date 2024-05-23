@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {A6371E75-2AB3-4F32-AA5C-EB79275F6B00}
+database: master
+path: /sitecore/content/cert-app/home/experience/dassm
+parent: {827E6F63-2ED9-40D9-8EAE-31E8F68812F7}
+name: dassm
+master: {00000000-0000-0000-0000-000000000000}
+template: {650C8027-A15A-4F69-B667-80624D030735}
+templatekey: ExperiencePage
+created: 20211109T195825Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1642
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{54C9E89F-45F1-4EDF-93E7-4E7490FA10C1}" s:ds="" s:par="" /><r uid="{C11DD596-BB51-48F1-8416-4CDA4715558C}" p:after="r[@uid='{B030B0C4-C255-40E8-A8ED-68FFEC74528A}']" s:ds="{04AE10CC-47B6-40ED-A4AF-F25217BF782A}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /><r uid="{B69FE7D9-18AB-40C4-9EF8-55E16F7A2C1C}" p:after="r[@uid='{C11DD596-BB51-48F1-8416-4CDA4715558C}']" s:ds="{0EA2A1FC-E08F-4BF7-AB73-DED8A2EB2DAC}" s:id="{05F1DF40-8274-484A-8A1C-38A3DB60F8BF}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /><r uid="{5F1AA8BB-2ADD-4291-92B5-535F0868B73C}" p:after="r[@uid='{B69FE7D9-18AB-40C4-9EF8-55E16F7A2C1C}']" s:ds="{4CFFD1E4-86E2-405C-BF31-1ED66A4E3A63}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /><r uid="{D2C9666A-1701-4D94-813B-32DD4A4A5DD2}" p:after="r[@uid='{5F1AA8BB-2ADD-4291-92B5-535F0868B73C}']" s:ds="{D81C0FC5-28D7-4A1A-A945-B2A84F2D74DB}" s:id="{3E9D3FF9-C924-497C-8E1F-D6064FCCFB50}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /><r uid="{C7F58C84-4D65-4F44-8B63-740F2896E943}"><p:d /></r></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: c505e698-e79c-4870-9e3c-781343bb6823
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 16
+
+DASSM Experience
+----field----
+field: {FFBB6B97-BFB0-4AC3-8366-79D7637F4186}
+name: WorktypeRequirements
+key: worktyperequirements
+content-length: 38
+
+{FCDEAB01-14AC-420A-870B-B32D01983BAE}
+----field----
+field: {872E322E-18BA-4B40-B380-5A729B34C24F}
+name: RequirementType
+key: requirementtype
+content-length: 38
+
+{CEED6C48-F47C-4C3D-90D7-2ED793C36275}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+DASSM
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200204T123348Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c505e698-e79c-4870-9e3c-781343bb6823
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211110T164449Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

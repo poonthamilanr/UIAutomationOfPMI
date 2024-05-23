@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "include": [""],
+    "paths": {
+      "foundation": ["Foundation"],
+      "feature": ["Feature"],
+      "assets": ["Project/Certification/client/assets"]
+    }
+  }
+}
+
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "foundation/*": ["Foundation/*"],
+      "feature/*": ["Feature/*"],
+      "assets/*": ["Project/Certification/client/assets/*"],
+      "project/*": ["Project/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

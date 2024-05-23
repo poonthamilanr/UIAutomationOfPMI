@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {BA8F384A-8175-4BAB-B5A2-BC1A9F1C0E0C}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Audit/Datasources/AuditSubmitButton/AuditSubmitFolder/__Standard Values
+parent: {EB9E2C6A-1143-4046-80EE-600FE5833C11}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {EB9E2C6A-1143-4046-80EE-600FE5833C11}
+templatekey: AuditSubmitFolder
+created: 20210907T230250Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{EB9E2C6A-1143-4046-80EE-600FE5833C11}|{8ECF88C6-7C5D-4613-8E1D-1E7D23D3DF02}
+----version----
+language: en
+version: 1
+revision: 10f902b8-3d31-49b3-b23c-c64f3ace76f6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200421T184206Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+10f902b8-3d31-49b3-b23c-c64f3ace76f6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210907T230449Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

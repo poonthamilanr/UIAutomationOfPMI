@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {2C55883C-2211-4032-949D-6E15F1D892AB}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Foundation/SitecoreSettings/Settings/GlobalSettings/__Standard Values
+parent: {493DABFB-19B2-4864-A23D-9101C7298351}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {493DABFB-19B2-4864-A23D-9101C7298351}
+templatekey: GlobalSettings
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 5dabeaf6-3261-4c32-a457-75410055871e
+
+----field----
+field: {68672CE5-0009-4DBA-9E5C-8777355ACA70}
+name: MinimumWordsCount
+key: minimumwordscount
+content-length: 3
+
+100
+----field----
+field: {23C5AB74-1746-491C-BEF0-8AF02493ECB3}
+name: MaximumWordsCount
+key: maximumwordscount
+content-length: 3
+
+500
+----field----
+field: {0EA82EA2-FB58-48CA-9AD6-0F4D861B3D15}
+name: FooterText
+key: footertext
+content-length: 112
+
+© 2020 Project Management Institute, Inc. All rights reserved
+14 Campus Blvd, Newtown Square, PA 19073-3299 USA
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200121T124646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5dabeaf6-3261-4c32-a457-75410055871e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221016T035128Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

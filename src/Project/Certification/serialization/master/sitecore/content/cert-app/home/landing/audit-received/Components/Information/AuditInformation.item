@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {998F0109-1788-4EB0-AB87-1719C4AC9981}
+database: master
+path: /sitecore/content/cert-app/home/landing/audit-received/Components/Information/AuditInformation
+parent: {1064C82D-5784-4AA7-9CC3-03DCAA5BEFA0}
+name: AuditInformation
+master: {00000000-0000-0000-0000-000000000000}
+template: {CF76FE8C-628B-4930-832A-962EBC1C7B0D}
+templatekey: Information
+created: 20210915T163402Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: dfd5ab4d-30ae-47d6-8711-ea22fe6dde0b
+
+----field----
+field: {CBE22EB4-63B2-4304-8F60-E0EA88033079}
+name: Title
+key: title
+content-length: 41
+
+Your application audit has been received.
+----field----
+field: {1A4566E4-A835-4411-A80F-DA741CAE5A25}
+name: Description
+key: description
+content-length: 204
+
+Processing can take up to 5 business days. Upon completion of the review, an email will be sent with next steps. In the meantime, you can visit your exam prep page for tips on how to prepare for the exam.
+----field----
+field: {21DEDAFB-DCEA-4353-ABD7-402AE116C68A}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{B92E6DC1-24E9-4D49-BD32-CA821CF0B3BC}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Audit Information
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042754Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dfd5ab4d-30ae-47d6-8711-ea22fe6dde0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210915T164216Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {DA27D8B3-1651-4F6F-B060-BEFF0A76CF88}
+database: master
+path: /sitecore/content/cert-app/home/audit-legacy/Components/Information/StepThree
+parent: {AC94CF9E-064A-41AB-B9B6-88C386506428}
+name: StepThree
+master: {00000000-0000-0000-0000-000000000000}
+template: {CF76FE8C-628B-4930-832A-962EBC1C7B0D}
+templatekey: Information
+created: 20200515T091747Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: c0f753fe-1d21-4096-9221-2f024b4aca41
+
+----field----
+field: {CBE22EB4-63B2-4304-8F60-E0EA88033079}
+name: Title
+key: title
+content-length: 27
+
+Step Three:  Mail Documents
+----field----
+field: {1A4566E4-A835-4411-A80F-DA741CAE5A25}
+name: Description
+key: description
+content-length: 206
+
+<p>Once you have collected all required
+
+documentation, mail your audit package
+
+to PMI Audit team.</p>
+
+ 
+<p />
+ATTN: Audit Department <br />
+
+14 Campus Boulevard <br />
+
+Newtown Square, PA 19073-3299 USA
+
+----field----
+field: {21DEDAFB-DCEA-4353-ABD7-402AE116C68A}
+name: Icon
+key: icon
+content-length: 58
+
+<image mediaid="{FDDC7E3D-D1A1-4711-A1BE-1FB93A7A4495}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Step Three
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042754Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c0f753fe-1d21-4096-9221-2f024b4aca41
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200317T172701Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,35 @@
+@import "./variables";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+//------------------------SIZE
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+//------------------------POSITION
+
+@mixin position($position: null, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin position-absolute($args...) {
+  @include position(absolute, $args...);
+}
+
+@mixin position-relative($args...) {
+  @include position(relative, $args...);
+}
+
+//------------------------FLEX POSITION
+
+@mixin flex-position($x: null, $y: null) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}

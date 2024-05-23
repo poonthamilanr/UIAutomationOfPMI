@@ -1,0 +1,138 @@
+@import "assets/styles/mixins";
+
+$item-active-point-width: 42px;
+
+@mixin circle-point-center($bg, $size) {
+  background-color: $bg;
+  border-radius: 50%;
+  display: block;
+
+  @include size($size);
+}
+
+.dsm .breadcrumbs {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+
+  &__item {
+    position: relative;
+
+    &:after {
+      background-color: $color-gray-300;
+      content: '';
+      display: block;
+      transform: translateY(-50%);
+      z-index: -1;
+
+      @include size(100%, 3px);
+      @include position-absolute($top: 50%, $left: 0);
+    }
+
+    &:not(:last-child) {
+      flex-grow: 1;
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+
+    &_current,
+    &_passed {
+      &:after {
+        margin-left: $item-active-point-width;
+        width: calc(100% - #{$item-active-point-width});
+      }
+
+      .breadcrumbs__point {
+        background-color: $color-violet-500-base;
+
+        span {
+          color: $color-violet-500-base;
+        }
+      }
+    }
+
+    &_next-passed {
+      &:after {
+        background-color: $color-violet-500-base;
+        opacity: 0.4;
+      }
+    }
+  }
+
+  &__point {
+    position: relative;
+
+    @include flex-position($x: center, $y: center);
+    @include size(24px, $item-active-point-width);
+
+    &_passed,
+    &_current {
+      background-color: $color-gray-400;
+      border-radius: 50%;
+      width: $item-active-point-width;
+    }
+
+    &_passed {
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__passed-point-center {
+    @include size(24px);
+
+    path {
+      fill: $color-white;
+    }
+  }
+
+  &__current-point-center {
+    @include circle-point-center($color-white, 16px);
+  }
+
+  &__inactive-point-center {
+    @include circle-point-center($color-gray-400, 24px);
+  }
+
+  &__title {
+    color: $color-gray-500;
+    font-family: $font-helvetica-neue;
+    font-size: 15px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+
+    @include position-absolute($top: calc(100% + 11px), $left: 50%);
+  }
+
+  //Responsive styles
+
+  @include media-breakpoint-up(md) { // more then 768px
+    padding: 0 15px 35px 15px;
+  }
+
+  @include media-breakpoint-down(sm) { // less then 767px
+    padding: 0 10px 35px 10px;
+
+    &__title {
+      white-space: normal;
+      text-align: center;
+    }
+  }
+
+  @include media-breakpoint-up(sm) { // more then 576px
+    &_center {
+      margin: {
+        left: auto;
+        right: auto;
+      }
+      max-width: 55%;
+    }
+  }
+}

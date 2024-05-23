@@ -1,0 +1,51 @@
+@import "assets/styles/mixins";
+
+.experience-summaries {
+  border-radius: $border-radius;
+
+  & + & {
+    margin-top: $views-bottom-space;
+  }
+
+  .experience-summaries__title-edit {
+    margin-bottom: $views-bottom-space;
+  }
+
+  .experience-property__value {
+    color: $color-gray-500;
+  }
+
+  .radio-wrapper {
+    align-items: baseline;
+  }
+}
+
+.experience-summaries-summary {
+  border-radius: $border-radius;
+  border: $border-gray;
+
+  &-line {
+    padding: 8px 25px;
+    font-family: $font-helvetica-neue;
+
+    @include flex-position($x: space-between, $y: center);
+    
+    & + & {
+      border-top: $border-gray-lighter;
+    }
+
+    .answered {
+      flex: 0 0 calc(100% - 25px);
+      font-weight: bold;
+      max-width: calc(100% - 25px);                                                                                                                               
+    }
+
+    .btn-icon {
+      @include size(20px);
+
+      path {
+        fill: $color-green-500-base;
+      }
+    }
+  }
+}

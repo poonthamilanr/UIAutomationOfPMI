@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {CEE63B76-F6A7-44E1-BB7B-33B6D84A9A8C}
+database: master
+path: /sitecore/content/cert-app/home/education
+parent: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+name: education
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A1906E9-87FB-4D43-AF2C-FBA0028E1436}
+templatekey: EducationPage
+created: 20191125T184139Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3064
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{87937D3F-E2A8-4BBD-A185-0000E2CADE23}" s:ds="{22C66316-C538-453B-9CEE-704FA561E799}"><rls><ruleset><rule uid="{54F7720D-2FF5-41C4-B726-62C34593E55D}" s:name="Specify name..."><conditions><and uid="22DDD102FF6440BAA780EB51A07B2C19"><condition uid="0576B95F48FC4171B36FBACBA9C3F3F9" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{B2A419A2-E8D9-4254-8BE3-92682EE900B5}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /><condition uid="FD9099E6279343F7828CCCF3CAFF1E74" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMP" /></and></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="2BB8C9BDBEB1438A88ED51A7EAF34E91" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="8A1F143D27DC4A9C94E43CAC3395E87C" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule></ruleset></rls></r><r uid="{13A4780C-A810-4E18-A718-34CB55740CC7}" s:ds="{DF83C8E8-20F7-422B-9743-17907ECB2FF0}"><rls><ruleset><rule uid="{403C1996-22D5-4D37-8563-F8A4CB2063CC}" s:name="Specify name..."><conditions><and uid="8304469BA51945C9B635BB03158C803E"><condition uid="A8B297B4DFF7415788A0A230CFBCB745" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{B2A419A2-E8D9-4254-8BE3-92682EE900B5}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /><condition uid="3B284ACEE07A45178254165A95AFD177" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMP" /></and></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="6F0F941820A24D898ED6C5B28B9B20C2" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="337BA2E1C9114F97A624470AA28240A1" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule></ruleset></rls></r><r uid="{923E9C95-7654-424A-825A-EF7104509880}" s:ds="{FDCDCF81-0660-41E1-9C34-A67EC4D26754}" /><r uid="{6D6DB4F0-427F-4F0E-A0B4-5B45CCABFA58}" s:ds="{88E50B87-C79E-429B-AE99-72D927DA61CB}"><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="242C2561857D4108B23775523A87A9B3" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{5DEF76ED-E388-4EF7-B91D-3906CA4585A5}" s:ds="{1373A717-0CAD-4590-A5BD-F705C638B1CE}" s:par="" /><r uid="{CB127B25-8953-42C5-82ED-5AB9A496E86D}" s:ds="{A9276373-17FD-468B-9E5D-D3E21D10232B}" /><r uid="{12B7CB59-CF5D-4277-99FC-A02B4C018241}" s:ds="{1C3ED7C7-BFBB-48E2-A421-40B0604E5D6E}" /><r uid="{E347BDD9-B296-444A-AE03-B17FC6878D04}" s:ds="{A9EE5BF4-732F-4E3D-B2C3-04FE397C00AB}" /><r uid="{ACC7599F-10C7-486F-B085-4400728D4CA5}" s:ds="{AE59B6C6-9D25-41C0-8674-8A9667D3F110}" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 5ed9cb1c-5e81-46b8-83cb-631c4b2df277
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 9
+
+Education
+----field----
+field: {872E322E-18BA-4B40-B380-5A729B34C24F}
+name: RequirementType
+key: requirementtype
+content-length: 38
+
+{28DF1661-A21E-4CB6-ADB2-9614CD463F5C}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Education
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191125T184139Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ed9cb1c-5e81-46b8-83cb-631c4b2df277
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200421T011017Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {70E3B999-BD6A-4FD2-9D08-EEEDED09B7CE}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/Pages/Application/LandingPage/__Standard Values
+parent: {0EB0B4F4-6861-4E87-AA8B-F2ACDD5845ED}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {0EB0B4F4-6861-4E87-AA8B-F2ACDD5845ED}
+templatekey: LandingPage
+created: 20200129T010741Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1392
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{48AC63D9-77B1-5E1D-B2B6-1820DD243F51}"><p uid="{4C2674BD-A532-4B43-A1F0-A4F9A428D6A8}" key="cert-app-header" md="{94696EA4-0F25-479A-9D77-27D743C20D46}" /><p uid="{4B13A186-E1DA-42FE-996D-641247B53DA2}" key="cert-app-bottom" md="{40A580AC-9EC4-4C56-8582-AFE92F148BA8}" /><p uid="{8CABA5D3-3552-4690-BEAD-7BD460762438}" key="cert-app-footer" md="{606B54A9-6F1C-4E74-B700-B910DBC4946A}" /><r id="{AF84D50C-E372-4A7F-AFD6-E209B7863CAC}" ph="cert-app-bottom" uid="{03C27507-2E25-4DC1-82EC-52E0493FBA7A}" /><r id="{413FF868-11D8-4547-AA7C-80EAA24FE86A}" ph="cert-app-header" uid="{EE527579-DECF-46DA-8A5A-FA55C214FEB4}" /><r id="{56CE36EB-F3FC-43B4-945B-69F43489B581}" ph="cert-app-main" uid="{DD423B9F-F657-4FDA-AD45-2E6971561888}" /><r id="{A167D9F9-F7B8-441D-94CD-E4DA1075A9D2}" ph="/cert-app-main/cert-app-main-content-{DD423B9F-F657-4FDA-AD45-2E6971561888}-0" uid="{5B134BE7-FD68-49A6-8F2A-5C4115F42D4C}" /><r id="{3B33F966-B5CC-47CE-BD02-C4328BCE9BBB}" ph="/cert-app-main/cert-app-main-content-{DD423B9F-F657-4FDA-AD45-2E6971561888}-0/cert-app-information-component-{5B134BE7-FD68-49A6-8F2A-5C4115F42D4C}-0" uid="{9FEAD0FB-3F58-4E32-9738-C1A0BD1DE63D}" /><r ds="" id="{EE474F33-4373-4264-8C8B-D9A1428C873A}" par="" ph="cert-app-footer" uid="{E65A8785-249C-4241-BBD7-79BC77FAC54E}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4b447ecc-b217-4c38-b865-be36bc90d208
+
+----field----
+field: {FEF4C019-EF67-4C75-938B-F6AE38C7D8DC}
+name: AllowAnonymous
+key: allowanonymous
+content-length: 1
+
+1
+----field----
+field: {2560426E-9C4C-42FF-9C0E-1E36C119DC21}
+name: ShowAccountMenu
+key: showaccountmenu
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T010741Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b447ecc-b217-4c38-b865-be36bc90d208
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200429T164047Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

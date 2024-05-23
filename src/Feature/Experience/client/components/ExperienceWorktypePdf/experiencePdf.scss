@@ -1,0 +1,12 @@
+@import "assets/styles/variables";
+
+.experience-download {
+  border: $border-gray;
+  border-radius: $border-radius;  
+
+  &_item {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: $border-gray;
+  }
+}

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {D790C22F-AE8C-4D1A-8C3C-96229E330C8D}
+database: master
+path: /sitecore/content/cert-app/home/candidate-details/Components/Name
+parent: {9D96B857-0092-4ED3-8E80-5F34E478FDB9}
+name: Name
+master: {00000000-0000-0000-0000-000000000000}
+template: {B5D47963-8A42-46EC-BBD3-18C9C0413842}
+templatekey: NameOnIdentificationFormsFolder
+created: 20201015T000008Z
+
+----version----
+language: en
+version: 1
+revision: 54da1513-2d54-48fa-b792-d4083f3c0203
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200416T110118Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54da1513-2d54-48fa-b792-d4083f3c0203
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20201016T143652Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

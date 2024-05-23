@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {47AF9E5B-62A7-4A18-82B2-8E574C5E75B8}
+database: master
+path: /sitecore/content/cert-app/home/edit-summaries
+parent: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+name: edit-summaries
+master: {00000000-0000-0000-0000-000000000000}
+template: {02DF7684-8A80-421C-AF29-0B525F6989CF}
+templatekey: EditSummariesPage
+created: 20200324T163921Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2929
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{B89C8422-10A8-4740-87FB-ECC9D4D9E4D7}" s:ds="{DE79A234-DCE0-40F3-9086-705B7C9D824D}" s:par=""><rls><ruleset><rule uid="{819EF923-5411-458E-A3B8-67F8A9339D10}" s:name="PfMP"><conditions><condition uid="E18CD4BA0DA04101B2C815E9468C2CFA" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certtype" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PfMP" /></conditions><actions><action uid="6BA40F698EE945D29007248FBCFA6A3C" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{DE79A234-DCE0-40F3-9086-705B7C9D824D}" /></actions></rule><rule uid="{434B9211-227B-40C5-90E0-AD7AD762F52F}" s:name="PgMP"><conditions><condition uid="C950A0D368154A0FB3F11C89C38AC777" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certtype" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PgMP" /></conditions><actions><action uid="0DE2F76D1DEF4D87BF5FF1465E81CEAE" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{270B7237-6193-4C88-94FB-34945D747B45}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="C06936084D5841C1BC5E0BBCBECD1F82" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="693F9FB77A4246B4BDFEDF01CF5EEB76" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{270B7237-6193-4C88-94FB-34945D747B45}" /></actions></rule></ruleset></rls></r><r uid="{E206D0C3-E0D0-4B7D-8D87-D5AC0173FCD9}"><rls><ruleset><rule uid="{3530F8B5-A1B0-496C-85E8-56B01D5CC090}" s:name="PfMP"><conditions><condition uid="8CBE3F3C92574F6EA79842D66128F799" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certtype" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PfMP" /></conditions><actions><action uid="4BB3A26D257541B6A4CF55EF4178BE38" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{232F471F-9817-407C-BDAF-9718372E59B5}" /></actions></rule><rule uid="{ACD7F22D-BB2F-4EDA-A9AD-40A6CA3CED00}" s:name="PgMP"><conditions><condition uid="AFB4486810764E39882D2D65AB7273FA" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certtype" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PgMP" /></conditions><actions><action uid="18013044ABC24A988715756FB2141DD9" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{7DE594CA-7C4B-47D4-AAAB-21088A8E8005}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="07151DB2D8C94B7986B7A9D322FC8751" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="5BC2848250C947EE8761F1359CB2EB65" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{7DE594CA-7C4B-47D4-AAAB-21088A8E8005}" /></actions></rule></ruleset></rls></r></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: f55957e4-12c7-49be-a05b-d06cdc98bc1e
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 14
+
+edit-summaries
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Edit Summaries
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200324T163921Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f55957e4-12c7-49be-a05b-d06cdc98bc1e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200429T192050Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,53 @@
+@import "assets/styles/mixins";
+@import "assets/styles/placeholders";
+
+.information-col-wrapper , .information {
+  margin-top: 70px;
+  position: relative;
+}
+.information  {
+   &__description-wrapper {
+    margin-bottom: 45px;
+  }
+
+  &__description {
+    color: $color-gray-900;
+    font-family: $font-helvetica-neue;
+    line-height: 28px;
+  }
+
+  &__description-gray {
+    @extend %description-gray-text;
+
+    @at-root .dsm & {
+      margin-top: -8px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.information-col-wrapper {
+  .information  {
+    &__description-wrapper {
+     margin-top: 30px;
+     margin-bottom: 10px;
+   }
+  }
+}
+.information {
+  .information {
+    &__image {
+      @include position-absolute($top: 0, $left: 0);
+      width:50px;
+      height:50px;
+    }
+
+    &__description-wrapper {
+      padding-left: 60px;
+    }
+
+    &__description-component-placeholder {
+      padding-left: 60px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {3B43413B-B2A8-40B2-AFAC-84D36E6A5EDF}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Foundation/SitecoreSettings/Config
+parent: {945BA7FC-31C9-4F69-898F-C706C5F8AA08}
+name: Config
+master: {00000000-0000-0000-0000-000000000000}
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
+created: 20210802T093800Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+office/32x32/folder_open.png
+----version----
+language: en
+version: 1
+revision: 24373d14-1f5c-4c59-b713-bc8644e7bb9a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Config
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200422T105513Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24373d14-1f5c-4c59-b713-bc8644e7bb9a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210802T093818Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

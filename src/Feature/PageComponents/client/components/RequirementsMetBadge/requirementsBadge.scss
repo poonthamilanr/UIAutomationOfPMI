@@ -1,0 +1,16 @@
+@import "assets/styles/placeholders";
+
+.requirements-badge {
+  font: {
+    family: $font-agrandir;
+    size: 18px;
+    weight: 500;
+  }
+  line-height: 20px;
+
+  @include flex-position($y: center);
+
+  + * {
+    margin-top: $space-between-rows;
+  }
+}

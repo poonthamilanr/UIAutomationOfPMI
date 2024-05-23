@@ -1,0 +1,39 @@
+@import "~@pmi/dsm-react-bs4/dist/assets/styles/styles";
+
+//------------------------BORDER
+$border-gray:             1px solid $color-gray-400;
+$border-gray-lighter:     1px solid $color-gray-300;
+$border-red:              1px solid $color-red-500-base;
+$border-radius:           4px;
+
+//------------------------SPACE
+$padding-mobile:          15px;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+//------------------------FORM CONTROLS
+$form-controls-bg:        #f2f2f2;
+$form-controls-border-focused: #80bdff;
+
+//------------------------EDIT/VIEW MODES
+$views-bottom-space: 20px;
+
+//------------------------HEADER
+$header-height: 101px;
+$header-height-mobile: 55px;
+$header-bottom-space: 35px;
+$header-height-with-space: $header-height + $header-bottom-space;
+$header-height-mobile-with-space: $header-height-mobile + $header-bottom-space;
+
+//------------------------CONTENT
+$space-between-rows: 45px;
+
+//------------------------FOOTER
+$footer-height: 100px;
+$footer-text-color: #333F48;

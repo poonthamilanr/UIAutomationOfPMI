@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {3E18524D-625A-41FB-B02C-568C604058DF}
+database: master
+path: /sitecore/content/cert-app/home/landing/payment-exam-accommodations/Components/Information/ExamAccommodationsInformation
+parent: {D05F9274-6AA2-4E7A-83CC-DF22788D6713}
+name: ExamAccommodationsInformation
+master: {00000000-0000-0000-0000-000000000000}
+template: {CF76FE8C-628B-4930-832A-962EBC1C7B0D}
+templatekey: Information
+created: 20200220T195638Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: c7cda5b6-fb23-4e6b-aa87-fe19febfb3c0
+
+----field----
+field: {CBE22EB4-63B2-4304-8F60-E0EA88033079}
+name: Title
+key: title
+content-length: 27
+
+Exam accommodations process
+----field----
+field: {1A4566E4-A835-4411-A80F-DA741CAE5A25}
+name: Description
+key: description
+content-length: 352
+
+You have requested exam accommodations. Once your application is approved you will not be able to schedule your exam until after you finish the accommodations process. You must fill out your exam accommodations needs and have it signed by a doctor. If you're not prepared to complete your accommodations now, you can reach it from your myPMI dashboard.
+----field----
+field: {21DEDAFB-DCEA-4353-ABD7-402AE116C68A}
+name: Icon
+key: icon
+content-length: 0
+
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 31
+
+Exam Accommodations Information
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042754Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c7cda5b6-fb23-4e6b-aa87-fe19febfb3c0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200415T162329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

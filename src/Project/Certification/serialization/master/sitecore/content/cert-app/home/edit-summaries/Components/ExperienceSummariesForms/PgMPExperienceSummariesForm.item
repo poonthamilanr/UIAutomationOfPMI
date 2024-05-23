@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {270B7237-6193-4C88-94FB-34945D747B45}
+database: master
+path: /sitecore/content/cert-app/home/edit-summaries/Components/ExperienceSummariesForms/PgMPExperienceSummariesForm
+parent: {3962895D-EB5D-4B74-8A39-005C7766C361}
+name: PgMPExperienceSummariesForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {22D02E18-50DC-4E94-9FF1-219296DCF80A}
+templatekey: ExperienceSummariesQAForm
+created: 20200324T170951Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: b46d6f0b-e8eb-4c47-9f00-da90b906e4d1
+
+----field----
+field: {7EBA499A-6FA2-4EEE-A7A5-C895D16AD9A2}
+name: Worktype
+key: worktype
+content-length: 7
+
+Program
+----field----
+field: {113DCEE2-6728-404E-91B8-90A1AD38EAC7}
+name: ViewModeExperienceReferenced
+key: viewmodeexperiencereferenced
+content-length: 18
+
+Program Referenced
+----field----
+field: {DEB130AA-2262-477F-BFC1-FD9464538A54}
+name: EditModeExperienceReferenced
+key: editmodeexperiencereferenced
+content-length: 18
+
+Program Referenced
+----field----
+field: {B8F1CBFA-CD58-4762-A764-76634298BD45}
+name: ExperienceReferencedIsRequired
+key: experiencereferencedisrequired
+content-length: 31
+
+Program Referenced is required.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+PgMP Experience Summaries Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200305T162554Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b46d6f0b-e8eb-4c47-9f00-da90b906e4d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200317T172701Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

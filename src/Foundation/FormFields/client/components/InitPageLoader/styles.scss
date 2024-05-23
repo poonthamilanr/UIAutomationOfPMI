@@ -1,0 +1,61 @@
+@import "assets/styles/mixins";
+@import "assets/styles/variables";
+
+@keyframes loader-bar-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(140%);
+  }
+}
+
+.pmi-loader {
+  flex-direction: column;
+  justify-content: center;
+  max-width: 420px;
+  overflow: hidden;
+  text-align: center;
+  z-index: 2000;
+  align-items: center;
+  display: flex;
+  @include size(100%);
+  @include position-absolute($left: 50%, $top: 45%);
+  transform: translate(-50%, -45%);
+
+  
+  &__bar {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: loader-bar-animation;
+    animation-timing-function: cubic-bezier(0.61, 0.26, 0.5, 0.86);
+    background: linear-gradient(90deg, rgba(0, 87, 115, 1) 0%, rgba(190, 211, 229) 100%);
+    border-radius: 10px 5%;
+    height: 10px;
+    width: 70%;
+  }
+
+  &__underBar {
+    border-radius: 10px 15%;
+    display: block;
+    height: 10px;
+    margin: 10px 0;
+    overflow: hidden;
+    width: calc(100% - 32px);
+  }
+
+  &__caption1 {
+    color: $color-gray-500;
+    font-family: $font-family-base;
+    font-size: rem(26);
+    font-weight: $font-weight-bolder;
+  }
+
+  &__caption2 {
+    color: $color-gray-500;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+  }
+}

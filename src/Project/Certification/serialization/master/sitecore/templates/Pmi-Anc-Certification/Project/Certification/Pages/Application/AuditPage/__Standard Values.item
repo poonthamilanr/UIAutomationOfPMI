@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {87647880-F0A6-45E5-A56B-FE6B5C10488B}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/Pages/Application/AuditPage/__Standard Values
+parent: {8FBE8D57-57A1-46C0-8B7A-910A3E9D906F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FBE8D57-57A1-46C0-8B7A-910A3E9D906F}
+templatekey: AuditPage
+created: 20210811T165637Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3767
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{48AC63D9-77B1-5E1D-B2B6-1820DD243F51}"><p uid="{188C43F3-B828-4780-BF48-24533FFE9E44}" key="cert-app-audit-section-one" md="{008C49BF-B46D-434F-ADB2-964BFA641EB5}" /><p uid="{0E228B82-675C-479F-9A57-7AC27D55F130}" key="cert-app-audit-section-two" md="{7C519686-D3AB-4DE0-B444-BA044CF8A83D}" /><p uid="{D7168970-935D-4D3F-9E4C-F7FB7BCFF24A}" key="cert-app-col-one" md="{6A037479-FA89-4769-B523-F0F847C301AB}" /><p uid="{D6ED4003-B929-4DB3-9F8D-3D51233B14F1}" key="cert-app-header" md="{94696EA4-0F25-479A-9D77-27D743C20D46}" /><p uid="{C01C2E93-B12C-4E17-9B7F-D75922BD579C}" key="cert-app-education-header" md="{27261331-B59C-4180-A7A5-6D77573A8213}" /><p uid="{4CF9E9E1-D0A8-49A3-8CD5-670D9C8DCDB0}" key="cert-app-footer" md="{606B54A9-6F1C-4E74-B700-B910DBC4946A}" /><r id="{AF84D50C-E372-4A7F-AFD6-E209B7863CAC}" ph="cert-app-bottom" uid="{A60333E6-BEA6-4A49-BA9E-908E413BC095}" /><r id="{413FF868-11D8-4547-AA7C-80EAA24FE86A}" ph="cert-app-header" uid="{FC74B700-62F7-4D85-9E37-B3A8127DA253}" /><r id="{3355A201-0D0F-4371-84DC-D2B7445CF1A1}" ph="cert-app-main" uid="{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}" /><r ds="" id="{395A17CE-C81D-4648-94A9-513CC426E6F8}" par="IsFullView=1" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0" uid="{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}" /><r id="{B2C18667-4BF8-4142-92D6-6399F9F73E9C}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{94230724-9938-4322-9B2C-8BC911C144B5}" /><r id="{C782E971-13D6-4206-BD66-2851548AA96E}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{4B81FCDB-1115-40B8-AFFB-14723D8D6C23}" /><r id="{98F4AD71-2AFF-46C9-BD0B-2F4CAF7FF2E9}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{713677A9-2088-4ABD-8A69-33D8045EBC39}" /><r id="{BFA94A23-7E33-4714-9FDA-FB8CB54C306D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{66108CE0-E034-4877-9E7C-6706ADC60726}" /><r id="{BFA94A23-7E33-4714-9FDA-FB8CB54C306D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{CBF73768-C404-4059-87D4-416F392AC472}" /><r id="{BFA94A23-7E33-4714-9FDA-FB8CB54C306D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{BCDF1960-ACD7-4FD8-8C7B-EA35D72D4B4A}" /><r id="{BFA94A23-7E33-4714-9FDA-FB8CB54C306D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{BFCE6F7F-3A7E-4C16-8210-7D0FD452C0DA}" /><r id="{BFA94A23-7E33-4714-9FDA-FB8CB54C306D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{4A37011B-CAD3-443D-A801-EA4B19B5FF24}" /><r ds="" id="{99AE45CA-0ABE-46B7-8319-16CA99BE07BA}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{9FF0B1B5-E854-4133-ACBD-D4809D2E4023}" /><r ds="" id="{EE474F33-4373-4264-8C8B-D9A1428C873A}" par="" ph="cert-app-footer" uid="{01D244DF-0914-4B2C-8DC1-A946CA5BD935}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 19a308c5-d288-433d-b670-7e0ee10363fc
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200307T143508Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+19a308c5-d288-433d-b670-7e0ee10363fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210907T221727Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

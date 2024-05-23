@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {48AC63D9-77B1-5E1D-B2B6-1820DD243F51}
+database: master
+path: /sitecore/layout/Layouts/Pmi-Anc-Certification/Project/Certification/MainLayout
+parent: {EA6CE5F2-3AB6-4A14-A848-19A8A6A468FF}
+name: MainLayout
+master: {00000000-0000-0000-0000-000000000000}
+template: {35C61E90-47DD-43DD-83A8-D1C4D5119720}
+templatekey: JSS Layout
+created: 20191003T151829Z
+
+----field----
+field: {A036B2BC-BA04-44F6-A75F-BAE6CD242ABF}
+name: Path
+key: path
+content-length: 20
+
+/Views/JssApp.cshtml
+----field----
+field: {80334869-86DC-4472-AA89-44CF1B2F6C9B}
+name: Placeholders
+key: placeholders
+content-length: 194
+
+{94696EA4-0F25-479A-9D77-27D743C20D46}|{06D48593-B4D5-4515-9498-D0EDE83261A7}|{E34456FF-EF74-4FE8-946A-0722A57791BB}|{40A580AC-9EC4-4C56-8582-AFE92F148BA8}|{606B54A9-6F1C-4E74-B700-B910DBC4946A}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+Office/32x32/layout.png
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: f16da11e-3aab-4ff7-8bd4-350a63de7830
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Main Layout
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191003T151829Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f16da11e-3aab-4ff7-8bd4-350a63de7830
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200401T114757Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

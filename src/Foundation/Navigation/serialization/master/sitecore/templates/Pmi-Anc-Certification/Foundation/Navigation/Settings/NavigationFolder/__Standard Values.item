@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {82E6DE1E-16CC-4974-8889-31D36CD020B0}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Foundation/Navigation/Settings/NavigationFolder/__Standard Values
+parent: {05820EE9-B7B4-440A-B5B3-8A6808991A84}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {05820EE9-B7B4-440A-B5B3-8A6808991A84}
+templatekey: NavigationFolder
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 116
+
+{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}|{BEC8937A-FF6C-450D-BA0E-B4328C640EFB}|{0AF708EB-5AF0-49B4-8AC7-EFB515C114F2}
+----version----
+language: en
+version: 1
+revision: a3497d00-085a-4219-bb34-6cc19051a480
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200317T121416Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3497d00-085a-4219-bb34-6cc19051a480
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221016T041052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

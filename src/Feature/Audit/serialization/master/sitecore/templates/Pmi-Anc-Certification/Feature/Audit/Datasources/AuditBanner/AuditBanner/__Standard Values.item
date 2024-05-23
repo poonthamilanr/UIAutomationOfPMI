@@ -1,0 +1,136 @@
+----item----
+version: 1
+id: {90AF6CE7-4A2A-470E-87A7-C2A4C6C710A9}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Audit/Datasources/AuditBanner/AuditBanner/__Standard Values
+parent: {E81CD0E4-6C52-4840-AF69-0C98E6DD0F09}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E81CD0E4-6C52-4840-AF69-0C98E6DD0F09}
+templatekey: AuditBanner
+created: 20210712T124453Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 32
+
+Office/32x32/document_header.png
+----version----
+language: en
+version: 1
+revision: bb927a6f-91e4-463b-b09b-8e3a4c168b80
+
+----field----
+field: {C8CF6F06-ADC3-42CD-8FD0-5325CB0ED1D9}
+name: Heading
+key: heading
+content-length: 21
+
+Application Audit for
+----field----
+field: {69B50DD9-B64C-48C6-94AC-FBC7223DCF84}
+name: ApplicationSubmittedLabel
+key: applicationsubmittedlabel
+content-length: 22
+
+Application Submitted:
+----field----
+field: {386989CA-8E76-4BBC-AD6E-8D1B973EFD94}
+name: LastDayLabel
+key: lastdaylabel
+content-length: 21
+
+Last day to complete:
+----field----
+field: {AE3C989B-920E-4090-A948-7DFABAB69684}
+name: DocumentsProvidedLabel
+key: documentsprovidedlabel
+content-length: 18
+
+Documents Provided
+----field----
+field: {4C2BC8D8-9D35-4EBA-96FA-06FCC6643841}
+name: ReferencesCompletedLabel
+key: referencescompletedlabel
+content-length: 19
+
+References Complete
+----field----
+field: {88B20259-EE05-4998-ADD7-2794C64AC4A2}
+name: DaysProgressLabel
+key: daysprogresslabel
+content-length: 22
+
+to Complete your audit
+----field----
+field: {29472646-AB88-4211-A324-18EB22B9D5D0}
+name: BackPmi
+key: backpmi
+content-length: 105
+
+<link text="&lt; Back to myPMI" linktype="external" url="https://my.{CURRENTENV}/" anchor="" target="" />
+----field----
+field: {C93B2F83-7530-4254-9D4E-17F5223E6DC2}
+name: ApplicationLabel
+key: applicationlabel
+content-length: 11
+
+Application
+----field----
+field: {2A50F1DB-1644-4CE2-9427-9812273E0F48}
+name: ViewApplicationLabel
+key: viewapplicationlabel
+content-length: 16
+
+View Application
+----field----
+field: {71F135FF-4FE3-4757-94CD-F4AB2FCF9128}
+name: DocumentsProvidedIcon
+key: documentsprovidedicon
+content-length: 58
+
+<image mediaid="{8D8F7669-7906-4D91-8BF9-E4854265CC9C}" />
+----field----
+field: {F441E286-ED67-4DEB-A2EC-22496381E477}
+name: ReferencesCompletedIcon
+key: referencescompletedicon
+content-length: 58
+
+<image mediaid="{F6F7CEF1-82AE-4768-8585-4302C534E5C7}" />
+----field----
+field: {4B4E2CC9-D71B-4B11-BCE3-003BB4C375EF}
+name: DaysProgressIcon
+key: daysprogressicon
+content-length: 58
+
+<image mediaid="{0DB14FF3-5D3E-4F73-B5C6-CA0A631472D7}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200421T184138Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bb927a6f-91e4-463b-b09b-8e3a4c168b80
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210915T203546Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

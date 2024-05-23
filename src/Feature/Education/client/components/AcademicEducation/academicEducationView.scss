@@ -1,0 +1,75 @@
+@import "assets/styles/mixins";
+
+.academic-education {
+  border: $border-gray;
+
+  &__view {
+    background-color: $color-gray-150;
+    display: block;
+    // padding: 20px 25px;
+  }
+  
+  &__header {
+    padding: 9px 25px 12px;  
+
+    @include flex-position($x: flex-start, $y: space-between);
+    
+    @include media-breakpoint-down(sm) {            
+      padding-left: $padding-mobile;
+      padding-right: $padding-mobile;
+    }
+
+    .error {
+      color: $color-red-500-base;
+    }
+  }
+
+  &__body {
+    display: flex;
+    border-top: $border-gray;
+    padding: 15px 25px 30px;    
+    
+    @include media-breakpoint-down(sm) {            
+      padding: 15px $padding-mobile 0;
+    }
+  }
+
+  &__buttons {
+    padding: 15px 25px 25px;
+    
+    @include flex-position($x: flex-end);
+
+    > .btn + .btn {
+      margin-left: 15px;
+    }
+  }
+  
+  &__properies-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    @include media-breakpoint-up(md) {
+      &:first-child {
+        padding-right: 20px;    
+      }
+    }
+  }
+
+  &-property {
+    margin-bottom: 15px;
+
+    &__label {
+      display: block;
+      margin-bottom: 0;
+      color: $color-gray-500;
+    }
+
+    &__value {
+      line-height: 22px;
+    }
+  }
+
+  button.btn.btn-link {
+    min-width: auto;
+  }
+}

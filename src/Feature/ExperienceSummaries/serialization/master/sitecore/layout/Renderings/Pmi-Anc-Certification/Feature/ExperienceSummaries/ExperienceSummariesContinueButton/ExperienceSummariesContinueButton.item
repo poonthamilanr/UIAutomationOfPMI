@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {8FE09EEF-33A9-4DCD-A392-DE75BFCB385D}
+database: master
+path: /sitecore/layout/Renderings/Pmi-Anc-Certification/Feature/ExperienceSummaries/ExperienceSummariesContinueButton/ExperienceSummariesContinueButton
+parent: {F0E85FC4-6186-4CDA-A473-E225A005E13D}
+name: ExperienceSummariesContinueButton
+master: {00000000-0000-0000-0000-000000000000}
+template: {04646A89-996F-4EE7-878A-FFDBF1F0EF0D}
+templatekey: Json Rendering
+created: 20200304T144321Z
+
+----field----
+field: {037FE404-DD19-4BF7-8E30-4DADF68B27B0}
+name: componentName
+key: componentname
+content-length: 33
+
+ExperienceSummariesContinueButton
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 19
+
+query:.//Components
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 103
+
+/sitecore/templates/Pmi-Anc-Certification/Foundation/Workflow/Datasources/ContinueButton/ContinueButton
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+Office/32x32/arrow_right.png
+----version----
+language: en
+version: 1
+revision: f7522a67-17e3-4fa8-bfe8-ce4dec7a4d94
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 36
+
+Experience Summaries Continue Button
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200304T144321Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f7522a67-17e3-4fa8-bfe8-ce4dec7a4d94
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200311T140022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

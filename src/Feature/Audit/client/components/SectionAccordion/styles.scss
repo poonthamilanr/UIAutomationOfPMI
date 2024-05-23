@@ -1,0 +1,33 @@
+@import 'assets/styles/mixins';
+
+.auditSectionPanel {
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.auditSectionAccordionCard {
+  border: unset;
+}
+
+.auditSectionAccordionCard-header {
+  border-bottom: unset;
+  padding-left: unset;
+  padding-right: unset;
+  background-color: unset;
+}
+
+.auditSectionAccordionCard-body {
+  padding: 5px;
+}
+
+.auditSectionAccordionCard-header h2 {
+  background: url(../../../../../Project/Certification/client/assets/icons/chevron-up.svg) no-repeat calc(100% - 10px)
+    center;
+  background-size: 20px;
+  background-position: right top;
+  font-size: 18px;
+
+  &.collapsed {
+    background-image: url(../../../../../Project/Certification/client/assets/icons/chevron-down.svg);
+  }
+}

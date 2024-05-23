@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {4791CB66-CBB8-49B7-BFD7-47E73760E9B6}
+database: master
+path: /sitecore/layout/Renderings/Pmi-Anc-Certification/Project/Certification/TwoColumns-8-4
+parent: {7F90D89E-0D5F-4B02-8B1C-1065C3E63397}
+name: TwoColumns-8-4
+master: {00000000-0000-0000-0000-000000000000}
+template: {04646A89-996F-4EE7-878A-FFDBF1F0EF0D}
+templatekey: Json Rendering
+created: 20191114T105652Z
+
+----field----
+field: {037FE404-DD19-4BF7-8E30-4DADF68B27B0}
+name: componentName
+key: componentname
+content-length: 14
+
+TwoColumns-8-4
+----field----
+field: {069A8361-B1CD-437C-8C32-A3BE78941446}
+name: Placeholders
+key: placeholders
+content-length: 77
+
+{EEA674C3-16E0-4D4B-8E18-361AFE15FF9D}|{B2F38816-EE22-434C-BD68-C5AD1D900029}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+office/32x32/layout.png
+----version----
+language: en
+version: 1
+revision: 9613c133-ea66-400f-a3a6-43e8188af12d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Two Columns 8-4
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191114T105653Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9613c133-ea66-400f-a3a6-43e8188af12d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200128T134322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

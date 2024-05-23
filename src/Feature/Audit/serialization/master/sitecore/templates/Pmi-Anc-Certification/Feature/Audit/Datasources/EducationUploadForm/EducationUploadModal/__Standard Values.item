@@ -1,0 +1,114 @@
+----item----
+version: 1
+id: {ADB7E4DF-D7E0-492A-A448-71C6420BD828}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Audit/Datasources/EducationUploadForm/EducationUploadModal/__Standard Values
+parent: {BE46A781-8BF0-4FE0-A39F-A5018036E6BE}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {BE46A781-8BF0-4FE0-A39F-A5018036E6BE}
+templatekey: EducationUploadModal
+
+----version----
+language: en
+version: 1
+revision: a63aac37-a16a-49b3-b46b-5ab3d449963b
+
+----field----
+field: {019F28B9-B9E2-4CDA-863D-9E56CA79FC39}
+name: Header
+key: header
+content-length: 6
+
+Upload
+----field----
+field: {56B0B0C5-D518-4C09-B700-1F3AB2A94F02}
+name: Description
+key: description
+content-length: 23
+
+Drop your file here or 
+----field----
+field: {9F7D81F1-EA09-43EA-9138-4199DA4241F3}
+name: FileOpenContent
+key: fileopencontent
+content-length: 6
+
+browse
+----field----
+field: {DE5C4C62-83F2-4953-B3E5-9FDF1860094A}
+name: FileTypeAndSizeMessage
+key: filetypeandsizemessage
+content-length: 69
+
+Only JPEG, JPG, PNG, GIF, TIFF, and PDF files with a max size of 10MB
+----field----
+field: {3C225839-4C0F-4253-9360-30BDE104FFB1}
+name: FileTypeErrorMessage
+key: filetypeerrormessage
+content-length: 84
+
+Invalid file type.  Supported file types include JPEG, JPG, PNG, GIF, TIFF, and PDF.
+----field----
+field: {6905D020-667E-44D3-A509-984962AE6A0E}
+name: FileSizeErrorMessage
+key: filesizeerrormessage
+content-length: 22
+
+Max file size is 10MB.
+----field----
+field: {E2C467B8-78F7-4068-A832-D4257A2D0EA9}
+name: FileFormatPostContent
+key: fileformatpostcontent
+content-length: 10
+
+Transcript
+----field----
+field: {4EDD090E-A91D-411B-9497-746E1578CD2B}
+name: UploadingHeader
+key: uploadingheader
+content-length: 9
+
+Uploading
+----field----
+field: {F9394093-86AD-4CEE-BB5E-3B52D803DA64}
+name: FileDownloadLink
+key: filedownloadlink
+content-length: 13
+
+View Document
+----field----
+field: {1BCAC7E3-A461-4A31-A7FE-997C8FD4B114}
+name: ForbiddenErrorMessage
+key: forbiddenerrormessage
+content-length: 92
+
+The file you attempted to upload is potentially harmful.  Choose a different file to upload.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210826T031348Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a63aac37-a16a-49b3-b46b-5ab3d449963b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221122T014852Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

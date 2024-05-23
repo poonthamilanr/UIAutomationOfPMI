@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {7395F634-CFD7-4C3F-B7C8-D814FD4E3F72}
+database: master
+path: /sitecore/content/cert-app/home/audit-legacy
+parent: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+name: audit-legacy
+master: {00000000-0000-0000-0000-000000000000}
+template: {53DFD348-7531-4B98-967D-B25AF3F5693D}
+templatekey: LegacyAuditPage
+created: 20200308T110947Z
+
+----field----
+field: {06400B0D-C3F0-4C97-97BF-B483CFF13B4D}
+name: WorkflowPage
+key: workflowpage
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+750
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5907
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{B17B2251-89CB-4A1F-AE07-484049BC03A5}" s:ds="{873661F5-7165-44BE-86A5-E0F952CD192D}" s:par="" /><r uid="{A908A94D-51F6-4490-AC37-344A8EB4C2A6}" s:ds="{48AAE198-AC2F-4E86-BBE3-62D51A12F7C6}" s:par="" /><r uid="{63686646-30B3-4396-A990-851547032337}" s:ds="{BD977076-2945-4E05-8AB3-F44AE1BC1DA6}" s:par="" /><r uid="{1475E9F2-3060-45CD-9919-29C2720D6C15}" s:ds="{DA27D8B3-1651-4F6F-B060-BEFF0A76CF88}" s:par="" /><r uid="{6C8A7514-6698-454D-A11D-2B48F81DDD4C}" s:ds="{5E811846-4B7C-4529-86AA-2704C63BEEC5}" s:par="" /><r uid="{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}" s:ds="" s:par="" /><r uid="{372315B3-4EF8-48EE-BBBB-C31A4ADEC8C9}" s:ds="{26C60D6B-58E0-46C5-B075-83BC8DFBF397}" s:par="" /><r uid="{219B02DC-8408-473F-BAD8-E8CAFF084277}" s:ds="{E53EF088-BC3C-415C-9079-B4F9E9046521}" /><r uid="{E962D330-D28D-4A0B-BF21-5F55E57A46A7}" s:ds="{26D8DD07-31F6-443F-BBCC-77196C19475A}" s:par="" /><r uid="{44498C1D-3D41-4BAB-BD54-08DCE27B470C}" s:ds="{CF13FFD3-6394-4509-B69E-2201B9676110}" s:par="" /><r uid="{364C4EBF-3ABF-4BEC-A9D1-6598CF631071}" s:ds="{E600C03F-1AD8-4D1D-97F2-775A3118319E}" s:par=""><rls><ruleset><rule uid="{43F83E40-E05F-43CB-A7DD-876EF206F462}" s:name="PMI SP"><conditions><condition uid="4B672309B58443C1A9750DC9C8BF2E15" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMI_SP" /></conditions><actions><action uid="4DB9A1D5789D458DB4D9E99D8AB86F4E" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{D27F7734-DE25-4FEC-BE70-E2D622A2D1FB}" /></actions></rule><rule uid="{67454701-C329-415A-9D68-EBA0E8B36257}" s:name="PMI RMP"><conditions><condition uid="35118C8E0A2D481789B16A6AE8DB27A7" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMI_RMP" /></conditions><actions><action uid="888135620D42445087F47A2389F024BB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{D988CB5C-5420-4B8B-95C1-A84C91537D57}" /></actions></rule><rule uid="{E12BD2A9-F86D-4586-9DF9-E251812432F8}" s:name="PMI PBA"><conditions><condition uid="3A8D4D21F20E4CC89F3938146EFD475E" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMI_PBA" /></conditions><actions><action uid="38DDC2B55B8C4B968A0A98D6D2B87D79" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{695C48C5-7FEC-452B-85E2-942F43FB5DC5}" /></actions></rule><rule uid="{949B71CD-87B7-4F4B-95D9-3E624501F4BF}" s:name="PMI ACP"><conditions><condition uid="AC5B6AED55F44E61A5813FCCD1B4856D" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMI_ACP" /></conditions><actions><action uid="19E1D11322B74633A45B44A94BF9C2B6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B896599A-28D0-41FC-91BE-7B75B9D7A2E6}" /></actions></rule><rule uid="{51C0C2E5-327E-4242-AFD8-CAC99399979A}" s:name="PfMP"><conditions><condition uid="96FD109ACAF9486D8A11BB07E8A07135" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PfMP" /></conditions><actions><action uid="84AB759CC1444EDEA9150C381C992E9D" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{ED57633A-1EF3-4B19-8AD8-2EE06ECD45BC}" /></actions></rule><rule uid="{F65B7E83-A4AE-4BFD-BA77-35ABF5A13D2F}" s:name="PgMP"><conditions><condition uid="A664D22739334EE4B81DB4190556F0EC" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PgMP" /></conditions><actions><action uid="6939566EDE0D4317951CF0F4D57BD92D" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{29426062-EEC0-43E2-97C3-01420C41DCC9}" /></actions></rule><rule uid="{4605974F-42E8-46E8-9205-535883453ADF}" s:name="CAPM"><conditions><condition uid="4FD75E7AE5CF41F1B170A23633C6B2C4" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="CAPM" /></conditions><actions><action uid="5AF38897F5134F039995401C5D037860" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{4EE07E39-792B-4E8B-8DE6-AB1605E51E13}" /></actions></rule><rule uid="{AFB3A530-962F-40F4-B6A4-4AB976EC9491}" s:name="PMP"><conditions><condition uid="D1F6284FC89D4BD8A089FCD65F98C12C" s:id="{B3027F4E-1565-42F4-9C84-CE207B468D9E}" s:QueryStringName="certType" s:operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" s:QueryStringValue="PMP" /></conditions><actions><action uid="114548915CD449608BE9121A63EAE386" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{D26DEE39-95A2-427F-8B44-FA6E87043D04}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="E027A445511B4507939519C552825322" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{9EE88191-667C-4980-814B-C164D0DD9C4E}" s:ds="{7E278C21-E48F-4DEC-86B9-A79B01C7D44C}" /><r uid="{CE98E6BD-22B5-4486-B8FA-B9A151814A42}" s:ds="{47836532-F905-4C51-9FC4-8F92CD3E25E6}" /><r uid="{A26C6CF1-2E47-4CF7-9854-47F956F4B25F}" s:ds="{9241AAAE-DD15-437E-8665-41C0F5FF3A31}" /><r uid="{B2767190-5745-4240-99AC-8A656E1B5555}" s:ds="{719E4D63-1F4D-47B1-AB42-E6B563D79F4C}" /><r uid="{EC4A07B4-9BDC-48AF-87B8-69B94C2B3161}" s:ds="{914E3408-3CE4-44BC-96F7-04753442FDE0}" /><r uid="{439D04CC-1AC9-4F60-AD08-8B360E99C039}" s:ds="{B626B7E9-B330-4E53-897F-AFAF4935693D}" /><r uid="{B890F12A-F13C-4592-AFD3-50CBA23661BE}" s:ds="{7E278C21-E48F-4DEC-86B9-A79B01C7D44C}" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 5aa311b4-4b16-4c6c-826f-2f3203b236a4
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 5
+
+Audit
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Audit Legacy
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200308T110947Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5aa311b4-4b16-4c6c-826f-2f3203b236a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210930T133058Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+

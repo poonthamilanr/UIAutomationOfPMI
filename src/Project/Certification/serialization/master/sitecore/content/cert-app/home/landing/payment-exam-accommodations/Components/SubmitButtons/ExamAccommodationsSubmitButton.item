@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {3C821944-5D01-46CB-9FB3-24D939239449}
+database: master
+path: /sitecore/content/cert-app/home/landing/payment-exam-accommodations/Components/SubmitButtons/ExamAccommodationsSubmitButton
+parent: {13E045D8-9CFE-4765-A7AC-104506B0DAC1}
+name: ExamAccommodationsSubmitButton
+master: {00000000-0000-0000-0000-000000000000}
+template: {EC703FC9-2DC6-477B-9855-B20AFD3B3114}
+templatekey: SubmitButton
+created: 20200220T195638Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 997c0cba-e734-45b8-ab1e-83d1a7e9e6f0
+
+----field----
+field: {C728D950-5AE7-4940-8871-84160B180C1F}
+name: Action
+key: action
+content-length: 153
+
+<link text="Complete Exam Accommodations" linktype="external" url="https://www.{CURRENTENV}/certifications/process/accommodations" anchor="" target="" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Exam Accommodations Submit Button
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T042658Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+997c0cba-e734-45b8-ab1e-83d1a7e9e6f0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200406T134353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

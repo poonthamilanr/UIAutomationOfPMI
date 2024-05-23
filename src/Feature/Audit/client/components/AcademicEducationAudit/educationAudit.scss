@@ -1,0 +1,81 @@
+@import 'assets/styles/mixins';
+
+.educationPanel {
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.educationInfoBox {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.fontSmall {
+  font-size: small;
+}
+.fontBold {
+  font-weight: bold;
+}
+
+.educationInfohighlight {
+  color: #0080a8;
+  font-weight: bold;
+}
+
+.uploadBtn {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  font-size: medium !important;
+  cursor: pointer;
+}
+
+.uploadIcon {
+  width: 20px !important;
+  margin-right: 8px !important;
+  margin-bottom: 10px !important;
+}
+
+.view-doc-link,
+.view-doc-link:hover {
+  color: #4f17a8 !important;
+  font-weight: bolder !important;
+  cursor: pointer;
+  font-size: small !important;
+  text-align: left !important;
+  justify-content: left !important;
+}
+
+.uploadBtn:hover {
+  color: #4f17a8 !important;
+}
+.docDownloadPanel {
+  background-color: #f2edf8;
+}
+.docDownloadPanel,
+.docDownloadViewPanel {
+  border-radius: 5px;
+  font-size: small;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 10px;
+}
+.docDownloadViewPanel {
+  background-color: #f7f9fa;
+}
+
+.download_link,
+.download_link:hover,
+.download_link:active {
+  color: gray !important;
+  cursor: pointer;
+  font-size: small !important;
+  text-align: left !important;
+  justify-content: left !important;
+}
+
+.remove_document {
+  cursor: pointer;
+}

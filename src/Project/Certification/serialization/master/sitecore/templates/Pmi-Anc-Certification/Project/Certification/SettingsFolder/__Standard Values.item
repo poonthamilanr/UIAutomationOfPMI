@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {601D6D39-D5B4-4F75-BCC4-C3078C33B0C2}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/SettingsFolder/__Standard Values
+parent: {AE94FA5F-FFD6-4027-9F4A-D18D8E1F2D28}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AE94FA5F-FFD6-4027-9F4A-D18D8E1F2D28}
+templatekey: SettingsFolder
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 350
+
+{A8A954F3-1DF9-44C4-9411-1D4896FE38D6}|{1D870D98-3FF4-4322-968D-2AE5FA663517}|{87F8EA1B-390C-41E2-AE34-4106BE5482B1}|{4E98EB66-28B8-4924-B15D-EA153189BE51}|{0B2FB212-CDB2-4684-B421-7D2A03DC190D}|{943E9904-3E16-4BDC-B642-38672F6647AA}|{5964AE19-5DA4-40FB-845E-6DED6EE364F7}|{7BBC54D2-E5AF-4E95-9C90-E41BE0038864}|{9C42557B-02B6-4A9D-8452-F0ECE2270231}
+----version----
+language: en
+version: 1
+revision: f416ec5c-99f5-45a3-a8a8-4f4d28d74509
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191203T210640Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f416ec5c-99f5-45a3-a8a8-4f4d28d74509
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221016T041519Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

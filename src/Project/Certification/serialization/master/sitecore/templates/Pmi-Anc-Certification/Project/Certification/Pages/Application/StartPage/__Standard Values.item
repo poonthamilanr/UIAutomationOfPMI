@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {51917CA6-76C8-49C0-9776-3DCF7BB2DEAF}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/Pages/Application/StartPage/__Standard Values
+parent: {161014F9-D38B-4E13-ADD6-F883BD5597ED}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {161014F9-D38B-4E13-ADD6-F883BD5597ED}
+templatekey: StartPage
+created: 20191210T202355Z
+
+----field----
+field: {06400B0D-C3F0-4C97-97BF-B483CFF13B4D}
+name: WorkflowPage
+key: workflowpage
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 606
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{48AC63D9-77B1-5E1D-B2B6-1820DD243F51}"><p uid="{31B40F27-C140-4430-8F85-439F89A77AD8}" key="cert-app-header" md="{94696EA4-0F25-479A-9D77-27D743C20D46}" /><p uid="{E99993AA-8061-4598-B665-F9812EF2CDFE}" key="cert-app-main" md="{A41EA002-AA26-450C-86C8-0857D5D83EC0}" /><p uid="{ED67A80A-6A60-4C63-BCDE-D3B8FDEDBD6E}" key="cert-app-footer" md="{606B54A9-6F1C-4E74-B700-B910DBC4946A}" /><r id="{EE9E5A3A-169B-4D1C-8908-3599F1F786B4}" ph="cert-app-main" uid="{E67ECFD2-DC96-49BF-ADF3-1CCD5884C6ED}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 7f48bd8d-bcc6-4aad-a180-edbcbd5588a7
+
+----field----
+field: {C7E0CA25-FF2F-4A2D-AC8A-C81950179396}
+name: IsStartPage
+key: isstartpage
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191125T182834Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7f48bd8d-bcc6-4aad-a180-edbcbd5588a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210218T150731Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

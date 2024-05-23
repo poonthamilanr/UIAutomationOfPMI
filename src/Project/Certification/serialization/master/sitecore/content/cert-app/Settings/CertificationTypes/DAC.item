@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {B16BF51E-1BE2-45C9-8BAB-D47EAC70F609}
+database: master
+path: /sitecore/content/cert-app/Settings/CertificationTypes/DAC
+parent: {05A3C74A-15B3-40D5-94D3-00E24E29679B}
+name: DAC
+master: {00000000-0000-0000-0000-000000000000}
+template: {218671B4-87E8-4752-BF00-2E1562D855A5}
+templatekey: CertificationType
+created: 20211109T193512Z
+
+----version----
+language: en
+version: 1
+revision: 30e4062c-5315-44de-acfb-86c081a9016d
+
+----field----
+field: {30D9E927-5CC6-49E7-9821-B1389E08DBA8}
+name: ApiKey
+key: apikey
+content-length: 3
+
+DAC
+----field----
+field: {70D58246-8BE1-4C4D-A556-EB4F2CED9174}
+name: ShortTitle
+key: shorttitle
+content-length: 3
+
+DAC
+----field----
+field: {A8F3B437-B0A9-4702-B959-F52C97F70395}
+name: DisabledCountries
+key: disabledcountries
+content-length: 3
+
+CHN
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+Disciplined Agile Coach (DAC)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210317T195132Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+30e4062c-5315-44de-acfb-86c081a9016d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211118T154808Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

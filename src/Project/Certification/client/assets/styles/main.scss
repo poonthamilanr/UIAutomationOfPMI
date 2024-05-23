@@ -1,0 +1,60 @@
+@import "./placeholders";
+
+html, 
+body {
+  height: 100%;
+}
+
+body {
+  > div#root {
+    height: 100%;
+  }
+}
+
+.layout {
+  height: 100%;
+
+  &__main {
+    @include media-breakpoint-up(md) {
+      min-height: calc(100% - (#{$header-height-with-space} + #{$footer-height}));
+      padding-bottom: $space-between-rows * 2;
+    }
+
+    @include media-breakpoint-down(sm) {
+      min-height: calc(100% - (#{$header-height-mobile-with-space} + #{$footer-height}));
+      padding-bottom: $space-between-rows;
+    }
+  }
+
+  &__content {
+    > .row + .row:not(:last-child) {
+      margin-top: $space-between-rows;
+    }
+
+    &-exam-details {
+      > .row:not(:first-child) + .row:not(:last-child) {
+        margin-top: 20px;
+      }
+    }
+
+    &-experience-summaries {
+      > .row:nth-child(2) + .row {
+        margin-top: 0;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      >.row {
+        > .col-md-8 + .col-md-4:not(:empty) {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  @include media-breakpoint-down(sm) {
+    max-width: 100%;
+  }
+}

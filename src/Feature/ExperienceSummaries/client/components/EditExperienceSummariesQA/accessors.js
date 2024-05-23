@@ -1,0 +1,1 @@
+export const getOpenRefs = state => state.pages.experienceSummaries && state.pages.experienceSummaries.editExperienceSummariesQA.openRefs;

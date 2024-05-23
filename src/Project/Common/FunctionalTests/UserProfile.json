@@ -1,0 +1,47 @@
+﻿{
+  "UserName": "##UserName##",
+  "Address": {
+    "AddressTypeDesignatorId": 1,
+    "LocationType": {
+      "Id": 1,
+      "Name": "CertFName CertLName",
+      "Description": "CertTest"
+    },
+    "IsPreferred": true,
+    "Description": "CertTest",
+    "Attention": "",
+    "OrganizationName": "",
+    "Name": "CertMainFName CertMainLName",
+    "Address1": "14 Campus Blvd",
+    "Address2": "",
+    "Address3": "",
+    "City": "Newtown Square",
+    "State": "PA",
+    "PostalCode": "19073",
+    "Country": {
+      "CountryName": "United States",
+      "CountryNumber": 840,
+      "CountryCode3": "USA",
+      "CountryCode": "US",
+      "superRegion": {
+        "id": 0,
+        "regionName": "Northern America"
+      },
+      "subRegion": {
+        "id": 0,
+        "regionName": "Northern America"
+      }
+    },
+    "UserDescription": "CertTest",
+    "attention": "",
+    "CountryName": null,
+    "CountryNumber": null,
+    "CountryCode": null,
+    "Id": 0,
+    "Type": {
+      "Id": 1,
+      "Name": "",
+      "Description": ""
+    }
+  }
+}

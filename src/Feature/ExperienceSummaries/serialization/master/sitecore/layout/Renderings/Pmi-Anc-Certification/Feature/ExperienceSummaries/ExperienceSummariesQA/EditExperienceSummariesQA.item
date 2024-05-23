@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {02A69184-72A9-45F1-84E5-5A6A4041CB92}
+database: master
+path: /sitecore/layout/Renderings/Pmi-Anc-Certification/Feature/ExperienceSummaries/ExperienceSummariesQA/EditExperienceSummariesQA
+parent: {DF96E39A-315F-423E-BBD5-74F405FCF636}
+name: EditExperienceSummariesQA
+master: {00000000-0000-0000-0000-000000000000}
+template: {04646A89-996F-4EE7-878A-FFDBF1F0EF0D}
+templatekey: Json Rendering
+created: 20200324T155029Z
+
+----field----
+field: {037FE404-DD19-4BF7-8E30-4DADF68B27B0}
+name: componentName
+key: componentname
+content-length: 25
+
+EditExperienceSummariesQA
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 19
+
+query:.//Components
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 133
+
+/sitecore/templates/Pmi-Anc-Certification/Feature/ExperienceSummaries/Datasources/ExperienceSummariesQAForm/ExperienceSummariesQAForm
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 25
+
+Office/32x32/question.png
+----version----
+language: en
+version: 1
+revision: c1152207-ab41-440e-8887-aa4c3c3aeb1d
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+Edit Experience Summaries QA
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200303T144744Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1152207-ab41-440e-8887-aa4c3c3aeb1d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200324T155042Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

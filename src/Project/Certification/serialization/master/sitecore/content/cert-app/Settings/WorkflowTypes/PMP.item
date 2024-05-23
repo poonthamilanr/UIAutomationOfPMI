@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {CF884A30-54AC-4541-BBC0-1A3862667151}
+database: master
+path: /sitecore/content/cert-app/Settings/WorkflowTypes/PMP
+parent: {E8A18600-8B47-463D-A12E-D6A9D6C8141F}
+name: PMP
+master: {00000000-0000-0000-0000-000000000000}
+template: {01C344A2-6F7E-4A3E-B238-B39CD0815F1B}
+templatekey: WorkflowType
+created: 20200206T110120Z
+
+----version----
+language: en
+version: 1
+revision: 053c1136-d658-43ae-98d2-ff6810a3194f
+
+----field----
+field: {7700F430-7709-4B69-8211-8E49F5EDFC33}
+name: Steps
+key: steps
+content-length: 155
+
+{68CBCBAB-660F-4A65-8AAC-784CE599C8BB}|{CEE63B76-F6A7-44E1-BB7B-33B6D84A9A8C}|{EFFE9CF2-32E5-4A78-97DC-B3E3DB00FA9F}|{EA3FCC59-8639-4C3D-8549-5340A778F35B}
+----field----
+field: {30D9E927-5CC6-49E7-9821-B1389E08DBA8}
+name: ApiKey
+key: apikey
+content-length: 3
+
+PMP
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200206T110120Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+053c1136-d658-43ae-98d2-ff6810a3194f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200206T114639Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

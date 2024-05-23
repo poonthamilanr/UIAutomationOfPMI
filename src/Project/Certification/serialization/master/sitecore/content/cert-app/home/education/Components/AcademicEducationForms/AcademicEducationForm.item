@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {A9EE5BF4-732F-4E3D-B2C3-04FE397C00AB}
+database: master
+path: /sitecore/content/cert-app/home/education/Components/AcademicEducationForms/AcademicEducationForm
+parent: {0A90BC99-F8D1-4D52-B2D4-153D094ECE40}
+name: AcademicEducationForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {44D2002B-11DC-4509-8232-0F84E67CC0E3}
+templatekey: AcademicEducationForm
+created: 20200420T133032Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 89ce969a-830a-42bc-9e40-e77a8815ad7c
+
+----field----
+field: {7568B8CC-16E1-44C1-81FC-ACDFCD049C6F}
+name: DegreeProgramsUnavailable
+key: degreeprogramsunavailable
+content-length: 62
+
+Unavailable - No programs available during your years attended
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+Academic Education Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T133032Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89ce969a-830a-42bc-9e40-e77a8815ad7c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211214T201445Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

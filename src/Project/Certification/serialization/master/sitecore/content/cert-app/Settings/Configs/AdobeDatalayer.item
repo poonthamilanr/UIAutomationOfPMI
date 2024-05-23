@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {365A899F-1164-43A2-A4AD-320BD2FA0B04}
+database: master
+path: /sitecore/content/cert-app/Settings/Configs/AdobeDatalayer
+parent: {C68F83A2-4CA0-411D-B579-9B1CAF200346}
+name: AdobeDatalayer
+master: {00000000-0000-0000-0000-000000000000}
+template: {BE31BB5E-4987-4A00-8113-E6CC63810E21}
+templatekey: Config
+created: 20210802T094934Z
+
+----version----
+language: en
+version: 1
+revision: 186bc7f0-ee8b-401d-afbe-c183e829458a
+
+----field----
+field: {360B6664-B47F-44A3-87B5-DA3B8F469FBD}
+name: Value
+key: value
+content-length: 50
+
+http://localhost:3000/adobe-datalayer-framework.js
+----field----
+field: {328BEBC1-9429-472D-9288-69938394DBB4}
+name: Name
+key: name
+content-length: 14
+
+AdobeDatalayer
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Adobe Data Layer
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210802T094934Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+186bc7f0-ee8b-401d-afbe-c183e829458a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210802T095211Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

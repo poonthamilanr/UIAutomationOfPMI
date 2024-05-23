@@ -1,0 +1,150 @@
+----item----
+version: 1
+id: {029F43CB-8620-4C7A-BC9C-71E2295F9B7C}
+database: master
+path: /sitecore/media library/Pmi-Anc-Certification/error-icon
+parent: {361CE86E-5464-42CF-A409-25D7F885544F}
+name: error-icon
+master: {00000000-0000-0000-0000-000000000000}
+template: {C97BA923-8009-4858-BDD5-D8BE5FCCECF7}
+templatekey: Image
+created: 20200129T171529Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 135
+
+https://sc911.erpint.pmi.org/-/media/029f43cb86204c7abc9c71e2295f9b7c.ashx?h=16&la=en&thn=1&w=16&v=8b0d3d3a-a4fc-4de4-9250-0a95a034b114
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{67917E38-5506-42F5-9132-A3B23C9164EA}
+----version----
+language: en
+version: 1
+revision: aeafdb22-1625-4169-8613-d68aec8e239d
+
+----field----
+field: {DBBE7D99-1388-4357-BB34-AD71EDF18ED3}
+name: Blob
+key: blob
+content-length: 1662
+
+iVBORw0KGgoAAAANSUhEUgAAADIAAAAuCAYAAABqK0pRAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARUSURBVGhD1ZlPaFxVFMa/+95oBxpxrBNSqC4K
+LVQwf8ZWcFFoBQsFXQitECELBQWFgi4Eqy0EKSWCC3GtC3dxIbh1ZwtZFGoxoWCFFtxYcDJTHbVg
+TPLm+Z03J+NM3rx59713Jza/zZxzE9687557zz3njsGICHGi1EDrvIF5kV9SBsy3Af65PIEf7+u/
+OGUkQkTEb2gthjBndWiLpb/w6KmDuLqmvjM8/XTKPbTmBogQjo8xSmo7xXlEfsaJ8hj+uM0HP6FD
+27kf4KHDE7j+q/pOcB6RvWi9N0SEMOZj/ZLaznAakbs4Wn0YgUSjokMDCRFuAqXJcdz4SYcK4zQi
+FDGfJkJgJisZBJ+o6wRnEamjdshD+5a8pA6lwsg8P46VK+oWwllESmgvZBEhcBadRcWJkDqmjiek
+2xTMsQam59QphBMhHrzcM8uozEvKVjc3hYXUMXOWL/Ocujkwh3junFMnN4U2u5QiPMVvycvoUC5C
+oFVCePAxrLR0KDOFIsKikDNZTITA2ay0YebVzUXuiPyO6UoA3OYjqjrUhWn1I6avL9XtYwPmBc7e
+5+r2shbATE7ghzvqZyK3kCZqC3zlhAIweLKKm7+oE6OJGa6mgXxVxfKramci19JqYpK1VPiuujF8
+eJnOkx5mG6gdUzsTuYQY+FL0FU6ZgzAIc6XyzELqmJZ18Zq6A2kjHFMzRieaQznJQ/Jlta3JLMSH
++VTNRJiBYglgC5tlx1JnQVK7ulZkEsLC8DQ/Tna8kXKkiT/fUNsKayEyQ17O9dvLJrzEaPXCvTIv
+KV7dVKyFSB/OXP20ukMJ4e1XcwDtxP2zjf3svhIz43ashHSKOsNzww72JU4yGvfK+3U8O2RS/sNK
+iN58WD3QAuvlQsolbFhNYKqQzoyYd9S1glkrMeNIXaWmFUzlc/cwlbqkU4X42LDqw3vhRk07K6yR
+rpN7LjXJDBXSwNEjLAAzpUHBwNujZox2xklRTvOQHJr2hxaNLO6+4UfmU5bIlei1jhlDmrA8yWCZ
+BWVN7RiJQmQGGNbv1H1ACF+vYmVge5C4tKjQ2Q2HK0KYS0n9/cCIrKI2y1N8Ud2chN/z8X0/IbDY
+LPMLC/T30TM+GMfyx+p2iQkRxY+gdZN/KtDChl9wCbypTh+rmL7ocWbVzYz09+vwDx/AjaYORcSW
+1l603iomIvqyu2rG4Bcmdo42cOYrZQQX1O3SJ0SKNG7wQpcAOwEPyXNyRatuRJ+QALggitV9YJFD
+Uq5o1Y3oCukoNIUvynYKuaJt4plu4ugK8Vn/82MkffjoaHePiChryc0F66Pr0YgbroTw3y5hs+9H
+z3W2uZwwyViznZHicDu8MoHlryMhLEXkBN+JFnYEhHceR+UpfxVTL3HzfKijuxCz72+sNTwf3hkd
+2cWYMx4Prxn1di2iQYQsqb9r4UZf8tiWfkbb6Y/3OwwLU+9yZEknyMy1mPcC+f9g6507hyLwL/U1
+AIPJIG9MAAAAAElFTkSuQmCC
+----field----
+field: {8CF45D0E-ADD4-4772-911A-AC6FC50F9C7D}
+name: Alt
+key: alt
+content-length: 10
+
+Error Icon
+----field----
+field: {D8E619C3-2D16-47F4-AD3B-C68103DF86C2}
+name: Width
+key: width
+content-length: 2
+
+50
+----field----
+field: {611BA5DD-8D26-4C9B-A95D-900AC94CB32A}
+name: Height
+key: height
+content-length: 2
+
+46
+----field----
+field: {3EB149F8-DE14-4220-A8F4-9E723CFAE5D9}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {ABA5CE58-6D8F-43A4-B4FA-B181651347DD}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {5BE6C122-84C9-4661-A0C9-3718909C8DAD}
+name: Size
+key: size
+content-length: 4
+
+1215
+----field----
+field: {6405CC9E-9CA1-44A1-ADF8-0DECF05071CE}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+50 x 46
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Error Icon
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200129T171529Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aeafdb22-1625-4169-8613-d68aec8e239d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200129T171659Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{31D7EE81-D118-4179-A477-7ECCE603FCF6}

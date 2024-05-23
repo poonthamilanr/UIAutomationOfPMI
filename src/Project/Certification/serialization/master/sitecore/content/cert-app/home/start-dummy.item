@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {9E5C6B20-67DA-43E6-A9EF-09B3EA14691E}
+database: master
+path: /sitecore/content/cert-app/home/start-dummy
+parent: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+name: start-dummy
+master: {00000000-0000-0000-0000-000000000000}
+template: {161014F9-D38B-4E13-ADD6-F883BD5597ED}
+templatekey: StartPage
+created: 20200221T122112Z
+
+----field----
+field: {06400B0D-C3F0-4C97-97BF-B483CFF13B4D}
+name: WorkflowPage
+key: workflowpage
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 656
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{E67ECFD2-DC96-49BF-ADF3-1CCD5884C6ED}"><p:d /></r><r uid="{9A800CFC-C321-4010-8648-9A12D1CA2671}" p:after="p[@uid='{ED67A80A-6A60-4C63-BCDE-D3B8FDEDBD6E}']" s:id="{F88591BF-5065-4728-BBFD-F67B0304C333}" s:ph="cert-app-main" /><r uid="{9696BE08-2A5C-485D-A3B8-F3601B1B05B7}" p:after="r[@uid='{9A800CFC-C321-4010-8648-9A12D1CA2671}']" s:ds="" s:id="{EE474F33-4373-4264-8C8B-D9A1428C873A}" s:par="" s:ph="cert-app-footer" /><r uid="{913A2F51-D45C-425C-BED2-F4AAB0FF6FB3}" p:after="*[1=2]" s:id="{413FF868-11D8-4547-AA7C-80EAA24FE86A}" s:ph="cert-app-header" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: e5802f89-cb24-4e99-a687-73a8daca5080
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 11
+
+Start Dummy
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Start Dummy
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200221T122112Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e5802f89-cb24-4e99-a687-73a8daca5080
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210218T150731Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

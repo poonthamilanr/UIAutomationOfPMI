@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {3CB3478F-54EE-4A0C-9FC6-39BFD95F76C3}
+database: master
+path: /sitecore/layout/Renderings/Pmi-Anc-Certification/Feature/PageComponents/Redirect/Redirect
+parent: {4755DBEE-6C62-4208-B440-CEAAB70508F3}
+name: Redirect
+master: {00000000-0000-0000-0000-000000000000}
+template: {04646A89-996F-4EE7-878A-FFDBF1F0EF0D}
+templatekey: Json Rendering
+created: 20200424T175336Z
+
+----field----
+field: {037FE404-DD19-4BF7-8E30-4DADF68B27B0}
+name: componentName
+key: componentname
+content-length: 8
+
+Redirect
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 18
+
+query:./Components
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 94
+
+/sitecore/templates/Pmi-Anc-Certification/Feature/PageComponents/Datasources/Redirect/Redirect
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 0
+
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 31
+
+Office/32x32/arrow_up_right.png
+----version----
+language: en
+version: 1
+revision: 43f3caee-3f33-4943-ba11-85d290a8c78b
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200424T175336Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+43f3caee-3f33-4943-ba11-85d290a8c78b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200428T143805Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

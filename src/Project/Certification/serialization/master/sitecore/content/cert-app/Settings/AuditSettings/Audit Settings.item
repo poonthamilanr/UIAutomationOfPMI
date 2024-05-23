@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {921FEA7F-7F73-4FFB-A00C-6CE01224F344}
+database: master
+path: /sitecore/content/cert-app/Settings/AuditSettings/Audit Settings
+parent: {690AB14A-90F8-42BC-B397-2A54C5CDDAFD}
+name: Audit Settings
+master: {00000000-0000-0000-0000-000000000000}
+template: {701FB7D1-A721-4CE3-AD53-D5A4925A54F7}
+templatekey: AuditSettings
+created: 20210929T180107Z
+
+----version----
+language: en
+version: 1
+revision: 28458417-9069-4d60-a659-517ec1710de6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210929T180107Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+28458417-9069-4d60-a659-517ec1710de6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211001T130000Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

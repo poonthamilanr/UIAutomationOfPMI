@@ -1,0 +1,106 @@
+{
+  "extends": [
+    "eslint-config-react-app",
+    "airbnb",
+    "eslint:recommended",
+    "prettier",
+    "prettier/react",
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "import",
+    "react",
+    "prettier",
+    "react-hooks"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+  "import/resolver": {
+    "babel-module": {}
+  },
+    "import/ignore": [
+      "node_modules",
+      ".png$",
+      ".jpg$"
+    ]
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "class-methods-use-this": "off",
+    "dot-notation": "off",
+    "import/no-duplicates": "off",
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": "off",
+    "import/no-cycle": "off",
+    "func-names": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "linebreak-style": "off",
+    "max-len": "off",
+    "no-case-declarations": "off",
+    "no-console": "off",
+    "no-shadow": "off",
+    "no-use-before-define": 0,
+    "no-underscore-dangle": "off",
+    "no-plusplus": "off",
+    "prefer-destructuring": "off",
+    "react/jsx-filename-extension": 0,
+    "react/state-in-constructor": "off",   
+    "react/sort-comp": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-boolean-value": "off",
+    "react/static-property-placement": "off",
+    "react/forbid-prop-types": "off",
+    "react/prop-types": 0,
+    "react/no-danger": "off",
+    "react/require-default-props": "off",
+    "react/no-array-index-key": "off",
+    "react/no-access-state-in-setstate": "off",
+    
+    // Errors rules
+    "comma-dangle": "error",
+    "indent": ["error", 2],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true
+      }
+    ],
+    "no-trailing-spaces": "error",
+    "no-unused-expressions": "error",
+    "spaced-comment": "error",
+    "react/jsx-curly-newline": ["error", {
+      "multiline": "forbid",
+      "singleline": "forbid",
+    }],
+    "react/jsx-curly-spacing": ["error", {
+      "attributes": {"when": "never"},
+      "children": {"when": "never"},
+      "allowMultiline": true,
+    }],
+  
+    // Warnings rules
+    "react/no-children-prop": "warn",
+    "react/no-did-update-set-state": "warn",
+  }
+}

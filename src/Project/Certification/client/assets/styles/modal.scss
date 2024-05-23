@@ -1,0 +1,62 @@
+@import "./variables";
+
+.dsm.modal-dialog {
+    .modal-header {
+        border: none;
+        padding-bottom: 20px;
+
+        .close {
+            margin-top: -35px;
+
+            span {
+                font-size: 44px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .modal-body {
+        > * {
+            color: $color-gray-800;
+        }
+
+        a {
+            color: $color-violet-500-base;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .modal {
+            &-content {
+                height: 100%;
+            }
+
+            &-body {
+                max-height: calc(100% - 70px - 112px);
+                overflow-y: auto;
+            }
+
+            &-footer {
+                > .btn:first-child:last-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        .modal {
+            &-footer {
+                justify-content: space-between;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        @at-root .modal & {
+            height: 100%;
+            max-width: 100%;
+            margin: 0; 
+        }
+    }
+}

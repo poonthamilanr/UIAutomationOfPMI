@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {AC6781F7-98A3-4241-8440-BE7F11B14973}
+database: master
+path: /sitecore/content/cert-app/Settings/Navigation/HeaderNavigationMenu/myPMI/Membership
+parent: {327C597F-87D5-4FBA-AFD0-24FE68C3ADCF}
+name: Membership
+master: {00000000-0000-0000-0000-000000000000}
+template: {0AF708EB-5AF0-49B4-8AC7-EFB515C114F2}
+templatekey: NavigationMenuItem
+created: 20211111T170523Z
+
+----version----
+language: en
+version: 1
+revision: de36aedb-4a62-4cbd-918e-453e637f2c25
+
+----field----
+field: {21A24567-BB90-4EA4-995F-C1C3B12FD059}
+name: Link
+key: link
+content-length: 69
+
+<link linktype="external" url="https://my.{CURRENTENV}/membership" />
+----field----
+field: {E68F3326-F7D2-4585-836C-2AA1E696291F}
+name: IconName
+key: iconname
+content-length: 10
+
+Membership
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211111T170523Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+de36aedb-4a62-4cbd-918e-453e637f2c25
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211111T170537Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

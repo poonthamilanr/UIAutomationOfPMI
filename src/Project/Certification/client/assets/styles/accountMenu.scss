@@ -1,0 +1,140 @@
+@import "./placeholders";
+
+.pmi-my-account {
+  position: relative;
+
+  &__button {
+    @include flex-position($y: center);
+
+    > * + * {
+      margin-left: 6px;
+    }
+
+    &:hover, &:focus {
+      outline: none !important;
+      text-decoration: none;
+
+      .pmi-my-account__label {
+        color: $color-violet-500-base;
+      }
+    }
+
+    &:after {
+      content: none;
+    }
+  }
+
+  &__photo {
+    border: $border-gray-lighter;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+
+    @include size(34px);
+    
+    > img {
+      max-width: 100%;
+    }
+
+    @at-root .dsm & > img {
+      vertical-align: top;
+    }
+  }
+
+  &__label {
+    color: #212121;
+    font: {
+      family: $font-agrandir;
+      size: 14px;
+      weight: 600;
+    }
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+
+  &__arrow {
+    path {
+      fill: rgba(0,0,0,.5);
+    }
+  }
+}
+
+// Dropdown account menu styles
+
+.account-menu {
+  border: 0 none;
+  min-width: 240px;
+  padding: 0;
+    
+  &__item {
+    padding: 11px 15px;
+
+    @include flex-position($y: center);
+
+    &:hover, &:focus {
+      background-color: #f5f5f5;
+    }
+
+    @at-root .dsm & {
+      &:hover, &:focus {
+        text-decoration: none;
+      }
+    }
+
+    &-icon {
+      display: block;
+      margin-right: 10px;
+      text-align: center;
+      width: 20px;
+    
+      svg {
+        display: block;
+
+        path {
+          fill: $color-violet-500-base;
+        }
+      }
+    }
+
+    &-label {
+      color: $color-gray-600;
+    }
+  }
+
+  // Responsive styles
+
+  @include media-breakpoint-up(md) { // more then 768px
+    box-shadow: 0 3px 13px 0 rgba(0,0,0,.3);
+    margin-top: 12px;
+    margin-right: -25px !important;
+
+    &:before {
+      border: {
+        bottom: 10px solid #fff;
+        left: 8px solid transparent;
+        right: 8px solid transparent;
+        top: 10px solid transparent;
+      }
+      content: "";
+      display: block;
+      font-size: 0;
+      line-height: 0;
+
+      @include position-absolute($top: -20px, $right: 25px);
+    }
+  }
+
+  @include media-breakpoint-down(sm) { //less then 767px
+    position: fixed !important;
+    top: 55px !important;
+    transform: none !important;
+
+    @include size(100%, calc(100% - 55px));
+
+    &__item {
+      border-bottom: $border-gray-lighter;
+    }
+  }
+}

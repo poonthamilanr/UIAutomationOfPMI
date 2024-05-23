@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {571B3CF8-4684-43DC-B02F-98F3C16A6103}
+database: master
+path: /sitecore/content/cert-app/Data/Lists/Methodologies
+parent: {A6CBAF76-8F91-4623-8381-3B4932A64DA9}
+name: Methodologies
+master: {00000000-0000-0000-0000-000000000000}
+template: {A4C59A2C-B5E2-44EA-BABB-183A1C45A4EE}
+templatekey: MethodologyFolder
+created: 20200117T142337Z
+
+----version----
+language: en
+version: 1
+revision: 96a3b702-9409-4fce-9cbf-bf05ac942b61
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T142337Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+96a3b702-9409-4fce-9cbf-bf05ac942b61
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200210T115127Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

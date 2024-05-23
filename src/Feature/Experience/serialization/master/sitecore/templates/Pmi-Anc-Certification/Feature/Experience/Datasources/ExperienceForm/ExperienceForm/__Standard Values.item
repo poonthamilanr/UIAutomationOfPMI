@@ -1,0 +1,367 @@
+----item----
+version: 1
+id: {311B3911-D14E-4B6C-A348-39598348411D}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Experience/Datasources/ExperienceForm/ExperienceForm/__Standard Values
+parent: {BC743FE5-B39C-4035-A231-5C2A6261BC9C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {BC743FE5-B39C-4035-A231-5C2A6261BC9C}
+templatekey: ExperienceForm
+created: 20200117T141126Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{6AA4F865-B76C-4C05-942F-2A8DEE48B395}|{BC743FE5-B39C-4035-A231-5C2A6261BC9C}
+----version----
+language: en
+version: 1
+revision: 75ce639d-74a9-4326-a048-58f9960bfb95
+
+----field----
+field: {F90510D8-9491-45A8-8772-4106AA1045CF}
+name: EditModeOrganization
+key: editmodeorganization
+content-length: 12
+
+Organization
+----field----
+field: {9A68BC15-C697-492C-A22E-28D45151C950}
+name: EditModeJobTitle
+key: editmodejobtitle
+content-length: 9
+
+Job Title
+----field----
+field: {CD78B5A1-066D-4ED3-9DFC-FAF2F38D4420}
+name: EditModeFunctionalReportingArea
+key: editmodefunctionalreportingarea
+content-length: 25
+
+Functional Reporting Area
+----field----
+field: {60C5765E-4766-4F30-A0BB-1BB728654E5A}
+name: EditModeOrganizationPrimaryFocus
+key: editmodeorganizationprimaryfocus
+content-length: 26
+
+Organization Primary Focus
+----field----
+field: {B31544D4-5A96-4CF8-820D-FAB708DDA21F}
+name: EditModeApproach
+key: editmodeapproach
+content-length: 20
+
+Approach/Methodology
+----field----
+field: {6AE73801-DD56-4EF2-8BD1-36A01F12BE5E}
+name: EditModeTeamSize
+key: editmodeteamsize
+content-length: 17
+
+Project Team Size
+----field----
+field: {DE1A4F6D-A1A1-4510-AED3-23CEB7A3F010}
+name: EditModeDates
+key: editmodedates
+content-length: 13
+
+Project Dates
+----field----
+field: {9323929F-D9B7-41D7-B5FA-2EFDEFDB6EA6}
+name: EditModeNumberOfDirectReports
+key: editmodenumberofdirectreports
+content-length: 24
+
+Number of Direct Reports
+----field----
+field: {72AA369B-E086-42D7-9B1C-C47341615E5E}
+name: EditModeDirectPMReports
+key: editmodedirectpmreports
+content-length: 28
+
+Direct Reports that are PM's
+----field----
+field: {23889EFF-52B2-43AE-8EEB-9BB94F652140}
+name: EditModePortfolioCount
+key: editmodeportfoliocount
+content-length: 40
+
+Number of projects/programs in portfolio
+----field----
+field: {CF18A677-EA82-49AD-8809-8636EBA6AD95}
+name: EditModeProject
+key: editmodeproject
+content-length: 7
+
+Project
+----field----
+field: {6E1900A4-19B6-4EF8-B2D9-D6516694A1F7}
+name: ViewModeOrganization
+key: viewmodeorganization
+content-length: 12
+
+Organization
+----field----
+field: {B99D1125-B978-4490-AA09-F37027B0FEAB}
+name: ViewModeJobTitle
+key: viewmodejobtitle
+content-length: 9
+
+Job Title
+----field----
+field: {03A1040C-FD12-42D0-A604-ACE38B4F6D8F}
+name: ViewModeFunctionalReportingArea
+key: viewmodefunctionalreportingarea
+content-length: 25
+
+Functional Reporting Area
+----field----
+field: {B45CD36C-C1C3-4383-B28A-6B08A1BF80AA}
+name: ViewModeOrganizationPrimaryFocus
+key: viewmodeorganizationprimaryfocus
+content-length: 26
+
+Organization Primary Focus
+----field----
+field: {B30CFF5A-A9E9-453F-97EA-AD27DDBE9242}
+name: ViewModeApproach
+key: viewmodeapproach
+content-length: 20
+
+Approach/Methodology
+----field----
+field: {95F123F5-67D2-4C9A-89A4-A8906220EB3E}
+name: ViewModeTeamSize
+key: viewmodeteamsize
+content-length: 18
+
+Project Team Sizes
+----field----
+field: {70E5C467-ACF5-4235-9C62-29711ACAD4BB}
+name: ViewModeSpentTime
+key: viewmodespenttime
+content-length: 29
+
+Time Spent on Project to Date
+----field----
+field: {27B6D623-AE76-4CF3-978B-D81DB043944F}
+name: ViewModeNumberOfDirectReports
+key: viewmodenumberofdirectreports
+content-length: 24
+
+Number of Direct Reports
+----field----
+field: {D5254224-213C-4471-857B-0D24479B542B}
+name: ViewModeDirectPMReports
+key: viewmodedirectpmreports
+content-length: 30
+
+Number of PMs reporting to you
+----field----
+field: {3B684EBC-A1CC-4CA0-838B-4DE44528EAF3}
+name: ViewModePortfolioCount
+key: viewmodeportfoliocount
+content-length: 40
+
+Number of projects/programs in portfolio
+----field----
+field: {E5EA8E52-F328-4E81-8F0E-1E179A107026}
+name: ViewModeRequirementsNotMet
+key: viewmoderequirementsnotmet
+content-length: 20
+
+Requirements Not Met
+----field----
+field: {6D6693BE-8B1C-495A-8710-8ABB613EDF9A}
+name: ViewModeProject
+key: viewmodeproject
+content-length: 7
+
+Project
+----field----
+field: {EB95F9B0-21E0-4D37-B5FB-49017AE035B4}
+name: EditLabel
+key: editlabel
+content-length: 15
+
+Edit Experience
+----field----
+field: {3E5D8B0A-6FAF-4ED6-91EA-82E0AC776010}
+name: TitleIsRequired
+key: titleisrequired
+content-length: 17
+
+Title is required
+----field----
+field: {98561C03-A668-42B9-9869-EFB51BE3A06A}
+name: OrganizationIsRequired
+key: organizationisrequired
+content-length: 24
+
+Organization is required
+----field----
+field: {A6FD5524-1FC8-4E66-8AC1-6133F02BEC57}
+name: JobTitleIsRequired
+key: jobtitleisrequired
+content-length: 21
+
+Job title is required
+----field----
+field: {26F95591-A3DB-47D8-9DEF-4512D0ED7D10}
+name: FunctionalReportingAreaIsRequired
+key: functionalreportingareaisrequired
+content-length: 37
+
+Functional reporting area is required
+----field----
+field: {18D0EF75-FAC5-47D8-85BB-C967CEA770AB}
+name: OrganizationPrimaryFocusIsRequired
+key: organizationprimaryfocusisrequired
+content-length: 38
+
+Organization primary focus is required
+----field----
+field: {92EDDB52-4E66-43F4-AB4F-38065131186D}
+name: ApproachIsRequired
+key: approachisrequired
+content-length: 20
+
+Approach is required
+----field----
+field: {D938E4F2-86D1-4E27-970C-EFF70F004CFC}
+name: TeamSizeIsRequired
+key: teamsizeisrequired
+content-length: 21
+
+Team size is required
+----field----
+field: {7E3B442C-DDA9-4521-AFE1-391D9EDCBA80}
+name: BudgetIsRequired
+key: budgetisrequired
+content-length: 18
+
+Budget is required
+----field----
+field: {29C6B9D8-81CE-47A0-9DEF-663607BDDCF3}
+name: StartDateIsRequired
+key: startdateisrequired
+content-length: 22
+
+Start date is required
+----field----
+field: {821B902E-EF6A-4963-A16B-C24B7B81E1CA}
+name: EndDateIsRequired
+key: enddateisrequired
+content-length: 20
+
+End date is required
+----field----
+field: {BE116E3A-161B-40AD-B486-84D938381023}
+name: EndDateMustBeLaterThanTheStartDate
+key: enddatemustbelaterthanthestartdate
+content-length: 42
+
+End date must be later than the start date
+----field----
+field: {91E54E0C-EA9F-4A16-8BD3-741A17524A7D}
+name: DescriptionIsRequired
+key: descriptionisrequired
+content-length: 23
+
+Description is required
+----field----
+field: {66121E7E-5BBB-4857-8FAF-1166D9EC22E9}
+name: DescriptionMinimumWordCountNotReached
+key: descriptionminimumwordcountnotreached
+content-length: 38
+
+Description must be at least 100 words
+----field----
+field: {D7424DB8-EA6C-41C2-AE77-9CA3DA4EB7A2}
+name: NumberOfDirectReportsIsRequired
+key: numberofdirectreportsisrequired
+content-length: 36
+
+Number of Direct Reports is required
+----field----
+field: {DB0AB9AC-A64A-4F7E-8536-9CFDC751CDA5}
+name: NumberOfDirectReportsPositiveNumber
+key: numberofdirectreportspositivenumber
+content-length: 50
+
+Number of Direct Reports must be a positive number
+----field----
+field: {C6E4706A-0A84-4A72-8522-0FF4EA5B593E}
+name: DirectPMReportsIsRequired
+key: directpmreportsisrequired
+content-length: 42
+
+Number of PMs reporting to you is required
+----field----
+field: {EA3423EF-C54E-4C0B-BA88-E72516D8465B}
+name: DirectPMReportsPositiveNumber
+key: directpmreportspositivenumber
+content-length: 56
+
+Number of PMs reporting to you must be a positive number
+----field----
+field: {05C89427-1A42-478E-B22D-97FBF0FD31BE}
+name: PortfolioCountIsRequired
+key: portfoliocountisrequired
+content-length: 52
+
+Number of projects/programs in portfolio is required
+----field----
+field: {715DF06E-E05A-4E5F-9BD8-F1064FBDC12E}
+name: PortfolioCountPositiveNumber
+key: portfoliocountpositivenumber
+content-length: 53
+
+Number of projects/programs must be a positive number
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T141126Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+75ce639d-74a9-4326-a048-58f9960bfb95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200428T105141Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

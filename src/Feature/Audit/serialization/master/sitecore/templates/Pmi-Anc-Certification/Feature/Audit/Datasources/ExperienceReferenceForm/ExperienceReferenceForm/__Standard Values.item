@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {35F56DF5-EDA6-47D6-9BC1-43C3A6841E7F}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Audit/Datasources/ExperienceReferenceForm/ExperienceReferenceForm/__Standard Values
+parent: {3541F25C-DF10-4365-A4BA-9D879903170D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3541F25C-DF10-4365-A4BA-9D879903170D}
+templatekey: ExperienceReferenceForm
+created: 20210826T172340Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+Network/32x32/inbox_into.png
+----version----
+language: en
+version: 1
+revision: d5fd32ca-6bf5-452f-ac05-4cd64b25f42c
+
+----field----
+field: {F773B0BC-E23B-4B03-BB0F-2779B27322FF}
+name: Heading
+key: heading
+content-length: 0
+
+
+----field----
+field: {6C0CF86F-87F3-4295-9C79-A4D35976A9A8}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200421T184138Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5fd32ca-6bf5-452f-ac05-4cd64b25f42c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210826T172341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

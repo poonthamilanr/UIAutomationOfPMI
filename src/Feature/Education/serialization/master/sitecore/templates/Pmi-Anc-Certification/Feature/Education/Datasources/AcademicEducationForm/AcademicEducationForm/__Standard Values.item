@@ -1,0 +1,220 @@
+----item----
+version: 1
+id: {8D7D894F-6CDE-412F-85D0-59A26AA4559A}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Education/Datasources/AcademicEducationForm/AcademicEducationForm/__Standard Values
+parent: {44D2002B-11DC-4509-8232-0F84E67CC0E3}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {44D2002B-11DC-4509-8232-0F84E67CC0E3}
+templatekey: AcademicEducationForm
+created: 20200420T132105Z
+
+----version----
+language: en
+version: 1
+revision: 8c110924-bdd8-4155-9cad-03f95e272ce9
+
+----field----
+field: {8B7B446E-B3F4-4898-9DCD-F9899759E1AA}
+name: GacUniversityDescription
+key: gacuniversitydescription
+content-length: 422
+
+Select degree programs at {universityName} are accredited by the PMI Global Accreditation Center for Project Management Education Programs (GAC). &nbsp;Graduates of these degree programs applying for PMI certifications receive a reduction in the work experience credit requirement necessary to sit for these certifications. &nbsp;If you did not participate in any of the available degree programs, choose a field of study.
+----field----
+field: {333EBC4D-0487-4244-B8EB-F72F86A65947}
+name: EditModeHighestLevelOfEducation
+key: editmodehighestlevelofeducation
+content-length: 26
+
+Highest Level of Education
+----field----
+field: {D4795984-C581-47AF-9BAF-EE6D80791BA4}
+name: EditModeYearsAttended
+key: editmodeyearsattended
+content-length: 14
+
+Years Attended
+----field----
+field: {3DCCA7B5-9089-4C75-8E80-234F3EFB1092}
+name: EditModeCountryOfInstitution
+key: editmodecountryofinstitution
+content-length: 22
+
+Country of Institution
+----field----
+field: {19374E1C-34BB-4520-AC07-D7392A8F1C7E}
+name: EditModeNameOfInstitution
+key: editmodenameofinstitution
+content-length: 19
+
+Name of Institution
+----field----
+field: {83D3F688-4547-4980-A5A1-0717D451B134}
+name: EditModeNameOfSchool
+key: editmodenameofschool
+content-length: 14
+
+Name of School
+----field----
+field: {5FEB22FC-59C8-42E6-B15F-AC13E9728214}
+name: EditModeFieldOfStudy
+key: editmodefieldofstudy
+content-length: 14
+
+Field of Study
+----field----
+field: {9CC8065B-814A-4968-8BB8-666BEBB9BA9D}
+name: EditModeDegreeProgram
+key: editmodedegreeprogram
+content-length: 14
+
+Degree Program
+----field----
+field: {29CA52F4-2F83-4828-8CD7-ACC5B356332A}
+name: ViewModeHighestLevelOfEducation
+key: viewmodehighestlevelofeducation
+content-length: 26
+
+Highest Level of Education
+----field----
+field: {BEEC746E-3442-4B98-A0EA-846A85B2B438}
+name: ViewModeCountryOfInstitution
+key: viewmodecountryofinstitution
+content-length: 22
+
+Country of Institution
+----field----
+field: {232A076D-D6CD-4CDF-9955-C327E13A2903}
+name: ViewModeNameOfInstitution
+key: viewmodenameofinstitution
+content-length: 19
+
+Name of Institution
+----field----
+field: {2FAB0286-C20D-4AA2-8E32-DFD84DB505CD}
+name: ViewModeNameOfSchool
+key: viewmodenameofschool
+content-length: 14
+
+Name of School
+----field----
+field: {890C2041-5D8B-48E5-862A-21E242B4D72A}
+name: ViewModeDegreeProgram
+key: viewmodedegreeprogram
+content-length: 14
+
+Degree Program
+----field----
+field: {41CEFAD3-92FA-4281-BDA5-D6E6D70CE71C}
+name: ViewModeFieldOfStudy
+key: viewmodefieldofstudy
+content-length: 14
+
+Field of Study
+----field----
+field: {33D7DA3F-BE41-434E-A1F4-7EFEBEB220AD}
+name: ViewModeYearsAttended
+key: viewmodeyearsattended
+content-length: 14
+
+Years Attended
+----field----
+field: {4A1E28B0-56A7-4080-82D1-D30DA81D5C6D}
+name: DegreeEnumIsRequired
+key: degreeenumisrequired
+content-length: 25
+
+Highest level is required
+----field----
+field: {56CEF0DA-9D58-43AF-B30B-E5CAE457105D}
+name: YearStartedIsRequired
+key: yearstartedisrequired
+content-length: 24
+
+Year started is required
+----field----
+field: {38C67922-14C1-4168-8AC5-8F0D0A48778A}
+name: YearOfDegreeIsRequired
+key: yearofdegreeisrequired
+content-length: 26
+
+Year of degree Is required
+----field----
+field: {DDF640D7-7B3C-4A71-8AB5-C0EAD60FBB54}
+name: SchoolCountryCodeIsRequired
+key: schoolcountrycodeisrequired
+content-length: 34
+
+Country of Institution is required
+----field----
+field: {B21AF465-847A-4D4D-8778-A66ABB590E48}
+name: SchoolNameIsRequired
+key: schoolnameisrequired
+content-length: 31
+
+Name of Institution is required
+----field----
+field: {7C23832D-4401-41A1-AA34-0A8F5D0FFCEE}
+name: FieldOfStudyEnumIsRequired
+key: fieldofstudyenumisrequired
+content-length: 26
+
+Field of study Is required
+----field----
+field: {B417CAE9-FCF2-439C-8160-041A1D9974A8}
+name: DegreeProgramIsRequired
+key: degreeprogramisrequired
+content-length: 26
+
+Degree program is required
+----field----
+field: {7568B8CC-16E1-44C1-81FC-ACDFCD049C6F}
+name: DegreeProgramsUnavailable
+key: degreeprogramsunavailable
+content-length: 62
+
+Unavailable - No programs available during your years attended
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200420T132105Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c110924-bdd8-4155-9cad-03f95e272ce9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211215T152622Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

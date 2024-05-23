@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {9BC2563D-15CA-448B-AF5B-65BB870B8678}
+database: master
+path: /sitecore/content/cert-app/Data/Lists/TeamSizes
+parent: {A6CBAF76-8F91-4623-8381-3B4932A64DA9}
+name: TeamSizes
+master: {00000000-0000-0000-0000-000000000000}
+template: {3B2991FC-710F-4371-B3F8-D8870DE305F4}
+templatekey: TeamSizeFolder
+created: 20200117T151128Z
+
+----version----
+language: en
+version: 1
+revision: fee5371e-d171-48a2-a995-aca07bc1c96e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Team Sizes
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200117T151128Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fee5371e-d171-48a2-a995-aca07bc1c96e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200210T115218Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

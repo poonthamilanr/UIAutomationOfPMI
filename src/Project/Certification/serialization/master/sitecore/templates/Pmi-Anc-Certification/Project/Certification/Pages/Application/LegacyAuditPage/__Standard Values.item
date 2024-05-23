@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {93DC05A5-E79D-4C22-A69C-337C468FF307}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Project/Certification/Pages/Application/LegacyAuditPage/__Standard Values
+parent: {53DFD348-7531-4B98-967D-B25AF3F5693D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {53DFD348-7531-4B98-967D-B25AF3F5693D}
+templatekey: LegacyAuditPage
+created: 20200307T143508Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 6516
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{48AC63D9-77B1-5E1D-B2B6-1820DD243F51}"><p uid="{188C43F3-B828-4780-BF48-24533FFE9E44}" key="cert-app-audit-section-one" md="{008C49BF-B46D-434F-ADB2-964BFA641EB5}" /><p uid="{0E228B82-675C-479F-9A57-7AC27D55F130}" key="cert-app-audit-section-two" md="{7C519686-D3AB-4DE0-B444-BA044CF8A83D}" /><p uid="{D7168970-935D-4D3F-9E4C-F7FB7BCFF24A}" key="cert-app-col-one" md="{6A037479-FA89-4769-B523-F0F847C301AB}" /><p uid="{030C6F0E-4211-47A8-8337-BE359BE79843}" key="cert-app-col-three" md="{0D3D04A7-9D30-4BA8-9EFA-042F57DF8E29}" /><p uid="{B812622B-00AE-43C4-B4D0-342FFAB2414F}" key="cert-app-col-two" md="{6B3341AA-9157-43AA-B421-087EA9EE4B84}" /><p uid="{F5A16395-7EF1-4252-A6AE-6968315CA71C}" key="cert-app-experience-download-header" md="{ADA8E260-F12D-4100-9C2B-66B0552B8750}" /><p uid="{B8CEFDBF-8FF9-44BB-B321-A45CB5EF6BE7}" key="cert-app-information-component" md="{5185EF46-C4B7-41AC-AEF7-4FF8666C6F88}" /><p uid="{D6ED4003-B929-4DB3-9F8D-3D51233B14F1}" key="cert-app-header" md="{94696EA4-0F25-479A-9D77-27D743C20D46}" /><p uid="{C01C2E93-B12C-4E17-9B7F-D75922BD579C}" key="cert-app-education-header" md="{27261331-B59C-4180-A7A5-6D77573A8213}" /><p uid="{4CF9E9E1-D0A8-49A3-8CD5-670D9C8DCDB0}" key="cert-app-footer" md="{606B54A9-6F1C-4E74-B700-B910DBC4946A}" /><r id="{AF84D50C-E372-4A7F-AFD6-E209B7863CAC}" ph="cert-app-bottom" uid="{A60333E6-BEA6-4A49-BA9E-908E413BC095}" /><r id="{413FF868-11D8-4547-AA7C-80EAA24FE86A}" ph="cert-app-header" uid="{FC74B700-62F7-4D85-9E37-B3A8127DA253}" /><r id="{245F052C-284A-456B-80F0-4241E89D1B0D}" ph="cert-app-main" uid="{B17B2251-89CB-4A1F-AE07-484049BC03A5}" /><r id="{392E97E0-F24E-4AD3-BD69-FEF930EF38F1}" ph="cert-app-main" uid="{E85549A1-5696-43F8-8918-6F488E40A55F}" /><r id="{3355A201-0D0F-4371-84DC-D2B7445CF1A1}" ph="cert-app-main" uid="{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}" /><r id="{0EF6E1FC-EBA1-4F73-9045-898E9F08E5A9}" ph="/cert-app-main/cert-app-col-one-{E85549A1-5696-43F8-8918-6F488E40A55F}-0" uid="{A908A94D-51F6-4490-AC37-344A8EB4C2A6}" /><r id="{0EF6E1FC-EBA1-4F73-9045-898E9F08E5A9}" ph="/cert-app-main/cert-app-col-two-{E85549A1-5696-43F8-8918-6F488E40A55F}-0" uid="{63686646-30B3-4396-A990-851547032337}" /><r id="{0EF6E1FC-EBA1-4F73-9045-898E9F08E5A9}" ph="/cert-app-main/cert-app-col-three-{E85549A1-5696-43F8-8918-6F488E40A55F}-0" uid="{1475E9F2-3060-45CD-9919-29C2720D6C15}" /><r id="{3B33F966-B5CC-47CE-BD02-C4328BCE9BBB}" ph="/cert-app-main/cert-app-col-one-{E85549A1-5696-43F8-8918-6F488E40A55F}-0/cert-app-information-component-{A908A94D-51F6-4490-AC37-344A8EB4C2A6}-0" uid="{6C8A7514-6698-454D-A11D-2B48F81DDD4C}" /><r id="{395A17CE-C81D-4648-94A9-513CC426E6F8}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0" uid="{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}" /><r id="{245F052C-284A-456B-80F0-4241E89D1B0D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{372315B3-4EF8-48EE-BBBB-C31A4ADEC8C9}" /><r ds="" id="{8F9FD6A6-3952-44EA-869B-3BB4745D9F75}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{219B02DC-8408-473F-BAD8-E8CAFF084277}" /><r id="{5ADE5BD6-B1FD-42EF-90EB-EAF54BD4C5A9}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{E962D330-D28D-4A0B-BF21-5F55E57A46A7}" /><r id="{4929302C-F235-4393-AF82-75501DB13A5A}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{44498C1D-3D41-4BAB-BD54-08DCE27B470C}" /><r id="{245F052C-284A-456B-80F0-4241E89D1B0D}" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-one-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-education-header-{44498C1D-3D41-4BAB-BD54-08DCE27B470C}-0" uid="{364C4EBF-3ABF-4BEC-A9D1-6598CF631071}" /><r ds="" id="{E06FF04B-85E8-491F-90D3-9A6C4D65B52E}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0" uid="{9EE88191-667C-4980-814B-C164D0DD9C4E}" /><r ds="" id="{245F052C-284A-456B-80F0-4241E89D1B0D}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-experience-pdf-{9EE88191-667C-4980-814B-C164D0DD9C4E}-0" uid="{CE98E6BD-22B5-4486-B8FA-B9A151814A42}" /><r ds="" id="{E3D58AEB-1377-49B3-9DEA-92929DA27EDD}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-experience-pdf-{9EE88191-667C-4980-814B-C164D0DD9C4E}-0" uid="{A26C6CF1-2E47-4CF7-9854-47F956F4B25F}" /><r ds="" id="{E3D58AEB-1377-49B3-9DEA-92929DA27EDD}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-experience-pdf-{9EE88191-667C-4980-814B-C164D0DD9C4E}-0" uid="{B2767190-5745-4240-99AC-8A656E1B5555}" /><r ds="" id="{E3D58AEB-1377-49B3-9DEA-92929DA27EDD}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-experience-pdf-{9EE88191-667C-4980-814B-C164D0DD9C4E}-0" uid="{EC4A07B4-9BDC-48AF-87B8-69B94C2B3161}" /><r ds="" id="{E3D58AEB-1377-49B3-9DEA-92929DA27EDD}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-experience-pdf-{9EE88191-667C-4980-814B-C164D0DD9C4E}-0" uid="{439D04CC-1AC9-4F60-AD08-8B360E99C039}" /><r ds="" id="{E3D58AEB-1377-49B3-9DEA-92929DA27EDD}" par="" ph="/cert-app-main/cert-app-main-content-{471A52F1-77A4-4B12-8EC8-8B6E0FCC0A54}-0/cert-app-audit-section-two-{BE8CA6E3-1348-45D5-A4DC-E5E9EDC3459B}-0/cert-app-experience-pdf-{9EE88191-667C-4980-814B-C164D0DD9C4E}-0" uid="{B890F12A-F13C-4592-AFD3-50CBA23661BE}" /><r ds="" id="{EE474F33-4373-4264-8C8B-D9A1428C873A}" par="" ph="cert-app-footer" uid="{01D244DF-0914-4B2C-8DC1-A946CA5BD935}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 73fb298e-e1a8-4aa6-8daa-a4827a77d53b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200307T143508Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73fb298e-e1a8-4aa6-8daa-a4827a77d53b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200427T193853Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

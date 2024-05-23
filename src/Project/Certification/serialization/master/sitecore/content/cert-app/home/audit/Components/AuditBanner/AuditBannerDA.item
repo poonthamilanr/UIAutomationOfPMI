@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {13B2ED17-DED0-41D5-9B6D-4F4E6A4E179D}
+database: master
+path: /sitecore/content/cert-app/home/audit/Components/AuditBanner/AuditBannerDA
+parent: {0537BE81-1E2A-4F74-A5AA-023E659606AE}
+name: AuditBannerDA
+master: {00000000-0000-0000-0000-000000000000}
+template: {E81CD0E4-6C52-4840-AF69-0C98E6DD0F09}
+templatekey: AuditBanner
+created: 20211209T210053Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 2200c270-dd56-4ca2-a213-7a561216b546
+
+----field----
+field: {29472646-AB88-4211-A324-18EB22B9D5D0}
+name: BackPmi
+key: backpmi
+content-length: 105
+
+<link text="&lt; Back to myPMI" linktype="external" url="https://my.{CURRENTENV}/" anchor="" target="" />
+----field----
+field: {A09C7890-1E6E-459A-8D91-F34D641EE8D9}
+name: HideDocumentsProgressBar
+key: hidedocumentsprogressbar
+content-length: 1
+
+1
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Audit Banner DA
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210714T224027Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2200c270-dd56-4ca2-a213-7a561216b546
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211209T211736Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

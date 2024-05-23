@@ -1,0 +1,14 @@
+{
+  "sitecore": {
+    "apiKey": "{7162987E-1BD9-4E8A-9CE4-F75101E17C99}",
+    "layoutServiceHost": "https://www.erpint.pmi.org",
+    "instancePath": "c:\\inetpub\\wwwroot\\sc102.local",
+    "profileApiServiceRoot" : "https://cert-prof-api.int.pmi.org/",
+    "applicationApiServiceRoot" : "https://cert-app-api.int.pmi.org/",
+    "orchestrationApiServiceRoot": "https://cert-orchestration-api.int.pmi.org/",
+    "certificationApiServiceRoot": "https://cert-cert-api.int.pmi.org/",
+    "sitecoreInstanceUrl": "https://www.erpint.pmi.org",
+    "authReturnRoot": "https://certification.erpint.pmi.org",
+    "pageNotFoundPath": "/landing/sorry?errorCode=PageNotFound"
+  }
+}

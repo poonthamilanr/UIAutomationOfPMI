@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {68CBCBAB-660F-4A65-8AAC-784CE599C8BB}
+database: master
+path: /sitecore/content/cert-app/home/launch/application/*
+parent: {91893874-E94B-4946-8814-4572CED17009}
+name: *
+master: {00000000-0000-0000-0000-000000000000}
+template: {161014F9-D38B-4E13-ADD6-F883BD5597ED}
+templatekey: StartPage
+created: 20191210T202627Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 967
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8B93868C-1171-4775-B42D-E9087299140F}" p:after="*[1=2]" s:ds="" s:id="{54B5444E-E103-40B2-B57C-0DEDCBDC41E0}" s:par="Content=%3C%21--%20Global%20site%20tag%20%28gtag.js%29%20-%20Google%20Ads%3A%20958030971%20--%3E%20%3Cscript%20async%20src%3D%22https%3A%2F%2Fwww.googletagmanager.com%2Fgtag%2Fjs%3Fid%3DAW-958030971%22%3E%3C%2Fscript%3E%20%3Cscript%3E%20window.dataLayer%20%3D%20window.dataLayer%20%7C%7C%20%5B%5D%3B%20function%20gtag%28%29%7BdataLayer.push%28arguments%29%3B%7D%20gtag%28%27js%27%2C%20new%20Date%28%29%29%3B%20gtag%28%27config%27%2C%20%27AW-958030971%27%29%3B%20%3C%2Fscript%3E%0D%0A%3C%21--%20Event%20snippet%20for%20App%20Open%20Page%20View%20conversion%20page%20--%3E%20%3Cscript%3E%20gtag%28%27event%27%2C%20%27conversion%27%2C%20%7B%27send_to%27%3A%20%27AW-958030971%2FU4YSCJ-wytYBEPvI6cgD%27%7D%29%3B%20%3C%2Fscript%3E" s:ph="cert-app-bottom" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 118d0bd4-52bc-4b58-a715-6889c9e22c98
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 5
+
+Start
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Application Start
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191210T202627Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+118d0bd4-52bc-4b58-a715-6889c9e22c98
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210218T150731Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

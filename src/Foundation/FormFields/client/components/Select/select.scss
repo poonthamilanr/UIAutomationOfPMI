@@ -1,0 +1,74 @@
+@import "assets/styles/mixins";
+
+// .dsm .k-dropdown.form-control {
+//   padding: 0;
+
+//   .k-dropdown-wrap {
+//     background-color: $form-controls-bg;
+//     height: 100%;
+//     border: none;
+
+//     &.k-state-focused {
+//       box-shadow: $drop-shadow;
+//     }
+
+//     .k-input {
+//       color: $color-gray-800;
+//       height: 100%;
+//     }
+
+//     .k-select {
+//       padding-left: 0;
+//     }
+
+//     .k-icon {
+//       background: {
+//         image: url("../../../../../Project/Certification/client/assets/icons/icon-chevron-down.svg");
+//         position: right center;
+//         repeat: no-repeat;
+//         size: 23px;
+//       };
+//       width: 23px;
+
+//       &:before {
+//         content: none;
+//       }
+//     }
+//   }
+// }
+
+.k-list-container {
+  min-width: 185px;
+
+  .k-item {
+    color: $color-gray-500;
+    font-size: 12px;
+    padding: 3px 10px;
+
+    &.k-state-selected,
+    &.k-state-focused {
+      background-color: $color-violet-500-base;
+      box-shadow: none;
+      color: $color-white;
+    }
+  }
+}
+
+.k-autocomplete.form-control {
+  padding-right: 0;
+  width: 100%;
+
+  .k-input, 
+  .k-searchbar {
+    height: 100%;
+    padding: 0;
+  }
+
+  &.k-state-selected,
+  &.k-state-focused,
+  &:hover {
+    .k-clear-value {
+      display: none;
+    }
+  } 
+}

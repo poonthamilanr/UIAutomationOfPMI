@@ -1,0 +1,194 @@
+@import "assets/styles/mixins";
+
+$experience-propgram-vertical-space: 20px;
+
+.experience {
+  $this: &;
+
+  border: $border-gray;
+  border-radius: $border-radius;  
+
+  + .experience:not(.experience-program__projects) {
+    margin-top: $views-bottom-space;
+  }
+
+  &-program + &-program {
+    margin-top: $views-bottom-space;
+  }
+
+  &__view {
+    background-color: $color-gray-150;
+
+    &-nocollapse {
+      #{$this}__header .btn {
+        display: none;
+      }
+    }
+  }
+
+  &__header {
+    padding: 9px 25px 12px;  
+
+    @include flex-position($x: flex-start, $y: space-between);
+    
+    @include media-breakpoint-down(sm) {            
+      padding-left: $padding-mobile;
+      padding-right: $padding-mobile;
+    }
+
+    .error {
+      color: $color-red-500-base;
+    }
+
+    .with-icon.btn.btn-link {
+      margin-top: 5px;
+      min-height: auto;
+      padding: 0;
+
+      .btn-icon {
+        margin-left: 0;
+
+        @include size(22px);
+
+        path {
+          fill: $color-gray-400;
+        }
+      }      
+    }
+  }
+
+  &__body {
+    border-top: $border-gray;
+    padding: 15px 25px 30px;    
+    
+    @include media-breakpoint-down(sm) {            
+      padding: 15px $padding-mobile 0;
+    }
+  }
+
+  &__buttons {
+    padding: 15px 25px 25px;
+    
+    @include flex-position($x: flex-end);
+
+    > .btn + .btn {
+      margin-left: 15px;
+    }
+
+    @include media-breakpoint-down(sm) { // less then 768px         
+      padding-left: $padding-mobile;
+      padding-right: $padding-mobile;
+    }
+
+    @include media-breakpoint-down(xs) { // less then 576px
+      flex-direction: column-reverse;
+      
+      > .btn.btn-link.link-base {
+        display: block;
+        text-align: right;
+
+        + .btn {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+.experience-property {
+  font-family: $font-helvetica-neue;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+
+  @include media-breakpoint-down(sm) {            
+    font-size: $font-size-base;
+  }
+
+  &__label {
+    color: $color-gray-500;
+  }
+
+  &__value {
+    white-space: pre-line;
+  }
+}
+
+// Experience program styles
+
+.experience-program {
+  .experience__view:first-child {
+    border: {
+      bottom-left-radius: 0;
+      bottom-right-radius: 0;
+    }
+  }
+
+  .experience__view {
+    .experience-program__projects-view:last-child {
+      border: 0
+    }
+  }
+
+  &__projects {
+    border: {
+      top: 0 none;
+      top-left-radius: 0;
+      top-right-radius: 0;
+    }
+    margin-top: -1px;
+
+    &-form {
+      padding: $experience-propgram-vertical-space 0;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      & + & {
+        border-top: $border-gray;
+        margin-top: 10px;
+      }
+    }
+
+    &-view {
+      border: {
+        bottom: $border-gray;
+        top: $border-gray;
+      }
+      padding: 8px 0;
+
+      .experience__buttons {
+        padding: {
+          bottom: 0;
+          top: 0;
+        }
+      }
+
+      &:first-of-type {
+        margin-top: $experience-propgram-vertical-space;
+      }
+
+      & + & {
+        border-top: 0 none;
+      }
+
+      .project-title {
+        border-right: $border-gray;
+        margin-right: 10px;
+        padding-right: 10px;
+      }
+    }
+
+    &-buttons {
+      > button:last-child:not(:first-child) {
+        margin-top: $experience-propgram-vertical-space;
+        margin-left: 0 !important;
+      }
+    }
+  }
+
+  .experience-program__projects-title {
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {DF9CACFC-D9F8-4F02-AC22-D4AC0E04FA29}
+database: master
+path: /sitecore/content/cert-app/Settings/WorkflowTypes/MCEligible
+parent: {E8A18600-8B47-463D-A12E-D6A9D6C8141F}
+name: MCEligible
+master: {00000000-0000-0000-0000-000000000000}
+template: {01C344A2-6F7E-4A3E-B238-B39CD0815F1B}
+templatekey: WorkflowType
+created: 20201019T231731Z
+
+----version----
+language: en
+version: 1
+revision: 94154928-6233-4749-894b-636932a3b558
+
+----field----
+field: {7700F430-7709-4B69-8211-8E49F5EDFC33}
+name: Steps
+key: steps
+content-length: 77
+
+{540B633D-4ED4-43FA-B46A-5F34F60B4454}|{1DC38018-8807-4CA4-A331-432E8F6F77C1}
+----field----
+field: {30D9E927-5CC6-49E7-9821-B1389E08DBA8}
+name: ApiKey
+key: apikey
+content-length: 5
+
+MCETP
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Micro Credentials Eligible To Pay
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200330T104301Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+94154928-6233-4749-894b-636932a3b558
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20201019T231811Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

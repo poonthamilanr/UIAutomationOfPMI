@@ -1,0 +1,9 @@
+﻿{
+  "stepAssemblies": [
+    { "assembly": "Pmi.Web.Ui.Framework-Net47" }
+  ],
+  "livingDocGenerator": {
+    "enabled": true,
+    "filePath": "TestExecution.json"
+  }
+}

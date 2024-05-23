@@ -1,0 +1,38 @@
+.drop-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  border: 2px dashed #4f17a8;
+  background: {
+    image: url("../../../../../Project/Certification/client/assets/icons/upload_big.svg");
+    position: center 80%;
+    repeat: no-repeat;
+    color:#F2EDF8;
+    size:150px;
+  };
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.fileUploadBtn {
+  font-size: medium !important;
+  display:inline !important;
+  cursor:pointer;
+  vertical-align: inherit !important;
+}
+.fileUploadBtn:hover{
+  color: #4f17a8 !important;
+}
+.dropzone-file-input {
+  display: none;
+}
+
+.uploading-panel{
+  border: 2px solid #EBEBEB;
+  border-radius: 10px;
+  padding:20px;
+}

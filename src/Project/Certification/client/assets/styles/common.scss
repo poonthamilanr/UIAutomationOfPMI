@@ -1,0 +1,253 @@
+@import "./mixins";
+
+.static-height {
+  height: 100px;
+}
+
+.input-group-prepend {
+  select {
+    border: {
+      top-right-radius: 0;
+      bottom-right-radius: 0;
+    }
+  }
+}
+
+.dsm button.btn {
+  min-width: 100px;
+  padding: 0 20px;
+}
+
+.layout__content-exam-details [class*="mode"]:first-child,
+.heading + [class*="mode"],
+.heading + [class*="summary-container"] {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+
+.layout__content-exam-details [class*="mode"],
+.heading + [class*="mode"],
+.heading + [class*="summary-container"] {
+  &:last-child {
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+  }
+}
+
+// -------------- Right column summaries
+
+.summary-container {
+  border: $border-gray;
+  padding: 7px 25px;
+}
+
+// -------------- View/edit mode common styles
+
+.view-mode,
+.edit-mode {
+  border: $border-gray;
+  padding: 20px 25px;
+
+  @include media-breakpoint-down(sm) {
+    border-radius: $border-radius;
+    padding: 20px $padding-mobile;
+  }
+
+  + .view-mode,
+  + .edit-mode:not(.mt-4):not(.experience-summaries) {
+    border-top: none;
+
+    @include media-breakpoint-down(sm) {
+      border-top: $border-gray;
+      margin-top: 20px;
+    }
+  }
+}
+
+.edit-mode {
+  &__help-text {
+    margin-bottom: 10px;
+  
+    p, 
+    a,
+    .btn.btn-link.link-base  {
+      color: $color-gray-500;
+      font-family: $font-helvetica-neue;
+      font-size: 12px;
+      letter-spacing: normal;
+      line-height: 18px;
+      margin-bottom: 0;
+    }
+
+    a {
+      color: $color-violet-500-base;
+    }
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  &__input-group {
+    display: flex;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
+
+    .form-group {
+      width: 100%;
+
+      +.form-group {
+        margin-left: 15px;
+
+        @include media-breakpoint-down(sm) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.view-mode {
+  background-color: $color-gray-150;
+  @include flex-position($x: space-between, $y: flex-start);
+
+  @include media-breakpoint-down(sm) {
+    background-color: $color-white;
+    display: block;
+  }
+
+  p {
+    font: 16px/24px $font-helvetica-neue;
+    margin-bottom: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .link-base {
+    line-height: 24px;
+  }
+  
+  &__exam {
+    h2, h3 {
+      @at-root .dsm & {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+
+.disable-view{
+  pointer-events: none;
+  opacity: 0.4;
+}
+// -------------- Different form styles
+
+.dsm .btn.btn-link.link-base {
+  border-radius: 0;
+  font: {
+    family: $font-pressura-mono-regular;
+    size: 15px;
+  };
+  min-height: auto;
+  padding: 0;
+  text-transform: none;
+
+  .btn-icon {
+    margin: {
+      left: 0;
+      right: 6px;
+    }
+  }
+}
+
+.help-text {
+  color: $color-gray-500;
+  font: {
+    family: $font-helvetica-neue;
+    size: 14px;
+  }
+}
+
+.dsm {
+  .font-helvetica-neue {
+    font-family: $font-helvetica-neue;
+  }
+
+  .btn.btn-link.link-base,
+  a.btn.btn-link.link-base,
+  .btn.btn-link.text-link-base {
+    font-family: $font-helvetica-neue;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: 18px;
+    min-height: auto;
+    padding: 0;
+  }
+
+  a.btn.btn-link.link-base:hover {
+    text-decoration: underline;
+    color: $color-violet-500-base;
+  }
+
+  .overlay.logo-animation {
+    position: fixed;
+  }
+
+  .view-mode {
+    label {
+      margin-bottom: 0; // Leading aka Line Spacing between title and text should be 20 for all saved state views
+    }
+  }
+
+  .edit-mode p {
+    margin-bottom: 4px;
+  }
+}
+
+address {
+  > p {
+    @at-root .dsm & {
+      margin-bottom: 0;
+    }
+  }
+
+  @at-root .dsm & {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// -------------- IE fixes
+
+@media screen and (min-width: 0\0) {
+  .dsm {
+    .btn {
+      &:not(.btn-sm):not(.with-icon) {
+        &:not(.btn-link) {
+          padding: {
+            top: 14px;
+            bottom: 5px;
+          }
+        }
+        &.btn-link {
+          line-height: 44px;
+        }
+      }
+      
+      &.btn-sm {
+        padding-top: 6px;
+      }
+    }
+
+    .form-label.k-checkbox-label {
+      .btn.link-base {
+        line-height: inherit;
+      }
+    }
+  } 
+}

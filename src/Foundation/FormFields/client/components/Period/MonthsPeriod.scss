@@ -1,0 +1,30 @@
+@import "assets/styles/mixins";
+
+.dates-period {
+  $this: &;
+
+  @include flex-position($y: center);
+
+  &__divider {
+    background-color: black;
+    height: 1px;
+    margin: 6px;
+    min-width: 7px; 
+  }
+
+  &_months {
+    @include media-breakpoint-down(xs) {
+      flex-direction: column;
+  
+      #{$this}__divider {
+        display: none;
+      }
+    }
+  }
+}
+
+.months-period__date-group {
+  > span:first-child {
+    flex-grow: 3;
+  }
+}

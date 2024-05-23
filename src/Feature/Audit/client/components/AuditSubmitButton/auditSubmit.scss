@@ -1,0 +1,15 @@
+@import "assets/styles/mixins";
+
+.audit-submit-row {
+  text-align: right;
+  justify-content: flex-end;
+  display: flex;
+}
+.backnav-link, .backnav-link:hover {
+  color:#4F17A8 !important;
+  font-weight: bold;
+}
+
+.info-style {
+  font-size: small
+}

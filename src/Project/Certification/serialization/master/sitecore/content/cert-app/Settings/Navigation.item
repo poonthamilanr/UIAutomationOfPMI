@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {ED56BFF3-1BD9-46B3-8974-BFFF24F986E0}
+database: master
+path: /sitecore/content/cert-app/Settings/Navigation
+parent: {3ED76078-A8B9-4E7C-BE8F-2794864A4220}
+name: Navigation
+master: {00000000-0000-0000-0000-000000000000}
+template: {05820EE9-B7B4-440A-B5B3-8A6808991A84}
+templatekey: NavigationFolder
+created: 20200317T124515Z
+
+----version----
+language: en
+version: 1
+revision: eea75ad4-7727-4294-9c08-af9bb38be0cb
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200317T124515Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eea75ad4-7727-4294-9c08-af9bb38be0cb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200318T165009Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

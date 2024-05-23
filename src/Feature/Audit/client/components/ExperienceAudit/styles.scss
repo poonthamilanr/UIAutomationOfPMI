@@ -1,0 +1,76 @@
+@import 'assets/styles/mixins';
+
+.experiencePanel {
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.experienceInfoBox {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.experienceInfoHighlight {
+  color: #0080a8;
+  font-weight: bold;
+}
+
+.experienceStatus-responseProvided {
+  color: #0080a8;
+}
+
+.experienceStatus-waitingForResponse {
+  color: #0080a8;
+}
+
+.experienceStatus-referenceNeeded {
+  color: #ce2044;
+}
+
+.linkBtn {
+  cursor: pointer;
+}
+
+.docDownloadPanel {
+  background-color: #f2edf8;
+}
+.docDownloadPanel,
+.docDownloadViewPanel {
+  border-radius: 5px;
+  font-size: small;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 10px;
+}
+.docDownloadViewPanel {
+  background-color: #f7f9fa;
+}
+
+.download_link,
+.download_link:hover,
+.download_link:active {
+  color: gray !important;
+  cursor: pointer;
+  font-size: small !important;
+  text-align: left !important;
+  justify-content: left !important;
+}
+
+.view-doc-link,
+.view-doc-link:hover {
+  color: #4f17a8 !important;
+  font-weight: bolder !important;
+  cursor: pointer;
+  font-size: small !important;
+  text-align: left !important;
+  justify-content: left !important;
+}
+
+.circle-alert-icon g {
+  fill: #ce2044;
+  path {
+    fill: #ce2044;
+  }
+}

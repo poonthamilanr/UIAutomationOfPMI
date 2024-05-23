@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {A7653BDB-77D1-48F0-B747-16583499F302}
+database: master
+path: /sitecore/content/cert-app/home/audit/Components/EducationUploadForms/ProfessionalEducationUploadForm
+parent: {A455BFC8-C599-46C9-9733-5B397044D353}
+name: ProfessionalEducationUploadForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {B5F576E0-2191-42BB-BD3D-CCE6D7A837E0}
+templatekey: EducationUploadForm
+created: 20210811T165928Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 00e82147-bde8-492f-a84f-98f0592c7ef7
+
+----field----
+field: {58CFE236-43A8-4C26-8CEC-10655D67912A}
+name: Heading
+key: heading
+content-length: 22
+
+Professional Education
+----field----
+field: {22949844-F4F6-4F41-BC4E-6E82C608AD74}
+name: Description
+key: description
+content-length: 107
+
+Upload a certificate, transcript, or letter of attendance from the institution that provided your training.
+----field----
+field: {C724B72C-9C9F-47B4-9A68-D7FC2A9EE3D1}
+name: UploadModal
+key: uploadmodal
+content-length: 38
+
+{6E73AB41-4CFE-4503-BD8A-FA93752D9191}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 34
+
+Professional Education Upload Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210714T223719Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+00e82147-bde8-492f-a84f-98f0592c7ef7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210826T033227Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

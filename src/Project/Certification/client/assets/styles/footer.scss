@@ -1,0 +1,82 @@
+@import "./placeholders";
+
+.app-footer {
+  background-color: $color-gray-200;
+  
+  @include media-breakpoint-up(md) {
+    height: $footer-height;
+    padding: 10px 5px;
+
+    @include flex-position($y: center);
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 15px 0;
+  }
+}
+
+.list-inline { 
+  margin-bottom: 0;
+
+  &__item {
+    display: inline-block;
+    
+    & + & {
+      &:before {
+        color: $color-gray-400;
+        content: '|';
+        display: inline-block;
+        font-size: 14px;
+        margin: 0 15px;
+      }
+    }
+  }
+
+  &__text, 
+  &__link {
+    color: $footer-text-color;
+    font-family: $font-helvetica-neue;
+    display: inline-block;
+  }
+
+  &__text {
+    font-size: 14px;
+  }
+
+  &__link {
+    font-size: 16px;
+
+    &:hover, &:focus {
+      color: $color-violet-500-base;
+      text-decoration: none;
+    }
+  }
+
+  // Responsive styles
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+
+    &_right {
+      justify-content: flex-end;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    text-align: center;
+
+    &_right {
+      margin-top: 10px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &:not(.list-inline_right) {
+      .list-inline__item + .list-inline__item {
+        &:before {
+          content: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "assets/styles/mixins";
+
+.auditinformation {
+  position: relative;
+
+  &__image {
+    @include position-absolute($top: 0, $left: 0);
+  }
+
+  &__description-wrapper {
+    margin-bottom: 45px;
+    padding-left: 60px;
+  }
+
+  &__description {
+    color: $color-gray-900;
+    font-family: $font-helvetica-neue;
+    line-height: 28px;
+  }
+
+  &__description-component-placeholder {
+    padding-left: 60px;
+  }
+
+  &__highlight{
+    color: #FF610F;
+    font-weight: 700;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 70px;
+  }
+}

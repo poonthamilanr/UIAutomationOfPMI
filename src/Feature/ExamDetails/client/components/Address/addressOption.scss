@@ -1,0 +1,45 @@
+@import "assets/styles/variables";
+
+.address-option {
+  + .address-option {
+    padding-top: 15px;
+    border-top: $border-gray-lighter;
+
+    &.address-option_selected {
+      margin-top: 5px;
+    }
+  }
+
+  &_selected {
+    .radio-label {
+      font-weight: bold;
+    }
+
+    .address-option__content {
+      margin-top: 20px;
+    }
+  }
+
+  .p-radiobutton {
+    padding-right: 38px;
+  }
+
+  .radio-wrapper {
+    align-items: baseline;
+  }
+
+  .radio-label {
+    font-family: $font-helvetica-neue;
+    font-size: 16px;
+  }
+
+  &__content {
+    color: $color-gray-800;
+    font-family: $font-helvetica-neue;
+    padding-left: 45px;
+
+    @include media-breakpoint-down(sm) {
+      padding-left: 40px;
+    }
+  }
+}

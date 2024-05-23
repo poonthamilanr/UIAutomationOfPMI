@@ -1,0 +1,101 @@
+@import "assets/styles/mixins";
+
+.professional-education {
+  border: $border-gray;
+  border-radius: $border-radius;  
+
+  + .professional-education {
+    margin-top: 20px;
+  }
+
+  &-container {    
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    @include media-breakpoint-down(sm) {            
+      padding-left: $padding-mobile;
+      padding-right: $padding-mobile;
+    }
+  }
+
+  &_view {
+    background-color: $color-gray-150;
+
+    @include media-breakpoint-down(sm) {
+      background-color: $color-white;
+      display: block;
+    }
+  }
+
+  &__header {
+    border-bottom: $border-gray;
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+
+  &__body {
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+
+  &__buttons {
+    padding: 15px 25px 25px;
+
+    @include flex-position($x: flex-end);
+
+    > .btn + .btn {
+      margin-left: 15px;
+    }
+
+    @include media-breakpoint-down(sm) { // less then 768px         
+      padding-left: $padding-mobile;
+      padding-right: $padding-mobile;
+    }
+
+    @include media-breakpoint-down(xs) { // less then 576px
+      flex-direction: column-reverse;
+      
+      > .btn.btn-link.link-base {
+        display: block;
+        text-align: right;
+
+        + .btn {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  &-property {
+    margin-top: 2px;
+
+    &__label {      
+      display: block;
+      margin-bottom: 0;
+      line-height: 24px;
+      white-space: nowrap;
+    }
+
+    &__value {
+      line-height: 24px;
+    }
+  }
+
+  .months-period__date-group {
+    @include media-breakpoint-down(lg) { // less then 1999px
+      .k-widget.k-dropdown {
+        max-width: 100px;
+      }
+    }
+    @include media-breakpoint-down(md) { // less then 1199px
+      .k-widget.k-dropdown {
+        max-width: 100px;
+      }
+    }
+    @include media-breakpoint-down(sm) { // less then 767px
+      .k-widget.k-dropdown {
+        max-width: none;
+      }
+    }
+  }
+}

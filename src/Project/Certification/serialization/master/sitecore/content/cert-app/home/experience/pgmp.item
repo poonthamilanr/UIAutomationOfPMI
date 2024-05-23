@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {2F54F6C3-56F0-49AF-9B75-49E3969E4E47}
+database: master
+path: /sitecore/content/cert-app/home/experience/pgmp
+parent: {827E6F63-2ED9-40D9-8EAE-31E8F68812F7}
+name: pgmp
+master: {00000000-0000-0000-0000-000000000000}
+template: {650C8027-A15A-4F69-B667-80624D030735}
+templatekey: ExperiencePage
+created: 20200210T120720Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 7649
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{54C9E89F-45F1-4EDF-93E7-4E7490FA10C1}" s:ds="" s:par="" /><r uid="{C49FC713-23E2-4436-A0D9-DAC54E5E39D9}" p:after="r[@uid='{B030B0C4-C255-40E8-A8ED-68FFEC74528A}']" s:ds="{D685EBB2-002E-456F-9D8C-25E989D91120}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0"><rls><ruleset><rule uid="{D1349D8D-9EA4-4EAB-8A3E-BCDA4B9B01C2}" s:name="Has PMP certification"><conditions><condition uid="CDB6DAED9C06488E9882D404BB65FE12" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{8142605D-A3BF-42B2-9BDB-F65DCA679540}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /></conditions><actions><action uid="ADAEEE669A3743A08C21E1732118A389" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="1509C9059E5A42C78B5BCED60ABF7F2A" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{F9BEA46B-161F-46AB-8046-4598361B5905}" p:after="r[@uid='{C49FC713-23E2-4436-A0D9-DAC54E5E39D9}']" s:ds="{7F1228A7-0A0B-42B4-BB0B-F02E31107826}" s:id="{05F1DF40-8274-484A-8A1C-38A3DB60F8BF}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0"><rls><ruleset><rule uid="{3D0A749B-1CA1-4B0F-9DDF-35D6384BA232}" s:name="Has PMP certification"><conditions><condition uid="4CA207260599491B9DFB04CEF8CB047C" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{8142605D-A3BF-42B2-9BDB-F65DCA679540}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /></conditions><actions><action uid="9332EEBBF39E4807BAE8A77C42549C6A" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="4AAACC9C49BA4FAFBD9B579A51D97D77" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{CFD86BA0-8B29-4C32-8522-441BA682318D}" p:after="r[@uid='{F9BEA46B-161F-46AB-8046-4598361B5905}']" s:ds="{8FB00E81-4AF5-426E-BE5D-2161BBC689EB}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0"><rls><ruleset><rule uid="{21EA8B88-D969-49A6-81BD-B3EBD9813175}" s:name="Has PMP certification"><conditions><condition uid="6A34A147DD6F4204951B9EADFD5DAB14" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{8142605D-A3BF-42B2-9BDB-F65DCA679540}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /></conditions><actions><action uid="9DDFA9221F9647C0901F6C05A5E10F47" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{36E5A328-62A0-4204-8261-5FAA4C7B59A7}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="CE26E2994F72492F8030F1DF8ED05701" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="0110104DCC244C55B85B7920C4C917D2" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{8FB00E81-4AF5-426E-BE5D-2161BBC689EB}" /></actions></rule></ruleset></rls></r><r uid="{0F30B626-4779-485D-86B9-4268EDC60EF3}" p:after="r[@uid='{CFD86BA0-8B29-4C32-8522-441BA682318D}']" s:ds="{482DE898-BB4F-4597-945F-7BEE20241284}" s:id="{D1735107-0EC5-425A-AA34-78A267D398C6}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0"><rls><ruleset><rule uid="{563F5F08-C4D4-4CBD-A553-7BB6B0F68A1C}" s:name="Has PMP certification"><conditions><condition uid="9CF442382D20496C96EC7F4906CE1B64" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{8142605D-A3BF-42B2-9BDB-F65DCA679540}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /></conditions><actions><action uid="3473D208F5684735B3412233C98C09BC" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{482DE898-BB4F-4597-945F-7BEE20241284}" /><action uid="1D7CE32C5FDD4006B2294A16620AECE3" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="31D5C4B88BF448C9B550F631E5B1FE1D" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="3F0136FC8E8040229412FBE257E6C94E" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{482DE898-BB4F-4597-945F-7BEE20241284}" /></actions></rule></ruleset></rls></r><r uid="{153470E4-4CF3-4CB1-A3FF-F88DD934721D}" p:after="r[@uid='{0F30B626-4779-485D-86B9-4268EDC60EF3}']" s:ds="{009964D2-6117-4ED5-92B1-BC932F8122FA}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{734015E4-1E3D-4F56-A40F-988D4C49BDA0}-0" /><r uid="{25A5ACC7-0942-46E6-9B2A-9BC1AD32977D}" p:after="r[@uid='{153470E4-4CF3-4CB1-A3FF-F88DD934721D}']" s:ds="{A8B76BB9-0063-4926-98C2-63697F77A2B8}" s:id="{05F1DF40-8274-484A-8A1C-38A3DB60F8BF}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{734015E4-1E3D-4F56-A40F-988D4C49BDA0}-0" /><r uid="{DBD900F8-F159-4836-8CD6-AEF78A0CDED8}" p:after="r[@uid='{25A5ACC7-0942-46E6-9B2A-9BC1AD32977D}']" s:ds="{51CFD46A-B77A-4057-827E-63581E0FBEE0}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{734015E4-1E3D-4F56-A40F-988D4C49BDA0}-0" /><r uid="{361FDBFA-9612-4143-91AB-C46AA74709B6}" p:after="r[@uid='{DBD900F8-F159-4836-8CD6-AEF78A0CDED8}']" s:ds="{A4F8A3C5-E7EA-4779-96DD-C78AE1ECAAD5}" s:id="{2C500A11-42C4-47B9-A06A-4DD5C3C273D9}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{734015E4-1E3D-4F56-A40F-988D4C49BDA0}-0" /><r uid="{734015E4-1E3D-4F56-A40F-988D4C49BDA0}" p:after="r[@uid='{A396ACEC-3139-424C-B54F-E44E4706B12E}']" s:id="{4791CB66-CBB8-49B7-BFD7-47E73760E9B6}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0" /><r uid="{C7F58C84-4D65-4F44-8B63-740F2896E943}"><p:d /></r><r uid="{B81F3B48-276E-4C9A-AD79-A2B21972EF86}" p:after="*[1=2]" s:id="{18D94072-C1FE-4D1A-A6FC-296768EB04BD}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0"><rls><ruleset><rule uid="{25A2842A-CEE2-4578-B04F-F3CC2E5C435B}" s:name="Has PMP certification"><conditions><condition uid="95316346DE514495ACB567F67942682F" s:id="{D3B8E0CC-814E-4E1E-B2C3-F52791108AAF}" s:CertificationType="{8142605D-A3BF-42B2-9BDB-F65DCA679540}" s:CertificationStatus="{845248A8-2999-4D19-951C-9C5A9D89CC52}" /></conditions><actions><action uid="ACC6451B2F054F62A96993378F38DDAC" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E0B9157C-6F8D-462F-87C9-AA27175FAA39}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="A07AEAFEE7D745C987BCA78035989F24" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions><action uid="D021C9F9610640F786A78418191B3C09" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" /></actions></rule></ruleset></rls></r></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 6ecb9a83-f1f4-4efe-9091-eda9c38f5e3c
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 15
+
+PgMP Experience
+----field----
+field: {FFBB6B97-BFB0-4AC3-8366-79D7637F4186}
+name: WorktypeRequirements
+key: worktyperequirements
+content-length: 77
+
+{D2CC68EF-43A5-4E14-89F1-EB3237A86D74}|{94DA2335-7785-4388-8466-AC837419554F}
+----field----
+field: {872E322E-18BA-4B40-B380-5A729B34C24F}
+name: RequirementType
+key: requirementtype
+content-length: 38
+
+{CEED6C48-F47C-4C3D-90D7-2ED793C36275}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+PgMP
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200115T133403Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ecb9a83-f1f4-4efe-9091-eda9c38f5e3c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T092006Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

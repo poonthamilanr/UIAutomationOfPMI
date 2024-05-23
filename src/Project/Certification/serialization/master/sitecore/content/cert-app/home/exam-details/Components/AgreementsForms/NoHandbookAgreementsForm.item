@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {82C857B5-B996-4BC0-9392-22810545FE20}
+database: master
+path: /sitecore/content/cert-app/home/exam-details/Components/AgreementsForms/NoHandbookAgreementsForm
+parent: {8D3E788A-D37F-42F4-9DBD-4BACB430276F}
+name: NoHandbookAgreementsForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {B3293825-7CC2-46EF-8A7E-71B896C50D56}
+templatekey: AgreementsForm
+created: 20210319T204511Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 4980f8bc-e09c-40de-a83d-bf865aed50c3
+
+----field----
+field: {EB0B92DF-C9CD-4CD2-BF16-5E512F0D0BA4}
+name: Text
+key: text
+content-length: 6315
+
+<p>By clicking the "I Agree" box, you represent and agree to the following terms, conditions and releases related to PMI's Certification Programs:</p>
+<ol>
+    <li>I agree to satisfy and conduct myself in accordance with all PMI certification program policies and requirements, including this Agreement and the <a href="https://www.erpqa.pmi.org/-/media/pmi/documents/public/pdf/ethics/pmi-code-of-ethics-american-english.pdf?sc_lang_temp=en" target="_blank" rel="noopener noreferrer">PMI Code of Ethics and Professional Conduct</a> (as they may be revised from time to time); and I shall maintain confidentiality of PMI examination questions and content. Furthermore, I agree not to discuss, debrief or disclose, in any manner, the specific content of PMI examination questions and answers, to any individual.</li>
+    <li>I agree that I shall at all times act in a truthful and honest manner and provide truthful and accurate information to PMI. I agree that any intentional or unintentional failure to provide true, timely and complete responses to questions in this application or renewal form may lead to further investigation and/or sanctions by PMI. I also agree to promptly report to PMI any possible violations of the terms of this Agreement or the PMI Code of Ethics and Professional Conduct by PMI members or by persons who have applied for a PMI credential or have been awarded a credential by PMI.</li>
+    <li>I agree to notify the PMI Certification Department in a timely manner of changes concerning the information I have provided, including my current address and telephone number.</li>
+    <li>I have reported, and will continue to report, to the PMI Certification Department, within sixty (60) days of occurrence, any matters, proceedings, lawsuits, settlements and/or other agreements, administrative agency actions, or organizational actions relating to my profession or occupation, including all complaints relating to my professional activities as a project management practitioner, and matters or proceedings involving, but not limited to certification, credentialing, malpractice, disciplinary ethics or similar matters. I also agree to promptly report, within sixty (60) days of occurrence, any felony criminal charges, convictions, or plea agreements or other criminal charges, convictions, or plea agreements relating to acts of dishonesty or unethical conduct.</li>
+    <li>I agree that if my compliance with any of the terms of this agreement requires or includes an explanation and supporting documents, I will provide a complete and accurate explanation and true copies of the materials to the PMI Certification Department with this application.</li>
+    <li>I agree that the PMI Certification Department has the right to communicate with any person, government agency or organization to review or confirm the information in this application or any other information related to my application for PMI credentialing. Further, I agree to and authorize the release of any information requested by the PMI Certification Department for such review and confirmation.</li>
+    <li>I agree that the PMI credential status does not imply licensure, registration or government authorization to practice project management or to engage in related activities.</li>
+    <li>I agree that all materials that I submit to the PMI Certification Department become the property of the PMI Certification Department, and that the PMI Certification Department is not required to return any of these materials to me.</li>
+    <li>I agree that upon achieving the PMI credential, my name may be posted on the PMI website as part of an Online Registry to be created and maintained by PMI. </li>
+    <li>I agree that information related to my participation in the PMI certification process may be used in an anonymous manner for research purposes only. </li>
+    <li>I agree that all disputes relating in any way to my application for a PMI credential and/or my involvement generally in a PMI certification program, will be resolved solely and exclusively by means of PMI Certification Department policies, procedures and rules, including the Appeals Process. </li>
+    <li>I certify that I am legally eligible to seek certification from PMI, and that I am not on any list of designated parties maintained by the US government, including but not limited to the List of Specially Designated Nationals and Blocked Persons, nor am I in anyway affiliated with the governments of countries to comprehensive US sanctions, currently Iran, Sudan, Syria and Cuba, nor am I ordinarily or permanently resident in Syria or Cuba.</li>
+    <li>PMI reserves the right to suspend or revoke the credential of any individual who is determined to have failed to uphold, or otherwise breached this Agreement, or committed a violation of the PMI Code of Ethics and Professional Conduct. </li>
+    <li>I release and indemnify PMI and the PMI Certification Department from all liability and claims that may arise out of, or be related to, my project management and related activities.</li>
+    <li>I hereby release, discharge and indemnify PMI, its directors, officers, members, examiners, employees, attorneys, representatives, agents and the PMI Certification Department from any actions, suits, obligations, damages, claims or demands arising out of or in connection with this application, the scores given with respect to the examination or any other action taken by PMI with regard to credentialing, testing and professional development including, but not limited to, all actions related to ethics matters and cases. I understand and agree that any decision concerning my qualification for any credential, as well as any decisions regarding my continuing qualification for any credential and my compliance with the PMI Code of Ethics and Professional Conduct, rest within the sole and exclusive discretion of PMI, and that these decisions are final. </li>
+</ol>
+<p>This Agreement may be updated or revised from time to time. For the most current information, please refer to the online version of the credential handbooks located in the Certification Program section of PMI's website at <a href="https://www.pmi.org/certifications/types" target="_blank" rel="noopener noreferrer">https://www.pmi.org/certifications/types</a>.</p>
+----field----
+field: {B59DA6F5-F358-4A3F-A520-E9EFAD738C89}
+name: EditModeIAgree
+key: editmodeiagree
+content-length: 14
+
+I agree to the
+----field----
+field: {7242C84A-9EB5-4BB6-A2F9-A8BC4150F4DF}
+name: EditModeInformationIsAccurateAndComplete
+key: editmodeinformationisaccurateandcomplete
+content-length: 61
+
+All information that I have provided is accurate and complete
+----field----
+field: {4614025A-68CE-43CB-AC6F-0DEA7DE83F8E}
+name: EditModePmiCertAppRenewalAgreement
+key: editmodepmicertapprenewalagreement
+content-length: 47
+
+PMI CERTIFICATION APPLICATION/RENEWAL AGREEMENT
+----field----
+field: {DA9A8401-7275-44CD-8CEB-FCECBEC54F9A}
+name: EditModeTermsAndAgreements
+key: editmodetermsandagreements
+content-length: 20
+
+terms and agreements
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 27
+
+No Handbook Agreements Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200428T084728Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4980f8bc-e09c-40de-a83d-bf865aed50c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210319T205432Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

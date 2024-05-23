@@ -1,0 +1,13 @@
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup Condition="'$(SitecoreVersion)' == ''">
+		<SitecoreVersion>9.1.1</SitecoreVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(SitecoreVersion)' == '9.1.1'">
+		<JssVersion>12.0.1</JssVersion>
+		<LayoutServiceVersion>4.0.3</LayoutServiceVersion>
+	</PropertyGroup>	
+	<PropertyGroup Condition="'$(SitecoreVersion)' == '10.2.0'">
+		<JssVersion>20.0.0</JssVersion>
+		<LayoutServiceVersion>8.1.0</LayoutServiceVersion>
+	</PropertyGroup>
+</Project>

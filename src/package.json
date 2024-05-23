@@ -1,0 +1,261 @@
+{
+  "name": "cert-app",
+  "description": "Application utilizing Sitecore JavaScript Services and React (create-react-app).",
+  "version": "12.0.0",
+  "private": true,
+  "config": {
+    "appName": "cert-app",
+    "rootPlaceholders": [
+      "jss-main"
+    ],
+    "sitecoreDistPath": "/dist/cert-app",
+    "sitecoreConfigPath": "/App_Config/Include/zzz",
+    "graphQLEndpointPath": "/api/cert-app",
+    "language": "en"
+  },
+  "engines": {
+    "node": "^16.16.0",
+    "npm": "^8.11.0",
+    "yarn": "yarn is not supported, please use npm"
+  },
+  "author": {
+    "name": "Sitecore Corporation",
+    "url": "https://jss.sitecore.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitecore/jss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sitecore/jss/issues"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/core": "7.6.0",
+    "@pmi/dsm-react-bs4": "^5.0.4",
+    "@progress/kendo-react-intl": "^3.6.0",
+    "@sitecore-jss/sitecore-jss": "^20.0.0",
+    "@sitecore-jss/sitecore-jss-react": "^20.0.0",
+    "@sitecore-jss/sitecore-jss-tracking": "^19.0.2",
+    "@svgr/webpack": "4.3.2",
+    "apollo-cache-inmemory": "~1.3.12",
+    "apollo-client": "~2.4.8",
+    "apollo-link": "~1.2.6",
+    "apollo-link-batch-http": "~1.2.6",
+    "apollo-link-http": "~1.5.9",
+    "apollo-link-persisted-queries": "~0.2.2",
+    "axios": "~0.19.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "8.0.6",
+    "babel-plugin-named-asset-import": "^0.3.4",
+    "babel-preset-react-app": "~9.1.1",
+    "bfj": "6.1.1",
+    "bootstrap": "~4.3.1",
+    "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "chalk": "~2.4.2",
+    "classnames": "^2.2.6",
+    "css-loader": "2.1.1",
+    "dotenv": "6.2.0",
+    "dotenv-expand": "5.1.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-loader": "3.0.2",
+    "eslint-plugin-flowtype": "3.13.0",
+    "file-loader": "3.0.1",
+    "fork-ts-checker-webpack-plugin-alt": "0.4.14",
+    "formik": "^1.5.8",
+    "fs-extra": "7.0.1",
+    "graphql": "~14.0.2",
+    "graphql-tag": "~2.10.0",
+    "html-webpack-plugin": "4.0.0-beta.5",
+    "i18next": "~17.0.16",
+    "i18next-fetch-backend": "~2.2.0",
+    "identity-obj-proxy": "3.0.0",
+    "isomorphic-fetch": "~2.2.1",
+    "jest": "24.9.0",
+    "jest-pnp-resolver": "1.2.1",
+    "jest-resolve": "24.9.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.13",
+    "mini-css-extract-plugin": "0.8.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "pnp-webpack-plugin": "1.5.0",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "postcss-normalize": "7.0.1",
+    "postcss-preset-env": "6.7.0",
+    "postcss-safe-parser": "4.0.1",
+    "react": "~16.10.1",
+    "react-apollo": "~2.3.3",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dev-utils": "^9.1.0",
+    "react-dom": "^16.10.2",
+    "react-helmet": "~5.2.1",
+    "react-i18next": "~10.13.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "~5.1.0",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-saga": "^1.1.1",
+    "resolve": "1.12.0",
+    "resolve-url-loader": "3.1.0",
+    "sass": "^1.54.0",
+    "serialize-javascript": "~1.6.1",
+    "style-loader": "1.0.0",
+    "terser-webpack-plugin": "1.4.1",
+    "url-loader": "2.1.0",
+    "webpack": "4.41.0",
+    "webpack-dev-server": "3.2.1",
+    "webpack-manifest-plugin": "2.1.1",
+    "workbox-webpack-plugin": "4.3.1",
+    "yup": "^0.27.0",
+    "sass-loader": "^10.1.1"
+  },
+  "devDependencies": {
+    "@babel/register": "~7.6.2",
+    "@sitecore-jss/sitecore-jss-cli": "^20.0.0",
+    "@sitecore-jss/sitecore-jss-dev-tools": "^20.0.0",
+    "@sitecore-jss/sitecore-jss-manifest": "^19.0.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-preset-react-app": "~9.1.1",
+    "chalk": "~2.4.2",
+    "chokidar": "~3.1.1",
+    "cross-env": "~6.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "graphql.macro": "~1.4.2",
+    "html-loader": "~0.5.5",
+    "http-proxy-middleware": "~0.20.0",
+    "npm-run-all": "~4.1.5",
+    "null-loader": "~3.0.0",
+    "prettier": "1.18.2",
+    "react-test-renderer": "^16.10.1",
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-extension": "^2.13.8",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^10.1.1",
+    "url-loader": "~2.1.0",
+    "webpack": "4.41.0",
+    "webpack-cli": "~3.3.9"
+  },
+  "scripts": {
+    "jss": "jss",
+    "start": "scjss-verify-setup && npm-run-all --serial bootstrap:connected start:react start:watch-components",
+    "start:env": "scjss-verify-setup && npm-run-all --serial bootstrap:env start:react start:watch-components",
+    "build": "npm-run-all --serial bootstrap:connected build:client build:server",
+    "build:env": "npm-run-all --serial bootstrap:env build:client build:server",
+    "scaffold": "node scripts/scaffold-component.js",
+    "start:react": "node ./scripts/start.js",
+    "start:proxy": "node scripts/disconnected-mode-proxy.js",
+    "start:watch-components": "node scripts/generate-component-factory.js --watch",
+    "build:client": "cross-env-shell PUBLIC_URL=$npm_package_config_sitecoreDistPath \"node ./scripts/build.js\"",
+    "build:server": "cross-env-shell NODE_ENV=production \"webpack --config ./server/server.webpack.config.js\"",
+    "bootstrap:connected": "node scripts/bootstrap.js",
+    "bootstrap:env": "node scripts/bootstrap.js --env",
+    "graphql:update": "node -r babel-register ./scripts/update-graphql-fragment-data.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "lint": "SET NODE_ENV=development&&node .\\node_modules\\eslint\\bin\\eslint.js ./**/client/**/*.js ./**/client/**/*.jsx -c .eslintrc --ignore-pattern node_modules",
+    "lint:fix": "npm run lint -- --fix",
+    "refreshVSToken": "vsts-npm-auth -config .npmrc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie < 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "resolver": "jest-pnp-resolver",
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/config/setupTests.js"
+    ],
+    "testMatch": [
+      "<rootDir>/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+    ],
+    "testEnvironment": "jsdom",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+      "^foundation(.*)$": "<rootDir>/Foundation$1",
+      "^feature(.*)$": "<rootDir>/Feature$1",
+      "^assets(.*)$": "<rootDir>/Project/Certification/client/assets$1",
+      "^project(.*)$": "<rootDir>/Project$1"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": [
+            "./Project/Certification/client"
+          ],
+          "alias": {
+            "foundation": "./Foundation",
+            "feature": "./Feature",
+            "assets": "./Project/Certification/client/assets",
+            "project": "./Project"
+          }
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

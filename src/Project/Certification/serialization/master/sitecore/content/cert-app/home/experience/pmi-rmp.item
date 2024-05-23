@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {31A3A736-CDAF-4EE4-97FC-AEAE2825E34C}
+database: master
+path: /sitecore/content/cert-app/home/experience/pmi-rmp
+parent: {827E6F63-2ED9-40D9-8EAE-31E8F68812F7}
+name: pmi-rmp
+master: {00000000-0000-0000-0000-000000000000}
+template: {650C8027-A15A-4F69-B667-80624D030735}
+templatekey: ExperiencePage
+created: 20200210T120753Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2143
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{54C9E89F-45F1-4EDF-93E7-4E7490FA10C1}" s:ds="" s:par="" /><r uid="{D41644CD-C720-4890-8355-AD2268729D39}" p:after="r[@uid='{B030B0C4-C255-40E8-A8ED-68FFEC74528A}']" s:ds="{B0C214FA-DEE9-4A80-BB56-94D0350FA652}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0/cert-app-fixed-scrolling-{7A8102FA-7878-454E-8424-02ED0BF86488}-0" /><r uid="{736C70F9-4CE3-4706-BBF0-C5E9BBFC3ACB}" p:after="r[@uid='{D41644CD-C720-4890-8355-AD2268729D39}']" s:ds="{BE37E5F6-77E2-4884-B088-8B5570C1157A}" s:id="{245F052C-284A-456B-80F0-4241E89D1B0D}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /><r uid="{95E5CCDE-097E-4F01-9C24-786CA04373D7}" p:after="r[@uid='{736C70F9-4CE3-4706-BBF0-C5E9BBFC3ACB}']" s:ds="{B00C284B-4BF7-45B6-BC16-CB1AF5C61619}" s:id="{D1735107-0EC5-425A-AA34-78A267D398C6}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-main-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /><r uid="{C7F58C84-4D65-4F44-8B63-740F2896E943}"><p:d /></r><r uid="{0709335E-773D-4EB8-83BB-EB6C9328F08A}" p:after="r[@uid='{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}']" s:ds="{2EB2AA4B-3213-4E41-96EB-25FE8996810B}" s:id="{05F1DF40-8274-484A-8A1C-38A3DB60F8BF}" s:par="" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0/cert-app-fixed-scrolling-{7A8102FA-7878-454E-8424-02ED0BF86488}-0" /><r uid="{8D4F1DF9-31F9-4EE6-9A33-0431096C8F45}" p:after="r[@uid='{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}']" /><r uid="{7A8102FA-7878-454E-8424-02ED0BF86488}" p:after="*[1=2]" s:id="{B39B22AD-592C-4A75-9C83-91560D5276B5}" s:ph="/cert-app-main/cert-app-experience-{EC4C2027-2772-4BC1-A11C-7EA3921A7BF3}-0/cert-app-aside-content-{32F17A8B-4462-4CF3-9557-8EDDFEF3A145}-0" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 24b5b13c-144d-40a7-a5ab-345c9bb8f74a
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 18
+
+PMI-RMP Experience
+----field----
+field: {FFBB6B97-BFB0-4AC3-8366-79D7637F4186}
+name: WorktypeRequirements
+key: worktyperequirements
+content-length: 38
+
+{94DA2335-7785-4388-8466-AC837419554F}
+----field----
+field: {872E322E-18BA-4B40-B380-5A729B34C24F}
+name: RequirementType
+key: requirementtype
+content-length: 38
+
+{CEED6C48-F47C-4C3D-90D7-2ED793C36275}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+PMI-RMP
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200115T133403Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24b5b13c-144d-40a7-a5ab-345c9bb8f74a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200323T161735Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {903263E3-89AF-44EC-8CCE-9B9F5DEBC321}
+database: master
+path: /sitecore/templates/Pmi-Anc-Certification/Feature/Audit/Datasources/EducationUploadForm/EducationUploadForm/__Standard Values
+parent: {B5F576E0-2191-42BB-BD3D-CCE6D7A837E0}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B5F576E0-2191-42BB-BD3D-CCE6D7A837E0}
+templatekey: EducationUploadForm
+created: 20210712T111951Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+Applications/32x32/export2.png
+----version----
+language: en
+version: 1
+revision: bf0d80f2-f7f6-4d63-b0d8-590042b33954
+
+----field----
+field: {58CFE236-43A8-4C26-8CEC-10655D67912A}
+name: Heading
+key: heading
+content-length: 18
+
+Academic Education
+----field----
+field: {22949844-F4F6-4F41-BC4E-6E82C608AD74}
+name: Description
+key: description
+content-length: 102
+
+Upload a copy of your degree or transcript from the institution where your academic degree was earned.
+----field----
+field: {E5F2BFA2-E304-4F68-B10E-020033A398F8}
+name: DocUploadInfo
+key: docuploadinfo
+content-length: 38
+
+$uploaded of $total Documents provided
+----field----
+field: {0CD41724-7D68-4A88-AB6C-DFF8B6E2A69F}
+name: UploadLabel
+key: uploadlabel
+content-length: 6
+
+upload
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200421T184138Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf0d80f2-f7f6-4d63-b0d8-590042b33954
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210826T040902Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {5929D56E-0EA0-413D-A7D5-E8310C082720}
+database: master
+path: /sitecore/content/cert-app/home/exam-details/Components/EmailAddressForms/EmailAddressForm
+parent: {C3B26F60-24CF-4DF4-9D68-78DA114C9AEE}
+name: EmailAddressForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {C9D81053-A81C-4758-A3D5-D011D851385C}
+templatekey: EmailAddressForm
+created: 20200416T125046Z
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: bb7f4693-5eea-4fb9-bc87-50ef5e868779
+
+----field----
+field: {588F3FB7-E260-406C-B2BD-AB8A034EB4B2}
+name: EditModeTitle
+key: editmodetitle
+content-length: 13
+
+Email Address
+----field----
+field: {E5405F47-4DC7-4345-859C-85685B442362}
+name: EditModeEmail
+key: editmodeemail
+content-length: 5
+
+Email
+----field----
+field: {7A125A5C-D0B7-49F9-988D-E5C601AA1461}
+name: ViewModeTitle
+key: viewmodetitle
+content-length: 13
+
+Email Address
+----field----
+field: {C0A4D8EC-7649-43AF-A661-82C7B7A91A3E}
+name: EnterValidEmail
+key: entervalidemail
+content-length: 27
+
+Enter a valid Email address
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Email Address Form
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200416T125046Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bb7f4693-5eea-4fb9-bc87-50ef5e868779
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200420T143255Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}

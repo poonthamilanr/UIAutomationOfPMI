@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {1DC38018-8807-4CA4-A331-432E8F6F77C1}
+database: master
+path: /sitecore/content/cert-app/home/candidate-details
+parent: {D549CF32-25C0-47DC-B622-8CB4E91B87DC}
+name: candidate-details
+master: {00000000-0000-0000-0000-000000000000}
+template: {45F526AA-7666-4491-AA53-60400897EC34}
+templatekey: ExamDetailsPage
+created: 20201015T000006Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1962
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FFEC75DC-2C13-4C2F-BD54-C130BF9B7935}" s:ds="{2356C5C9-6BB8-4878-9DD1-670C3753EAF5}" s:par=""><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="0F9C95F6D62E406F9EA4E82019D145A6" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{D0A58A7E-E21E-40BA-B9CE-F18C02A619AF}" s:ds="" s:par="" /><r uid="{5E1F1388-8909-4F9F-961C-0F9CFA61F766}"><p:d /></r><r uid="{2C8F59B0-9963-41FD-A7C3-AFA9285ABF1E}" s:ds="{67DBAAD1-DC63-4B85-9F8F-5C6927412157}"><rls><ruleset><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default"><conditions><condition uid="93F22ED6994E4DE78E00ABB57410FA56" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r><r uid="{DEDA139D-75F5-430E-BC26-DDDFEE1BD06B}" s:ds="{824DC26F-8000-4BD5-99E7-134C1E089977}" /><r uid="{85CB8CB5-624E-4500-AF3D-31341FDF89C7}"><p:d /></r><r uid="{0009534F-9DDE-4A61-800A-55FEC0D776DA}" s:ds="{AC948B18-F948-4F09-86E5-CED08ECED2FE}" s:par="" /><r uid="{A4FD34CB-5E20-4741-B8C5-8FA996E071E5}"><p:d /></r><r uid="{00C3DDC6-5045-4EDA-AC54-986B06B5850D}" p:after="r[@uid='{0009534F-9DDE-4A61-800A-55FEC0D776DA}']" s:ds="{2120E28F-7CF4-4102-B96F-CDEDC76E2A6A}" s:id="{2BE76621-B0B1-4BF6-8833-64A07BB5A1C1}" s:par="" s:ph="/cert-app-main/cert-app-exam-details-{B0977317-9CDC-4800-8715-D2EC6C95991E}-0/cert-app-main-content-{629D101A-1464-4D44-A262-F9371EE70B60}-0" /><r uid="{7B2457DF-DEAA-4A7E-8DE7-E020457DC121}" s:ds="{110865F4-D569-47B0-B575-20627CFE4F8B}" s:par="" /><r uid="{1E808871-D21E-4C7B-B629-5410817853A6}" s:ds="{E61A0267-A815-4E2D-BBCD-A441B0212F58}" s:par="" /><r uid="{378C8E97-36A4-4AA7-B40B-7AE2186D3C4C}" p:after="r[@uid='{1E808871-D21E-4C7B-B629-5410817853A6}']" /><r uid="{B0977317-9CDC-4800-8715-D2EC6C95991E}" s:ds="" s:par="" /></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{FBD87CC9-E5F9-45AA-9CC5-02638620BBCB}
+----version----
+language: en
+version: 1
+revision: 89d4aa5c-a9fe-40ba-9c5f-8e4a6fe454e1
+
+----field----
+field: {3BD8139A-59DC-4E69-978B-0D2417EF80A9}
+name: pageTitle
+key: pagetitle
+content-length: 17
+
+Candidate Details
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Candidate Details
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20191125T184050Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89d4aa5c-a9fe-40ba-9c5f-8e4a6fe454e1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211114T154244Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{52F0995F-B72F-4454-AB32-D8640D785661}
