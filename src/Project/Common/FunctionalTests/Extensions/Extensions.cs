@@ -77,7 +77,6 @@ namespace Pmi.Certification.Functional.Tests.Extensions
             {
                 return resultWhenUnavailable;
             }
-
         }
 
         /// <summary>
